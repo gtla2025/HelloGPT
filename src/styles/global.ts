@@ -22,29 +22,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
     }
   }
 
-  * {
-    scrollbar-color: ${token.colorFill} transparent;
-    scrollbar-width: thin;
-
-    ::-webkit-scrollbar {
-      width: 0.75em;
-      height: 0.75em;
-    }
-
-    ::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-    }
-
-    :hover::-webkit-scrollbar-thumb {
-      background-color: ${token.colorText};
-      background-clip: content-box;
-      border: 3px solid transparent;
-    }
-
-    ::-webkit-scrollbar-track {
-      background-color: transparent;
-    }
-  }
 
 
 
@@ -80,7 +57,7 @@ body * {
 body {
     width: 80% !important;
     margin: 0 auto !important;
-	background: #000 !important;
+	background: transparent !important;
 	/* background: url(https://dl.cmdpe.com/HelloGPT/img0.jpg) center center / cover no-repeat fixed !important; */
 }
 body>div:nth-child(1) {
@@ -89,30 +66,30 @@ body>div:nth-child(1) {
 body>.css-1956qp3 {
     justify-content: center;
 }
-/* body>.css-1956qp3:nth-child(1)::before {
+body>.css-1956qp3:nth-child(1)::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 0;
-    background: #232323;
-} */
+    background: #111;
+}
 body>.css-1cxc6hc {
     justify-content: center;
 	padding-bottom: 5px;
 }
-/* body>.css-1cxc6hc:nth-child(1)::before {
+body>.css-1cxc6hc:nth-child(1)::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 0;
     background: #fff;
-} */
+}
 body>div>.css-5m4etf {
     width: 100% !important;
     height: 86% !important;
@@ -550,7 +527,7 @@ body>div>.css-leu2ok>ul {
 
 /* 拖拉条颜色 */
 div>.draggable-panel-top-handle:hover::before, div>.draggable-panel-top-handle:active::before, div>.draggable-panel-right-handle:hover::before, div>.draggable-panel-right-handle:active::before, div>.draggable-panel-left-handle:hover::before, div>.draggable-panel-left-handle:active::before {
-    background: #FF5722 !important;
+    background: #99e640 !important;
 }
 
 /* 删除 */
@@ -769,7 +746,7 @@ content: "";
     color: #fff;
 }
 .css-1cxc6hc .HelloGPT li:hover::after, .css-1cxc6hc .HelloGPT li:hover::before {
-    background: #FF5722;
+    background: #161616;
 }
 .css-1cxc6hc .HelloGPT li:hover a {
     color: #fff;
@@ -805,7 +782,6 @@ content: "";
 		display: none !important;
 	}
 }
-
 
 
 
