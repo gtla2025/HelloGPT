@@ -28,6 +28,11 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
+* {
+    scrollbar-color: auto !important;
+    scrollbar-width: auto !important;
+}
 ::selection {
     background: #99e640 !important;
     color: #000 !important;
@@ -139,7 +144,7 @@ body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.
     bottom: -9px;
 }
 .css-1cxc6hc .css-5m4etf>aside::before,.css-1cxc6hc .css-5m4etf>aside::after,.css-1cxc6hc .css-5m4etf>div:nth-child(2)::before,.css-1cxc6hc .css-5m4etf>div:nth-child(2)::after {
-    background: #000 !important;
+    background: #fff !important;
 }
 .css-1956qp3 .css-5m4etf>aside::before,.css-1956qp3 .css-5m4etf>aside::after,.css-1956qp3 .css-5m4etf>div:nth-child(2)::before,.css-1956qp3 .css-5m4etf>div:nth-child(2)::after {
     background: #000 !important;
@@ -746,7 +751,7 @@ content: "";
     color: #fff;
 }
 .css-1cxc6hc .HelloGPT li:hover::after, .css-1cxc6hc .HelloGPT li:hover::before {
-    background: #161616;
+    background: #000;
 }
 .css-1cxc6hc .HelloGPT li:hover a {
     color: #fff;
@@ -764,7 +769,7 @@ content: "";
     color: #000;
 }
 .css-1956qp3 .HelloGPT li:hover::after, .css-1956qp3 .HelloGPT li:hover::before {
-    background: #FF5722;
+    background: #000;
 }
 .css-1956qp3 .HelloGPT li:hover a {
     color: #fff;
@@ -782,7 +787,6 @@ content: "";
 		display: none !important;
 	}
 }
-
 
 
 
