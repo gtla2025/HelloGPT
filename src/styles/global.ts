@@ -26,11 +26,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
-
-
-
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -598,7 +593,7 @@ body>div>.acss-1afprqa>div>div,.ant-menu-vertical {
 .acss-1afprqa .css-1mcrjnz div:last-child {
 	display: none;
 }
-.acss-1afprqa ul>li:nth-last-child(-n+3), .acss-1afprqa ul>li[data-menu-id="rc-menu-uuid-27048-1-pwa"], .acss-1afprqa ul>li[data-menu-id="rc-menu-uuid-27048-1-pwa"] + li {
+.acss-1afprqa ul>li:nth-last-child(-n+3), .acss-1afprqa ul>li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"], .acss-1afprqa ul>li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"] + li {
 	display: none;
 }
 .acss-1afprqa .css-b2xo4 {
