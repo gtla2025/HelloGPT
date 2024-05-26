@@ -77,10 +77,18 @@ body * {
 	font-family: "hellogpt", "HarmonyOS Sans", "Segoe UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji" !important;
 	text-shadow: 0.01em 0.01em 0.05em #666;
 }
+body {
+    width: 80% !important;
+    margin: 0 auto !important;
+	background: #000 !important;
+}
+body>div:nth-child(1) {
+	width: 100% !important;
+}
 body>.css-1956qp3 {
     justify-content: center;
 }
-body>.css-1956qp3:nth-child(1)::before {
+/* body>.css-1956qp3:nth-child(1)::before {
     content: "";
     position: absolute;
     top: 0;
@@ -89,12 +97,12 @@ body>.css-1956qp3:nth-child(1)::before {
     right: 0;
     z-index: 0;
     background: #232323;
-}
+} */
 body>.css-1cxc6hc {
     justify-content: center;
 	padding-bottom: 5px;
 }
-body>.css-1cxc6hc:nth-child(1)::before {
+/* body>.css-1cxc6hc:nth-child(1)::before {
     content: "";
     position: absolute;
     top: 0;
@@ -103,9 +111,9 @@ body>.css-1cxc6hc:nth-child(1)::before {
     right: 0;
     z-index: 0;
     background: #fff;
-}
+} */
 body>div>.css-5m4etf {
-    width: 80% !important;
+    width: 100% !important;
     height: 86% !important;
     position: relative !important;
     z-index: 9 !important;
@@ -153,10 +161,10 @@ body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.
     bottom: -9px;
 }
 .css-1cxc6hc .css-5m4etf>aside::before,.css-1cxc6hc .css-5m4etf>aside::after,.css-1cxc6hc .css-5m4etf>div:nth-child(2)::before,.css-1cxc6hc .css-5m4etf>div:nth-child(2)::after {
-    background: #fff !important;
+    background: #000 !important;
 }
 .css-1956qp3 .css-5m4etf>aside::before,.css-1956qp3 .css-5m4etf>aside::after,.css-1956qp3 .css-5m4etf>div:nth-child(2)::before,.css-1956qp3 .css-5m4etf>div:nth-child(2)::after {
-    background: #232323 !important;
+    background: #000 !important;
 }
 
 /* 对话页对话选项卡 */
@@ -538,6 +546,12 @@ body>div>.css-leu2ok>ul {
 .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item:hover, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-active, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item-active, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active {
     background-color: rgb(0 0 0 / 12%) !important;
 }
+
+/* 拖拉条颜色 */
+.draggable-panel-top-handle:hover::before, .draggable-panel-top-handle:active::before, .draggable-panel-right-handle:hover::before, .draggable-panel-right-handle:active::before, .draggable-panel-left-handle:hover::before, .draggable-panel-left-handle:active::before {
+    background: #FF5722 !important;
+}
+
 /* 删除 */
 a[href="https://github.com/lobehub/lobe-chat"] {
   display: none !important;
@@ -595,12 +609,11 @@ body>div>.css-5m4etf>.css-2tx0mv>div:nth-child(1)>span:nth-child(1) {
 /* 设置按钮下的东西 */
 body>div>.acss-1afprqa {
     bottom: 115px !important;
-    left: 30px !important;
+    left: 15px !important;
     top: auto !important;
 }
 body>div>.acss-1afprqa>div>div,.ant-menu-vertical {
     border-radius: 0 !important;
-	border: 0 !important;
 }
 /* 删除设置按钮下的东西 */
 .acss-1afprqa .css-1mcrjnz div:last-child {
@@ -648,7 +661,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
     padding: 5px 0;
     display: flex;
     justify-content: space-between;
-    width: calc(80% - 18px);
+    width: calc(100% - 18px);
     position: relative;
 	align-items: center;
 }
@@ -791,7 +804,6 @@ content: "";
 		display: none !important;
 	}
 }
-
 
 
 
