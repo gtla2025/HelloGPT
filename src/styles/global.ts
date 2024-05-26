@@ -30,6 +30,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -547,10 +548,6 @@ form:first-child>div>div>.ant-collapse-content>div>div:nth-child(n+9),form:first
 #lobe-market-container .acss-1jn2ou {
     display: none;
 }
-.ant-dropdown-placement-topLeft>ul.ant-dropdown-menu.ant-dropdown-menu-root.ant-dropdown-menu-vertical.ant-dropdown-menu-light>li:nth-child(n+4):nth-child(-n+8) {
-	display: none !important;
-}:last-child {
-}
 .css-qx52nb ul>li:last-child {
 	display: none;
 }
@@ -601,7 +598,7 @@ body>div>.acss-1afprqa>div>div,.ant-menu-vertical {
 .acss-1afprqa .css-1mcrjnz div:last-child {
 	display: none;
 }
-.acss-1afprqa ul>li:nth-child(4),.acss-1afprqa ul>li:nth-child(5),.acss-1afprqa ul>li:nth-child(8),.acss-1afprqa ul>li:nth-child(9),.acss-1afprqa ul>li:nth-child(10) {
+.acss-1afprqa ul>li:nth-last-child(-n+3), .acss-1afprqa ul>li[data-menu-id="rc-menu-uuid-27048-1-pwa"], .acss-1afprqa ul>li[data-menu-id="rc-menu-uuid-27048-1-pwa"] + li {
 	display: none;
 }
 .acss-1afprqa .css-b2xo4 {
@@ -791,7 +788,6 @@ content: "";
 		display: none !important;
 	}
 }
-
 
 
 
