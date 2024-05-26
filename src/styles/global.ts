@@ -29,6 +29,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -60,13 +61,11 @@ body * {
 	text-shadow: 0.01em 0.01em 0.05em #666;
 }
 body {
-    width: 80% !important;
-    margin: 0 auto !important;
-	background: transparent !important;
+	margin-left: 10%; !important;
 	/* background: url(https://dl.cmdpe.com/HelloGPT/img0.jpg) center center / cover no-repeat fixed !important; */
 }
 body>div:nth-child(1) {
-	width: 100% !important;
+	width: 80% !important;
 }
 body>.css-1956qp3 {
     justify-content: center;
@@ -637,6 +636,11 @@ body>.css-1956qp3>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) str
 body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) ol li strong::before {
     display: none
 }
+/* 设置页面背景色 */
+.css-1f4goe4,.css-qx52nb {
+    background: none !important;
+}
+
 /* HelloGPT */
 .HelloGPT {
 	z-index: 20;
