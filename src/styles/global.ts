@@ -64,7 +64,7 @@ body {
 	margin-left: 10%; !important;
 	/* background: url(https://dl.cmdpe.com/HelloGPT/img0.jpg) center center / cover no-repeat fixed !important; */
 }
-body>div:nth-child(1) {
+body>.ant-app {
 	width: 80% !important;
 }
 body>.css-1956qp3 {
