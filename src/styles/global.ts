@@ -70,9 +70,9 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
     font-family: 'hellogpt';
     src: url('https://raw.githubusercontent.com/gtla2025/SSR/master/WenYue-ShengHuoJiaTi-J.woff') format('woff');
 }
-/*body {
-    background: url(https://dl.cmdpe.com/HelloGPT/img0.jpg) center center / cover no-repeat fixed !important;
-}*/
+html {
+    background: black;
+}
 body * {
 	font-family: "hellogpt", "HarmonyOS Sans", "Segoe UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji" !important;
 	text-shadow: 0.01em 0.01em 0.05em #666;
@@ -81,6 +81,7 @@ body {
     width: 80% !important;
     margin: 0 auto !important;
 	background: #000 !important;
+	/* background: url(https://dl.cmdpe.com/HelloGPT/img0.jpg) center center / cover no-repeat fixed !important; */
 }
 body>div:nth-child(1) {
 	width: 100% !important;
@@ -528,7 +529,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 }
 /* 弹出框ul */
 ul.ant-dropdown-menu,.ant-modal-content {
-    border: 0 !important;
+    /* border: 0 !important; */
     border-radius: 0 !important;
 	padding: 10px !important;
 }
@@ -548,7 +549,7 @@ body>div>.css-leu2ok>ul {
 }
 
 /* 拖拉条颜色 */
-.draggable-panel-top-handle:hover::before, .draggable-panel-top-handle:active::before, .draggable-panel-right-handle:hover::before, .draggable-panel-right-handle:active::before, .draggable-panel-left-handle:hover::before, .draggable-panel-left-handle:active::before {
+div>.draggable-panel-top-handle:hover::before, div>.draggable-panel-top-handle:active::before, div>.draggable-panel-right-handle:hover::before, div>.draggable-panel-right-handle:active::before, div>.draggable-panel-left-handle:hover::before, div>.draggable-panel-left-handle:active::before {
     background: #FF5722 !important;
 }
 
@@ -590,9 +591,9 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>svg {
     display: none;
 }
 /* 删除大家都在问 */
-.css-1txg53k {
+/* .css-1txg53k {
     display: none !important;
-}
+} */
 /* 删除侧栏底部按钮 */
 body>div>.css-5m4etf>div:nth-child(1)>div:last-child {
     display: none
@@ -804,7 +805,6 @@ content: "";
 		display: none !important;
 	}
 }
-
 
 
 
