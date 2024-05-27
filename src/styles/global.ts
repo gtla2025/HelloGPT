@@ -29,6 +29,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -282,20 +283,13 @@ a[href="/chat?session=inbox"]>div {
     color: #000 !important;
     background: #FFEB3B !important;
 }
-/* 新建助手按钮 */
-.css-1cxc6hc .css-9tjxg1 .css-5wokcq:hover, .css-1cxc6hc .css-zcfm67 .css-5wokcq:hover {
+/* 新建助手按钮+左侧栏按钮激活颜色 */
+.css-1cxc6hc .css-9tjxg1 .css-5wokcq:hover,.css-1cxc6hc .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-i3padr {
     background: #79008d !important;
 }
-.css-1956qp3 .css-9tjxg1 .css-5wokcq:hover, .css-1956qp3 .css-zcfm67 .css-5wokcq:hover {
+.css-1956qp3 .css-9tjxg1 .css-5wokcq:hover,.css-1956qp3 .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-wpp9jw {
     background: #99e640 !important;
 }
-/* 左侧栏按钮激活颜色 */
-/* .css-zcfm67 .acss-wpp9jw {
-    background: #99e640 !important;
-}
-.css-zcfm67 .acss-i3padr {
-    background: #79008d !important;
-} */
 /* 右侧栏按钮 */
 aside .css-1u84j5a {
     margin: 5px 8px !important;
@@ -528,13 +522,23 @@ body>div>.css-leu2ok>ul {
 	background: #fff !important;
 } */
 /* 弹出框li */
-.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title {
+li {
+    border-radius: 10px !important;
+    margin-block: 4px; !important;
+}
+.css-1cxc6hc li ul li:hover,.css-1cxc6hc li ul li.ant-dropdown-menu-item-active {
+    background: #161616 !important;
+}
+.css-1956qp3 li ul li:hover,.css-1956qp3 li ul li.ant-dropdown-menu-item-active {
+    background: #FFEB3B !important
+}
+/* .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title {
     border-radius: 10px !important;
     margin: 6px 0 !important;
 }
 .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item:hover, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-active, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item-active, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active {
     background-color: rgb(0 0 0 / 12%) !important;
-}
+} */
 
 /* 拖拉条颜色 */
 div>.draggable-panel-top-handle:hover::before, div>.draggable-panel-top-handle:active::before, div>.draggable-panel-right-handle:hover::before, div>.draggable-panel-right-handle:active::before, div>.draggable-panel-left-handle:hover::before, div>.draggable-panel-left-handle:active::before {
