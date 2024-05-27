@@ -29,6 +29,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -497,9 +498,9 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
 	content: "HelloGPT";
     position: absolute;
-    top: -3px;
+    top: 1px;
     left: 0px;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 700;
 }
 .css-1eamzbi #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
@@ -510,6 +511,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 }
 #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>svg:first-child {
     opacity: 0;
+	width: 86px;
 }
 /* 助手页分类按钮 */
 .css-vwb4od {
@@ -647,9 +649,9 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
     content: 'HelloGPT';
     position: absolute;
-    top: 0px;
-    left: -2px;
-    right: -2px;
+    top: -3px;
+    left: 0px;
+    right: -6px;
     font-size: 56px;
     font-weight: 700;
 }
@@ -841,8 +843,6 @@ content: "";
 		display: none !important;
 	}
 }
-
-
 
 
 
