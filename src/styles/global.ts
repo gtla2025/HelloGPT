@@ -28,6 +28,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -56,7 +57,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
     src: url('https://raw.githubusercontent.com/gtla2025/SSR/master/JosefinSans-Light.woff') format('woff');
 }
 .acss-396ofq,.acss-qmdfvd,.acss-1539fd4 {
-    overflow: inherit !important;
+    line-height: 1.2 !important;
 }
 
 
@@ -222,6 +223,9 @@ a[href="/chat?session=inbox"]>div {
 .css-1956qp3 .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
     border-radius: 10px !important;
     background: #f1f1f1 !important;
+}
+.css-fr78qt {
+    gap: 5px !important;
 }
 /* 跳转至当前按钮 */
 .css-i80ya5>button {
@@ -811,7 +815,6 @@ content: "";
 		display: none !important;
 	}
 }
-
 
 
 
