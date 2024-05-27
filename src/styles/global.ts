@@ -29,7 +29,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -166,7 +165,7 @@ body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.
 	transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 a[href="/chat?session=inbox"]>div {
-	margin-top: 10px !important;
+	margin-top: 0 !important;
 }
 .LazyLoad.is-visible>a>div:first-child::before,a[href="/chat?session=inbox"]>div::before {
     content: "";
@@ -284,7 +283,7 @@ a[href="/chat?session=inbox"]>div {
     background: #f1f1f1;
 }
 /* 按钮样式 */
-.css-5wokcq,.ant-modal-close,button,.ant-select-selector,.ant-input-number,.ant-input-affix-wrapper,.ant-input-outlined,.ant-input-password,.ant-select-selection-item,.ant-segmented,.ant-segmented-item {
+.css-5wokcq,.ant-modal-close,button,.ant-select-selector,.ant-input-number,.ant-input-affix-wrapper,.ant-input-outlined,.ant-input-password,.ant-select-selection-item,.ant-segmented,.ant-segmented-item,.ant-dropdown-menu-submenu-title {
     border-radius: 10px !important;
 	/* border: 0!important; */
 }
@@ -300,7 +299,9 @@ a[href="/chat?session=inbox"]>div {
     background: #cc0046 !important;
     color: #fff !important;
 }
-
+.ant-btn-block {
+    width: auto !important;
+}
 /* 新建助手按钮+左侧栏按钮激活颜色 */
 .css-1eamzbi .css-9tjxg1 .css-5wokcq:hover,.css-1eamzbi .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-i3padr {
     background: #79008d !important;
@@ -553,20 +554,11 @@ li,.ant-menu-submenu-title {
 li.ant-dropdown-menu-item-group:hover {
     background: none !important;
 }
-
-
 /* .css-1eamzbi li ul li:hover,.css-1eamzbi li ul li.ant-dropdown-menu-item-active {
     background: #161616 !important;
 }
 .css-tsw82g li ul li:hover,.css-tsw82g li ul li.ant-dropdown-menu-item-active {
     background: #FFEB3B !important;
-} */
-/* .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title {
-    border-radius: 10px !important;
-    margin: 6px 0 !important;
-}
-.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item:hover, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-active, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item-active, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active {
-    background-color: rgb(0 0 0 / 12%) !important;
 } */
 
 /* 拖拉条颜色 */
@@ -680,7 +672,22 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 .ant-modal-root .ant-modal-mask {
     background-color: rgb(0 0 0 / 44%) !important;
 }
-
+/* 其他 */
+.ant-form-item-label {
+	overflow: inherit !important;
+}
+.ant-collapse-icon-position-start {
+    border-radius: 20px !important;
+	/* background: none !important; */
+}
+.css-1ktd0ak #preview>.css-1ktd0ak {
+    border: 0 !important;
+    border-radius: 20px !important;
+}
+.css-1ktd0ak .ant-form-horizontal>.css-o3n4io {
+    border-radius: 20px !important;
+	background: none !important;
+}
 /* HelloGPT */
 .HelloGPT {
 	z-index: 20;
@@ -819,10 +826,6 @@ content: "";
     color: #fff;
 }
 
-/* 其他 */
-.ant-form-item-label {
-	overflow: inherit !important;
-}
 
 
 @media only screen and (max-width: 1280px) {
@@ -838,6 +841,7 @@ content: "";
 		display: none !important;
 	}
 }
+
 
 
 
