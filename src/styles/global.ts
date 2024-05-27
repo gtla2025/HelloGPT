@@ -29,6 +29,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -285,7 +286,7 @@ a[href="/chat?session=inbox"]>div {
 /* 按钮样式 */
 .css-5wokcq,.ant-modal-close,button,.ant-select-selector,.ant-input-number,.ant-input-affix-wrapper,.ant-input-outlined,.ant-input-password,.ant-select-selection-item,.ant-segmented,.ant-segmented-item {
     border-radius: 10px !important;
-	border: 0!important;
+	/* border: 0!important; */
 }
 .css-1eamzbi .css-5wokcq:hover {
     color: #fff !important;
@@ -295,6 +296,11 @@ a[href="/chat?session=inbox"]>div {
     color: #000 !important;
     background: #FFEB3B !important;
 }
+.ant-btn-primary:not(:disabled),.ant-btn-primary:not(:disabled):hover {
+    background: #cc0046 !important;
+    color: #fff !important;
+}
+
 /* 新建助手按钮+左侧栏按钮激活颜色 */
 .css-1eamzbi .css-9tjxg1 .css-5wokcq:hover,.css-1eamzbi .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-i3padr {
     background: #79008d !important;
@@ -441,14 +447,14 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     color: #fff !important;
 }
 .css-1eamzbi button.ant-btn:hover {
-    color: #000 !important;
+    color: #fff !important;
 }
 .css-tsw82g button.ant-btn {
     background: #99e640 !important;
     color: #000 !important;
 }
 .css-tsw82g button.ant-btn:hover {
-    color: #fff !important;
+    color: #000 !important;
 }
 .ant-space-compact>button:nth-child(1) {
     border-radius: 10px 0 0 10px !important;
@@ -518,16 +524,18 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 }
 /* 浮窗 */
 ul.ant-dropdown-menu,.ant-modal-content,.ant-popover-inner,.ant-menu-submenu-popup,.ant-menu-submenu-popup>.ant-menu,.css-fj3h1o {
-    /* border: 0 !important; */
     border-radius: 20px !important;
-	/* padding: 10px !important; */
 }
-/* body>div>.css-1b46tye>ul {
-	background: #333 !important;
+.css-1jcj4zo .ant-modal-content {
+    background: #161616 !important;
 }
-body>div>.css-leu2ok>ul {
-	background: #fff !important;
-} */
+.css-su7n0e .ant-modal-content {
+    background: #fff !important;
+}
+.ant-modal-header {
+    background: none !important;
+}
+
 /* 弹出框li */
 li,.ant-menu-submenu-title {
     border-radius: 10px !important;
@@ -810,6 +818,13 @@ content: "";
 .css-tsw82g .HelloGPT li:hover a {
     color: #fff;
 }
+
+/* 其他 */
+.ant-form-item-label {
+	overflow: inherit !important;
+}
+
+
 @media only screen and (max-width: 1280px) {
 	body>div {
 		zoom: 80%;
@@ -823,7 +838,6 @@ content: "";
 		display: none !important;
 	}
 }
-
 
 
 
