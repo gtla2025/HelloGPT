@@ -28,6 +28,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -676,21 +677,25 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 .ant-form-item-label {
 	overflow: inherit !important;
 }
+.css-1f4goe4 {
+    padding-block: 40px !important;
+    padding-inline: 40px !important;
+}
 .ant-collapse-icon-position-start {
     border-radius: 20px !important;
 	background: rgba(255, 255, 255, 0.02) !important;
 }
-.ant-collapse-icon-position-start .ant-collapse-header {
+.ant-collapse-icon-position-start>div>.ant-collapse-header {
 	border-radius: 0 !important;
     padding-block: 12px !important;
     padding-inline: 16px !important;
     background: rgba(255, 255, 255, 0.06) !important;
 }
-.ant-collapse-icon-position-start .ant-collapse-content-box {
+.ant-collapse-icon-position-start>div>div>.ant-collapse-content-box {
     padding-inline: 20px !important;
 }
 
-.css-1ktd0ak .acss-jum9ke .css-1ktd0ak #preview>.css-1ktd0ak {
+.css-1ktd0ak .acss-jum9ke,.css-1ktd0ak #preview>.css-1ktd0ak {
     border: 0 !important;
     border-radius: 20px !important;
 }
@@ -851,8 +856,6 @@ content: "";
 		display: none !important;
 	}
 }
-
-
 
 
 
