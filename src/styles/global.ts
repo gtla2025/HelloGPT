@@ -27,6 +27,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -54,6 +55,11 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
     font-family: 'JosefinSans';
     src: url('https://raw.githubusercontent.com/gtla2025/SSR/master/JosefinSans-Light.woff') format('woff');
 }
+.acss-396ofq,.acss-qmdfvd,.acss-1539fd4 {
+    overflow: inherit !important;
+}
+
+
 html {
     background: black;
 }
