@@ -28,6 +28,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -269,24 +270,32 @@ a[href="/chat?session=inbox"]>div {
 .css-1956qp3 .css-1109xs8>div>.ant-tag {
     background: #f1f1f1;
 }
-/* 新建助手按钮 */
-.acss-1hsh9br:hover {
+/* 按钮样式 */
+.css-5wokcq {
+    border-radius: 10px !important;
+}
+.css-1cxc6hc .css-5wokcq:hover {
     color: #fff !important;
-    background-color: rgb(103 58 183) !important;
-	border-radius: 10px !important;
+    background: #444 !important;
 }
-.acss-1rzhzi1:hover {
+.css-1956qp3 .css-5wokcq:hover {
     color: #000 !important;
-    background-color: #99e640 !important;
+    background: #FFEB3B !important;
 }
-/* 左侧栏按钮激活颜色 */
-.acss-wpp9jw {
-    background: #99e640 !important;
-	border-radius: 10px 10px 0 10px !important;
-}
-.acss-i3padr {
+/* 新建助手按钮 */
+.css-1cxc6hc .css-9tjxg1 .css-5wokcq:hover, .css-1cxc6hc .css-zcfm67 .css-5wokcq:hover {
     background: #79008d !important;
 }
+.css-1956qp3 .css-9tjxg1 .css-5wokcq:hover, .css-1956qp3 .css-zcfm67 .css-5wokcq:hover {
+    background: #99e640 !important;
+}
+/* 左侧栏按钮激活颜色 */
+/* .css-zcfm67 .acss-wpp9jw {
+    background: #99e640 !important;
+}
+.css-zcfm67 .acss-i3padr {
+    background: #79008d !important;
+} */
 /* 右侧栏按钮 */
 aside .css-1u84j5a {
     margin: 5px 8px !important;
@@ -401,9 +410,9 @@ div[role='menubar']>div {
     border-radius: 20px !important;
 }
 /* 输入框上方按钮圆角 */
-.css-5wokcq {
+/* .css-5wokcq {
     border-radius: 10px !important;
-}
+} */
 /* 输入框上方使用按钮 */
 .css-1a5hs83.acss-18qdyno>div:last-child {
     padding-inline: 8px 10.6px !important;
