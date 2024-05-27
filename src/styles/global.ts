@@ -28,7 +28,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -522,11 +521,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     align-items: flex-end;
 }
 /* 助手页助手卡片 */
-.css-1eamzbi #lobe-market-container .css-fj3h1o {
+.css-1eamzbi #lobe-market-container .css-15l7r2q .css-fj3h1o {
     background: #161616 !important;
 	box-shadow: none !important;
 }
-.css-tsw82g #lobe-market-container .css-fj3h1o {
+.css-tsw82g #lobe-market-container .css-15l7r2q .css-fj3h1o {
     background: #f1f1f1 !important;
 	box-shadow: none !important;
 }
@@ -687,28 +686,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 .ant-modal-root .ant-modal-mask {
     background-color: rgb(0 0 0 / 44%) !important;
 }
-/* 其他 */
-.ant-form-item-label {
-	overflow: inherit !important;
-}
-.css-1f4goe4 {
-    padding-block: 40px !important;
-    padding-inline: 40px !important;
-}
-.ant-collapse-icon-position-start {
-    border-radius: 20px !important;
-	background: rgba(255, 255, 255, 0.02) !important;
-}
-.ant-collapse-icon-position-start>div>.ant-collapse-header {
-	border-radius: 0 !important;
-    padding-block: 12px !important;
-    padding-inline: 16px !important;
-    background: rgba(255, 255, 255, 0.06) !important;
-}
-.ant-collapse-icon-position-start>div>div>.ant-collapse-content-box {
-    padding-inline: 20px !important;
-}
-
+/* 分享 */
 .css-1ktd0ak .acss-jum9ke,.css-1ktd0ak #preview>.css-1ktd0ak {
     border: 0 !important;
     border-radius: 20px !important;
@@ -717,6 +695,44 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
     border-radius: 20px !important;
 	background: none !important;
 }
+/* 其他 */
+.ant-form-item-label {
+	overflow: inherit !important;
+}
+.css-1f4goe4 {
+    padding-block: 40px !important;
+    padding-inline: 40px !important;
+}
+ 
+.ant-collapse-icon-position-start {
+    border-radius: 20px !important;
+	/* background: rgba(255, 255, 255, 0.02) !important; */
+}
+.ant-collapse-icon-position-start>div>.ant-collapse-header {
+	border-radius: 0 !important;
+    padding-block: 12px !important;
+    padding-inline: 16px !important;
+    /* background: rgba(255, 255, 255, 0.06) !important; */
+}
+.ant-collapse-icon-position-start>div>.ant-collapse-content {
+	background: none !important;
+}
+.ant-collapse-icon-position-start>div>div>.ant-collapse-content-box {
+    padding-inline: 20px !important;
+}
+.css-1eamzbi .ant-collapse-icon-position-start {
+	background: rgba(255, 255, 255, 0.02) !important;
+}
+.css-tsw82g .ant-collapse-icon-position-start {
+	background: rgb(0 0 0 / 3%) !important;
+}
+.css-1eamzbi .ant-collapse-icon-position-start>div>.ant-collapse-header {
+    background: rgba(255, 255, 255, 0.06) !important;
+}
+.css-tsw82g .ant-collapse-icon-position-start>div>.ant-collapse-header {
+    background: rgb(0 0 0 / 4%) !important;
+}
+
 /* HelloGPT */
 .HelloGPT {
 	z-index: 20;
@@ -870,6 +886,7 @@ content: "";
 		display: none !important;
 	}
 }
+
 
 
 
