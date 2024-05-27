@@ -29,6 +29,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -75,10 +76,10 @@ body {
 body>.ant-app {
 	width: 80% !important;
 }
-body>.css-1956qp3 {
+body>.css-tsw82g {
     justify-content: center;
 }
-body>.css-1956qp3:nth-child(1)::before {
+body>.css-tsw82g:nth-child(1)::before {
     content: "";
     position: fixed;
     top: 0;
@@ -88,11 +89,11 @@ body>.css-1956qp3:nth-child(1)::before {
     z-index: 0;
     background: #111;
 }
-body>.css-1cxc6hc {
+body>.css-1eamzbi {
     justify-content: center;
 	padding-bottom: 5px;
 }
-body>.css-1cxc6hc:nth-child(1)::before {
+body>.css-1eamzbi:nth-child(1)::before {
     content: "";
     position: fixed;
     top: 0;
@@ -118,10 +119,10 @@ body>div>.css-5m4etf::after {
     right: 9px;
     z-index: -1;
 }
-.css-1cxc6hc>.css-5m4etf,.css-1cxc6hc>.css-5m4etf::after {
+.css-1eamzbi>.css-5m4etf,.css-1eamzbi>.css-5m4etf::after {
     background: #222;
 }
-.css-1956qp3>.css-5m4etf,.css-1956qp3>.css-5m4etf::after {
+.css-tsw82g>.css-5m4etf,.css-tsw82g>.css-5m4etf::after {
     background: #fff;
 }
 .css-5m4etf>.css-5m4etf {
@@ -133,7 +134,7 @@ body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.
 .acss-rlur1a {
     box-shadow: none !important;
 }
-.css-1cxc6hc a:hover,.css-1cxc6hc button:hover {
+.css-1eamzbi a:hover,.css-1eamzbi button:hover {
     color: #fff !important;
 }
 /* 对话页与设置页切割造型 */
@@ -150,10 +151,10 @@ body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.
 .css-5m4etf>aside::after,.css-5m4etf>div:nth-child(2)::after {
     bottom: -9px;
 }
-.css-1cxc6hc .css-5m4etf>aside::before,.css-1cxc6hc .css-5m4etf>aside::after,.css-1cxc6hc .css-5m4etf>div:nth-child(2)::before,.css-1cxc6hc .css-5m4etf>div:nth-child(2)::after {
+.css-1eamzbi .css-5m4etf>aside::before,.css-1eamzbi .css-5m4etf>aside::after,.css-1eamzbi .css-5m4etf>div:nth-child(2)::before,.css-1eamzbi .css-5m4etf>div:nth-child(2)::after {
     background: #fff !important;
 }
-.css-1956qp3 .css-5m4etf>aside::before,.css-1956qp3 .css-5m4etf>aside::after,.css-1956qp3 .css-5m4etf>div:nth-child(2)::before,.css-1956qp3 .css-5m4etf>div:nth-child(2)::after {
+.css-tsw82g .css-5m4etf>aside::before,.css-tsw82g .css-5m4etf>aside::after,.css-tsw82g .css-5m4etf>div:nth-child(2)::before,.css-tsw82g .css-5m4etf>div:nth-child(2)::after {
     background: #000 !important;
 }
 
@@ -176,22 +177,22 @@ a[href="/chat?session=inbox"]>div {
     right: 6px;
     transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
-.css-1cxc6hc .LazyLoad.is-visible>a>div:first-child,.css-1cxc6hc .LazyLoad.is-visible>a>div:first-child::before,.css-1cxc6hc a[href="/chat?session=inbox"]>div,.css-1cxc6hc a[href="/chat?session=inbox"]>div::before {
+.css-1eamzbi .LazyLoad.is-visible>a>div:first-child,.css-1eamzbi .LazyLoad.is-visible>a>div:first-child::before,.css-1eamzbi a[href="/chat?session=inbox"]>div,.css-1eamzbi a[href="/chat?session=inbox"]>div::before {
     background: #161616;
 }
-.css-1956qp3 .LazyLoad.is-visible>a>div:first-child,.css-1956qp3 .LazyLoad.is-visible>a>div:first-child::before,.css-1956qp3 a[href="/chat?session=inbox"]>div,.css-1956qp3 a[href="/chat?session=inbox"]>div::before {
+.css-tsw82g .LazyLoad.is-visible>a>div:first-child,.css-tsw82g .LazyLoad.is-visible>a>div:first-child::before,.css-tsw82g a[href="/chat?session=inbox"]>div,.css-tsw82g a[href="/chat?session=inbox"]>div::before {
     background: #f1f1f1;
 }
-.css-1cxc6hc .LazyLoad.is-visible>a>div:first-child:hover,.css-1cxc6hc .LazyLoad.is-visible>a>div:first-child:hover::before,.css-1cxc6hc .LazyLoad.is-visible>a>.acss-14juscs,.css-1cxc6hc .LazyLoad.is-visible>a>.acss-14juscs::before {
+.css-1eamzbi .LazyLoad.is-visible>a>div:first-child:hover,.css-1eamzbi .LazyLoad.is-visible>a>div:first-child:hover::before,.css-1eamzbi .LazyLoad.is-visible>a>.acss-14juscs,.css-1eamzbi .LazyLoad.is-visible>a>.acss-14juscs::before {
     background: #79008d !important;
 }
-.css-1956qp3 .LazyLoad.is-visible>a>div:first-child:hover,.css-1956qp3 .LazyLoad.is-visible>a>div:first-child:hover::before,.css-1956qp3 .LazyLoad.is-visible>a>.acss-1ua72wq,.css-1956qp3 .LazyLoad.is-visible>a>.acss-1ua72wq::before {
+.css-tsw82g .LazyLoad.is-visible>a>div:first-child:hover,.css-tsw82g .LazyLoad.is-visible>a>div:first-child:hover::before,.css-tsw82g .LazyLoad.is-visible>a>.acss-1ua72wq,.css-tsw82g .LazyLoad.is-visible>a>.acss-1ua72wq::before {
     background: #99e640 !important;
 }
-.css-1cxc6hc a[href="/chat?session=inbox"]>div:hover,.css-1cxc6hc a[href="/chat?session=inbox"]>div:hover::before,.css-1cxc6hc a[href="/chat?session=inbox"]>.acss-14juscs,.css-1cxc6hc a[href="/chat?session=inbox"]>.acss-14juscs::before {
+.css-1eamzbi a[href="/chat?session=inbox"]>div:hover,.css-1eamzbi a[href="/chat?session=inbox"]>div:hover::before,.css-1eamzbi a[href="/chat?session=inbox"]>.acss-14juscs,.css-1eamzbi a[href="/chat?session=inbox"]>.acss-14juscs::before {
     background: #79008d !important;
 }
-.css-1956qp3 a[href="/chat?session=inbox"]>div:hover,.css-1956qp3 a[href="/chat?session=inbox"]>div:hover::before,.css-1956qp3 a[href="/chat?session=inbox"]>.acss-1ua72wq,.css-1956qp3 a[href="/chat?session=inbox"]>.acss-1ua72wq::before {
+.css-tsw82g a[href="/chat?session=inbox"]>div:hover,.css-tsw82g a[href="/chat?session=inbox"]>div:hover::before,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq::before {
     background: #99e640 !important;
 }
 .LazyLoad.is-visible>a>div:first-child .acss-1hsh9br:hover {
@@ -202,25 +203,25 @@ a[href="/chat?session=inbox"]>div {
     color: #000 !important;
     background: #eee !important;
 }
-.css-1cxc6hc .LazyLoad.is-visible>a>div:first-child>div:last-child {
+.css-1eamzbi .LazyLoad.is-visible>a>div:first-child>div:last-child {
     z-index: 1 !important;
 	color: #666 !important;
 }
-.css-1956qp3 .LazyLoad.is-visible>a>div:first-child>div:last-child {
+.css-tsw82g .LazyLoad.is-visible>a>div:first-child>div:last-child {
     z-index: 1 !important;
 	color: #bbb !important;
 }
-.css-1cxc6hc .LazyLoad.is-visible>a>div:first-child>div>div {
+.css-1eamzbi .LazyLoad.is-visible>a>div:first-child>div>div {
     color: #bbb !important;
 }
-.css-1956qp3 .LazyLoad.is-visible>a>div:first-child>div>div {
+.css-tsw82g .LazyLoad.is-visible>a>div:first-child>div>div {
     color: #999 !important;
 }
-.css-1cxc6hc .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
+.css-1eamzbi .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
     border-radius: 10px !important;
     background: rgba(255, 255, 255, 0.06) !important;
 }
-.css-1956qp3 .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
+.css-tsw82g .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
     border-radius: 10px !important;
     background: #f1f1f1 !important;
 }
@@ -241,10 +242,10 @@ a[href="/chat?session=inbox"]>div {
     background: #FF5722 !important;
 }
 /* 侧边栏颜色 
-.css-1cxc6hc .css-5m4etf>div:first-child {
+.css-1eamzbi .css-5m4etf>div:first-child {
     background: #111 !important;
 }
-.css-1956qp3 .css-5m4etf>div:first-child {
+.css-tsw82g .css-5m4etf>div:first-child {
     background: #fff !important;
 }*/
 /* 主页hellogpt logo */
@@ -258,11 +259,11 @@ a[href="/chat?session=inbox"]>div {
     font-weight: 700;
 	opacity: 0;
 }
-.css-1cxc6hc .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox::before {
+.css-1eamzbi .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox::before {
     background: #222;
 	color: #fff;
 }
-.css-1956qp3 .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox::before {
+.css-tsw82g .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox::before {
     background: #fff;
 	color: #000;
 }
@@ -276,29 +277,29 @@ a[href="/chat?session=inbox"]>div {
     padding: 3px 10px;
     border-radius: 10px;
 }
-.css-1cxc6hc .css-1109xs8>div>.ant-tag {
+.css-1eamzbi .css-1109xs8>div>.ant-tag {
     background: #111;
 }
-.css-1956qp3 .css-1109xs8>div>.ant-tag {
+.css-tsw82g .css-1109xs8>div>.ant-tag {
     background: #f1f1f1;
 }
 /* 按钮样式 */
-.css-5wokcq,.ant-modal-close {
+.css-5wokcq,.ant-modal-close,button {
     border-radius: 10px !important;
 }
-.css-1cxc6hc .css-5wokcq:hover {
+.css-1eamzbi .css-5wokcq:hover {
     color: #fff !important;
     background: #444 !important;
 }
-.css-1956qp3 .css-5wokcq:hover {
+.css-tsw82g .css-5wokcq:hover {
     color: #000 !important;
     background: #FFEB3B !important;
 }
 /* 新建助手按钮+左侧栏按钮激活颜色 */
-.css-1cxc6hc .css-9tjxg1 .css-5wokcq:hover,.css-1cxc6hc .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-i3padr {
+.css-1eamzbi .css-9tjxg1 .css-5wokcq:hover,.css-1eamzbi .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-i3padr {
     background: #79008d !important;
 }
-.css-1956qp3 .css-9tjxg1 .css-5wokcq:hover,.css-1956qp3 .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-wpp9jw {
+.css-tsw82g .css-9tjxg1 .css-5wokcq:hover,.css-tsw82g .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-wpp9jw {
     background: #99e640 !important;
 }
 /* 右侧栏按钮 */
@@ -307,17 +308,17 @@ aside .css-1u84j5a {
     border-radius: 10px !important;
     height: 40px !important;
 }
-.css-1cxc6hc aside .css-1u84j5a:hover,.acss-1osp3tn {
+.css-1eamzbi aside .css-1u84j5a:hover,.acss-1osp3tn {
     background: #161616 !important;
 }
-.css-1956qp3 aside .css-1u84j5a:hover,.acss-1wyfodc {
+.css-tsw82g aside .css-1u84j5a:hover,.acss-1wyfodc {
     background: rgba(0, 0, 0, 0.06) !important;
 }
 /* 对话框背景色 */
-.css-1cxc6hc .acss-1fr3od3>.css-o3n4io {
+.css-1eamzbi .acss-1fr3od3>.css-o3n4io {
     background-color: #161616 !important;
 }
-.css-1956qp3 .acss-1fr3od3>.css-o3n4io {
+.css-tsw82g .acss-1fr3od3>.css-o3n4io {
     background-color: #f1f1f1 !important;
 }
 /* 对话框背圆角 */
@@ -334,38 +335,38 @@ aside .css-1u84j5a {
     border-radius: 20px 10px 20px 20px !important;
 }
 /* 对话框代码高亮 */
-.css-1cxc6hc div [data-code-type='highlighter'] {
+.css-1eamzbi div [data-code-type='highlighter'] {
     background: none !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #333 !important;
 }
-.css-1956qp3 div [data-code-type='highlighter'] {
+.css-tsw82g div [data-code-type='highlighter'] {
     background: #fff !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #00000000;
 }
-.css-1cxc6hc div [data-code-type='highlighter']:hover {
+.css-1eamzbi div [data-code-type='highlighter']:hover {
     background: none !important;
 }
-.css-1956qp3 div [data-code-type='highlighter']:hover {
+.css-tsw82g div [data-code-type='highlighter']:hover {
     background: #fff !important;
 }
-.css-1cxc6hc div [data-code-type='highlighter']>div:nth-child(1) {
+.css-1eamzbi div [data-code-type='highlighter']>div:nth-child(1) {
 	background: #222 !important;
 }
-.css-1956qp3 div [data-code-type='highlighter']>div:nth-child(1) {
+.css-tsw82g div [data-code-type='highlighter']>div:nth-child(1) {
     background: #333 !important;
 }
-.css-1cxc6hc div [data-code-type='highlighter']>div:nth-child(1):hover {
+.css-1eamzbi div [data-code-type='highlighter']>div:nth-child(1):hover {
 	background: #333 !important;
 }
-.css-1956qp3 div [data-code-type='highlighter']>div:nth-child(1):hover {
+.css-tsw82g div [data-code-type='highlighter']>div:nth-child(1):hover {
     background: #79008d !important;
 }
-.css-1cxc6hc div [data-code-type='highlighter']>div:nth-child(1)>div:nth-child(3):hover {
+.css-1eamzbi div [data-code-type='highlighter']>div:nth-child(1)>div:nth-child(3):hover {
 	background: #79008d !important;
 }
-.css-1956qp3 div [data-code-type='highlighter']>div:nth-child(1)>div:nth-child(3):hover {
+.css-tsw82g div [data-code-type='highlighter']>div:nth-child(1)>div:nth-child(3):hover {
     background: #99e640 !important;
 }
 /* 对话框旁边小按钮 */
@@ -373,10 +374,10 @@ div[role='menubar']>div {
     border-radius: 10px !important;
 }
 /* 对话框pre */
-/* .css-1cxc6hc div [data-code-type='highlighter'] pre {
+/* .css-1eamzbi div [data-code-type='highlighter'] pre {
     background: #000 !important;
 }
-.css-1956qp3 div [data-code-type='highlighter'] pre {
+.css-tsw82g div [data-code-type='highlighter'] pre {
     background: #fff !important;
 } */
 /* 对话框警告 */
@@ -385,13 +386,13 @@ div[role='menubar']>div {
     border: 0 !important;
 }
 /* 对话框重新编辑对话 */
-.css-1cxc6hc .acss-v66yhe {
+.css-1eamzbi .acss-v66yhe {
     border: 0 !important;
     border-radius: 20px !important;
     background: #333 !important;
     padding: 12px !important;
 }
-.css-1956qp3 .acss-xfb8ma {
+.css-tsw82g .acss-xfb8ma {
     border: 0 !important;
     border-radius: 20px !important;
     background: #f1f1f1 !important;
@@ -423,10 +424,10 @@ div[role='menubar']>div {
     padding-inline: 8px 10.6px !important;
     border-radius: 10px !important;	
 }
-.css-1cxc6hc .css-1a5hs83.acss-18qdyno>div:last-child {
+.css-1eamzbi .css-1a5hs83.acss-18qdyno>div:last-child {
     background: #161616 !important;
 }
-.css-1956qp3 .css-1a5hs83.acss-18qdyno>div:last-child {
+.css-tsw82g .css-1a5hs83.acss-18qdyno>div:last-child {
     background: #eee !important;
 }
 /* 输入框上方插件按钮 */
@@ -435,13 +436,13 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     margin-left: 10px !important;
 }
 /* 发送消息按钮 */
-.css-1cxc6hc button.ant-btn {
+.css-1eamzbi button.ant-btn {
     background: #79008d !important;
     color: #fff !important;
     border: 0 !important;
 	border-radius: 10px !important;
 }
-.css-1956qp3 button.ant-btn {
+.css-tsw82g button.ant-btn {
     background: #99e640 !important;
     color: #000 !important;
     border: 0 !important;
@@ -463,10 +464,10 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     border-radius: 6px !important;
     padding: 2px 5px !important;
 }
-.css-1cxc6hc .ant-dropdown-trigger>span.ant-tag-borderless {
+.css-1eamzbi .ant-dropdown-trigger>span.ant-tag-borderless {
     background: #79008d !important;
 }
-.css-1956qp3 .ant-dropdown-trigger>span.ant-tag-borderless {
+.css-tsw82g .ant-dropdown-trigger>span.ant-tag-borderless {
     background: #99e640 !important;
 }
 .ant-dropdown-trigger>span.ant-tag-borderless:hover {
@@ -474,10 +475,10 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     color: #fff !important;
 }
 /* 左侧栏搜索框 */
-.css-1cxc6hc .ant-input-affix-wrapper {
+.css-1eamzbi .ant-input-affix-wrapper {
     border-radius: 10px;
 }
-.css-1956qp3 .ant-input-affix-wrapper {
+.css-tsw82g .ant-input-affix-wrapper {
     border-radius: 10px;
 }
 .acss-cp5vt4 .ant-tag-borderless {
@@ -495,10 +496,10 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     font-size: 2em;
     font-weight: 700;
 }
-.css-1cxc6hc #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
+.css-1eamzbi #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
     color: #fff;
 }
-.css-1956qp3 #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
+.css-tsw82g #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
     color: #111;
 }
 #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>svg:first-child {
@@ -517,7 +518,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     padding: 15px !important;
 }
 /* 浮窗 */
-.ant-dropdown-menu,.ant-modal-content,.ant-popover-inner,.ant-menu-submenu-popup,.ant-menu-submenu-popup>.ant-menu,.css-fj3h1o {
+ul.ant-dropdown-menu,.ant-modal-content,.ant-popover-inner,.ant-menu-submenu-popup,.ant-menu-submenu-popup>.ant-menu,.css-fj3h1o {
     /* border: 0 !important; */
     border-radius: 20px !important;
 	/* padding: 10px !important; */
@@ -536,10 +537,10 @@ li {
 li>div {
     border-radius: 10px !important;
 }
-.css-1cxc6hc li ul li:hover,.css-1cxc6hc li ul li.ant-dropdown-menu-item-active {
+.css-1eamzbi li ul li:hover,.css-1eamzbi li ul li.ant-dropdown-menu-item-active {
     background: #161616 !important;
 }
-.css-1956qp3 li ul li:hover,.css-1956qp3 li ul li.ant-dropdown-menu-item-active {
+.css-tsw82g li ul li:hover,.css-tsw82g li ul li.ant-dropdown-menu-item-active {
     background: #FFEB3B !important;
 }
 /* .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title {
@@ -645,11 +646,11 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
     font-size: 56px;
     font-weight: 700;
 }
-body>.css-1cxc6hc >div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
+body>.css-1eamzbi >div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
     background: #222;
 	color: #fff !important;
 }
-body>.css-1956qp3>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
+body>.css-tsw82g>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
     background: #fff;
 	color: #000 !important;
 }
@@ -768,38 +769,38 @@ content: "";
 }
 
 /* HelloGPT黑 */
-.css-1cxc6hc .HelloGPT {
+.css-1eamzbi .HelloGPT {
     background: #222;
 	border-bottom: 1px solid #333333;
 }
-.css-1cxc6hc .HelloGPT::before,.css-1cxc6hc .HelloGPT::after {
+.css-1eamzbi .HelloGPT::before,.css-1eamzbi .HelloGPT::after {
     background: #222;
 }
-.css-1cxc6hc .HelloGPT li a {
+.css-1eamzbi .HelloGPT li a {
     color: #fff;
 }
-.css-1cxc6hc .HelloGPT li:hover::after, .css-1cxc6hc .HelloGPT li:hover::before {
+.css-1eamzbi .HelloGPT li:hover::after, .css-1eamzbi .HelloGPT li:hover::before {
     background: #000;
 }
-.css-1cxc6hc .HelloGPT li:hover a {
+.css-1eamzbi .HelloGPT li:hover a {
     color: #fff;
 }
 
 /* HelloGPT白 */
-.css-1956qp3 .HelloGPT {
+.css-tsw82g .HelloGPT {
     background: #fbfbfb;
 	border-bottom: 1px solid #dddddd;
 }
-.css-1956qp3 .HelloGPT::before,.css-1956qp3 .HelloGPT::after {
+.css-tsw82g .HelloGPT::before,.css-tsw82g .HelloGPT::after {
     background: #fbfbfb;
 }
-.css-1956qp3 .HelloGPT li a {
+.css-tsw82g .HelloGPT li a {
     color: #000;
 }
-.css-1956qp3 .HelloGPT li:hover::after, .css-1956qp3 .HelloGPT li:hover::before {
+.css-tsw82g .HelloGPT li:hover::after, .css-tsw82g .HelloGPT li:hover::before {
     background: #000;
 }
-.css-1956qp3 .HelloGPT li:hover a {
+.css-tsw82g .HelloGPT li:hover a {
     color: #fff;
 }
 @media only screen and (max-width: 1280px) {
@@ -808,15 +809,13 @@ content: "";
 	}
 }
 @media (max-width: 575px) {
-	.css-1cxc6hc {
+	.css-1eamzbi {
 		background: none !important;
 	}
 	.HelloGPT {
 		display: none !important;
 	}
 }
-
-
 
 
 
