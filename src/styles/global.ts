@@ -29,6 +29,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -285,7 +286,7 @@ a[href="/chat?session=inbox"]>div {
 /* 按钮样式 */
 .css-5wokcq,.ant-modal-close,button,.ant-select-selector,.ant-input-number,.ant-input-affix-wrapper,.ant-input-outlined,.ant-input-password,.ant-select-selection-item,.ant-segmented,.ant-segmented-item,.ant-dropdown-menu-submenu-title {
     border-radius: 10px !important;
-	/* border: 0!important; */
+	border: 0!important;
 }
 .css-1eamzbi .css-5wokcq:hover {
     color: #fff !important;
@@ -295,12 +296,20 @@ a[href="/chat?session=inbox"]>div {
     color: #000 !important;
     background: #FFEB3B !important;
 }
-.ant-btn-primary:not(:disabled),.ant-btn-primary:not(:disabled):hover {
+.ant-btn-primary:not(:disabled),.ant-btn-default:not(:disabled) {
     background: #cc0046 !important;
+    color: #fff !important;
+	box-shadow: none !important;
+}
+.ant-btn-primary:not(:disabled):hover,.ant-btn-default:not(:disabled):hover {
+    background: #ff3d00 !important;
     color: #fff !important;
 }
 .ant-btn-block {
     width: auto !important;
+}
+.css-px56x0 {
+    align-items: center !important;
 }
 /* 新建助手按钮+左侧栏按钮激活颜色 */
 .css-1eamzbi .css-9tjxg1 .css-5wokcq:hover,.css-1eamzbi .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-i3padr {
