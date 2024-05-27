@@ -524,13 +524,16 @@ body>div>.css-leu2ok>ul {
 /* 弹出框li */
 li {
     border-radius: 10px !important;
-    margin-block: 4px; !important;
+    margin-block: 4px !important;
+}
+li>div {
+    border-radius: 10px !important;
 }
 .css-1cxc6hc li ul li:hover,.css-1cxc6hc li ul li.ant-dropdown-menu-item-active {
     background: #161616 !important;
 }
 .css-1956qp3 li ul li:hover,.css-1956qp3 li ul li.ant-dropdown-menu-item-active {
-    background: #FFEB3B !important
+    background: #FFEB3B !important;
 }
 /* .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title {
     border-radius: 10px !important;
