@@ -127,7 +127,7 @@ body>div>.css-5m4etf::after {
 .css-5m4etf>.css-5m4etf {
 	overflow: initial !important;
 }
-body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.css-5m4etf>div>div,#lobe-market-container>div:nth-child(1),.acss-1s2s9nk {
+body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.css-5m4etf>div>div,#lobe-market-container>div:nth-child(1),#lobe-market-container>div:nth-child(2)>aside,.acss-1s2s9nk {
     background: none !important;
 }
 .acss-rlur1a {
@@ -517,6 +517,20 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     justify-content: center;
     margin-top: 10px;
 }
+.css-vwb4od>button {
+    display: flex;
+    align-items: flex-end;
+}
+/* 助手页助手卡片 */
+.css-1eamzbi #lobe-market-container .css-fj3h1o {
+    background: #161616 !important;
+	box-shadow: none !important;
+}
+.css-tsw82g #lobe-market-container .css-fj3h1o {
+    background: #f1f1f1 !important;
+	box-shadow: none !important;
+}
+
 /* 提示按钮 */
 .ant-tooltip-content .ant-tooltip-inner {
     border-radius: 20px !important;
