@@ -283,7 +283,7 @@ a[href="/chat?session=inbox"]>div {
     background: #f1f1f1;
 }
 /* 按钮样式 */
-.css-5wokcq {
+.css-5wokcq,.ant-modal-close {
     border-radius: 10px !important;
 }
 .css-1cxc6hc .css-5wokcq:hover {
@@ -509,10 +509,6 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     justify-content: center;
     margin-top: 10px;
 }
-/* 浮动窗口时背景虚化颜色 */
-.ant-modal-root .ant-modal-mask {
-    background-color: rgb(60 60 60 / 44%) !important;
-}
 /* 提示按钮 */
 .ant-tooltip-content .ant-tooltip-inner {
     border-radius: 20px !important;
@@ -520,11 +516,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     color: #fff !important;
     padding: 15px !important;
 }
-/* 弹出框ul */
-ul.ant-dropdown-menu,.ant-modal-content {
+/* 浮窗 */
+.ant-dropdown-menu,.ant-modal-content,.ant-popover-inner,.ant-menu-submenu-popup,.ant-menu-submenu-popup>.ant-menu,.css-fj3h1o {
     /* border: 0 !important; */
-    border-radius: 0 !important;
-	padding: 10px !important;
+    border-radius: 20px !important;
+	/* padding: 10px !important; */
 }
 /* body>div>.css-1b46tye>ul {
 	background: #333 !important;
@@ -615,12 +611,12 @@ body>div>.acss-1afprqa {
     left: 15px !important;
     top: auto !important;
 }
-body>div>.acss-1afprqa>div>div,.ant-menu-vertical {
+/* body>div>.acss-1afprqa>div>div,.ant-menu-vertical {
     border-radius: 0 !important;
 }
 .css-pv4bfb>div {
     border-radius: 10px !important;
-}
+} */
 /* 删除设置按钮下的东西 */
 .acss-1afprqa .css-1mcrjnz div:last-child {
 	display: none;
@@ -663,6 +659,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 /* 设置页面背景色 */
 .css-1f4goe4,.css-qx52nb {
     background: none !important;
+}
+/* 浮动窗口时背景虚化颜色 */
+.ant-modal-root .ant-modal-mask {
+    background-color: rgb(0 0 0 / 44%) !important;
 }
 
 /* HelloGPT */
@@ -815,6 +815,9 @@ content: "";
 		display: none !important;
 	}
 }
+
+
+
 
 
 
