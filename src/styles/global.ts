@@ -28,6 +28,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -720,16 +721,16 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 .ant-collapse-icon-position-start>div>div>.ant-collapse-content-box {
     padding-inline: 20px !important;
 }
-.css-1eamzbi .ant-collapse-icon-position-start {
+.css-1eamzbi .ant-collapse-icon-position-start,.css-1jcj4zo .ant-collapse-icon-position-start {
 	background: rgba(255, 255, 255, 0.02) !important;
 }
-.css-tsw82g .ant-collapse-icon-position-start {
+.css-tsw82g .ant-collapse-icon-position-start,.css-su7n0e .ant-collapse-icon-position-start {
 	background: rgb(0 0 0 / 3%) !important;
 }
-.css-1eamzbi .ant-collapse-icon-position-start>div>.ant-collapse-header {
+.css-1eamzbi .ant-collapse-icon-position-start>div>.ant-collapse-header,.css-1jcj4zo .ant-collapse-icon-position-start>div>.ant-collapse-header {
     background: rgba(255, 255, 255, 0.06) !important;
 }
-.css-tsw82g .ant-collapse-icon-position-start>div>.ant-collapse-header {
+.css-tsw82g .ant-collapse-icon-position-start>div>.ant-collapse-header,.css-su7n0e .ant-collapse-icon-position-start>div>.ant-collapse-header {
     background: rgb(0 0 0 / 4%) !important;
 }
 
