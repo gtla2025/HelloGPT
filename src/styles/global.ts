@@ -27,6 +27,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -421,7 +422,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 }
 /* 发送消息按钮 */
 .css-1cxc6hc button.ant-btn {
-    background: #6639b5 !important;
+    background: #79008d !important;
     color: #fff !important;
     border: 0 !important;
 	border-radius: 10px !important;
