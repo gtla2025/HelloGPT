@@ -29,7 +29,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -284,8 +283,9 @@ a[href="/chat?session=inbox"]>div {
     background: #f1f1f1;
 }
 /* 按钮样式 */
-.css-5wokcq,.ant-modal-close,button {
+.css-5wokcq,.ant-modal-close,button,.ant-select-selector,.ant-input-number,.ant-input-affix-wrapper,.ant-input-outlined,.ant-input-password,.ant-select-selection-item,.ant-segmented,.ant-segmented-item {
     border-radius: 10px !important;
+	border: 0!important;
 }
 .css-1eamzbi .css-5wokcq:hover {
     color: #fff !important;
@@ -302,7 +302,7 @@ a[href="/chat?session=inbox"]>div {
 .css-tsw82g .css-9tjxg1 .css-5wokcq:hover,.css-tsw82g .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-wpp9jw {
     background: #99e640 !important;
 }
-/* 右侧栏按钮 */
+/* 右侧栏话题列表 */
 aside .css-1u84j5a {
     margin: 5px 8px !important;
     border-radius: 10px !important;
@@ -439,14 +439,16 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 .css-1eamzbi button.ant-btn {
     background: #79008d !important;
     color: #fff !important;
-    border: 0 !important;
-	border-radius: 10px !important;
+}
+.css-1eamzbi button.ant-btn:hover {
+    color: #000 !important;
 }
 .css-tsw82g button.ant-btn {
     background: #99e640 !important;
     color: #000 !important;
-    border: 0 !important;
-	border-radius: 10px !important;
+}
+.css-tsw82g button.ant-btn:hover {
+    color: #fff !important;
 }
 .ant-space-compact>button:nth-child(1) {
     border-radius: 10px 0 0 10px !important;
@@ -476,10 +478,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 }
 /* 左侧栏搜索框 */
 .css-1eamzbi .ant-input-affix-wrapper {
-    border-radius: 10px;
-}
-.css-tsw82g .ant-input-affix-wrapper {
-    border-radius: 10px;
+    border: 1px solid #333333 !important;
 }
 .acss-cp5vt4 .ant-tag-borderless {
     background: none !important;
@@ -530,19 +529,30 @@ body>div>.css-leu2ok>ul {
 	background: #fff !important;
 } */
 /* 弹出框li */
-li {
+li,.ant-menu-submenu-title {
     border-radius: 10px !important;
     margin-block: 4px !important;
 }
-li>div {
+/* li>div {
     border-radius: 10px !important;
+} */
+.css-1eamzbi li.ant-dropdown-menu-item-only-child:hover,.css-1eamzbi li.ant-dropdown-menu-item-active {
+    background: #161616 !important;
 }
-.css-1eamzbi li ul li:hover,.css-1eamzbi li ul li.ant-dropdown-menu-item-active {
+.css-tsw82g li.ant-dropdown-menu-item-only-child:hover,.css-tsw82g li.ant-dropdown-menu-item-active {
+    background: #FFEB3B !important;
+}
+li.ant-dropdown-menu-item-group:hover {
+    background: none !important;
+}
+
+
+/* .css-1eamzbi li ul li:hover,.css-1eamzbi li ul li.ant-dropdown-menu-item-active {
     background: #161616 !important;
 }
 .css-tsw82g li ul li:hover,.css-tsw82g li ul li.ant-dropdown-menu-item-active {
     background: #FFEB3B !important;
-}
+} */
 /* .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item, .ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title, .ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title {
     border-radius: 10px !important;
     margin: 6px 0 !important;
@@ -612,12 +622,9 @@ body>div>.acss-1afprqa {
     left: 15px !important;
     top: auto !important;
 }
-/* body>div>.acss-1afprqa>div>div,.ant-menu-vertical {
-    border-radius: 0 !important;
-}
 .css-pv4bfb>div {
     border-radius: 10px !important;
-} */
+}
 /* 删除设置按钮下的东西 */
 .acss-1afprqa .css-1mcrjnz div:last-child {
 	display: none;
@@ -816,6 +823,8 @@ content: "";
 		display: none !important;
 	}
 }
+
+
 
 
 
