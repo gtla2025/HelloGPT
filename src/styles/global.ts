@@ -29,7 +29,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -456,14 +455,8 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     background: #79008d !important;
     color: #fff !important;
 }
-.css-1eamzbi button.ant-btn:hover {
-    color: #fff !important;
-}
 .css-tsw82g button.ant-btn {
     background: #99e640 !important;
-    color: #000 !important;
-}
-.css-tsw82g button.ant-btn:hover {
     color: #000 !important;
 }
 .ant-space-compact>button:nth-child(1) {
@@ -896,6 +889,8 @@ content: "";
 		display: none !important;
 	}
 }
+
+
 
 
 
