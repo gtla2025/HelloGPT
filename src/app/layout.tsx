@@ -30,14 +30,15 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
         <GlobalProvider>
           <AuthProvider>
             <div className="HelloGPT">
-              
-        			  <div>我就是高逼格独裁冷血笑面九头身大魔王，我就是来杀人的</div>
+              <h1><img src="https://dl.cmdpe.com/HelloGPT/HelloGPT-Logo.png"/></h1>
+			        <div></div>
               <ul>
-                <li><a href="https://pay.cmdpe.link" onClick={() => window.open("https://pay.cmdpe.link")} rel="noopener noreferrer">获取KEY</a></li>
-                <li><a href="https://pay.cmdpe.link" onClick={() => window.open("https://pay.cmdpe.link")} rel="noopener noreferrer">获取密码</a></li>
-                <li><a href="https://www.cmdpe.com/213.html" onClick={() => window.open("https://www.cmdpe.com/213.html")} rel="noopener noreferrer">学习群</a></li>
-                <li><a href="https://www.cmdpe.com/category-10.html" onClick={() => window.open("https://www.cmdpe.com/category-10.html")} rel="noopener noreferrer">软件下载</a></li>
+                <li><a href="https://pay.cmdpe.link">获取KEY</a></li>
+                <li><a href="https://pay.cmdpe.link">获取密码</a></li>
+                <li><a href="https://www.cmdpe.com/213.html">学习群</a></li>
+                <li><a href="https://www.cmdpe.com/category-10.html">软件下载</a></li>
               </ul>	  
+            </div>	  
             </div>
             {children}
             {modal}
