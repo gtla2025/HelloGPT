@@ -702,9 +702,6 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	background: none !important;
 }
 /* 其他 */
-.ant-form-item-label {
-	overflow: inherit !important;
-}
 .css-1f4goe4 {
     padding-block: 40px !important;
     padding-inline: 40px !important;
@@ -892,6 +889,7 @@ content: "";
 		display: none !important;
 	}
 }
+
 
 
 
