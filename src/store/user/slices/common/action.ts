@@ -14,7 +14,7 @@ import { merge } from '@/utils/merge';
 import { setNamespace } from '@/utils/storeDebug';
 
 import { preferenceSelectors } from '../preference/selectors';
-import { settingsSelectors } from '../settings/selectors';
+import { userGeneralSettingsSelectors } from '../settings/selectors';
 
 const n = setNamespace('common');
 
@@ -81,7 +81,9 @@ export const createCommonSlice: StateCreator<
             const serverSettings: DeepPartial<UserSettings> = {
               defaultAgent: serverConfig.defaultAgent,
               languageModel: serverConfig.languageModel,
+              systemAgent: serverConfig.systemAgent,
             };
+
             const defaultSettings = merge(get().defaultSettings, serverSettings);
 
             // merge preference
@@ -115,7 +117,7 @@ export const createCommonSlice: StateCreator<
             get().refreshDefaultModelProviderList({ trigger: 'fetchUserState' });
 
             // auto switch language
-            const { language } = settingsSelectors.currentSettings(get());
+            const language = userGeneralSettingsSelectors.config(get()).language;
             if (language === 'auto') {
               switchLang('auto');
             }
