@@ -28,7 +28,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -486,8 +485,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     color: #fff !important;
 }
 /* 左侧栏搜索框 */
-.css-1eamzbi .ant-input-affix-wrapper {
-    border: 1px solid #333333 !important;
+.css-1eamzbi .acss-cp5vt4 .ant-input-affix-wrapper {
+    border: 1px solid #333 !important;
+}
+.css-tsw82g .acss-cp5vt4 .ant-input-affix-wrapper {
+    border: 1px solid #eee !important;
 }
 .acss-cp5vt4 .ant-tag-borderless {
     background: none !important;
@@ -690,7 +692,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
     background-color: rgb(0 0 0 / 44%) !important;
 }
 /* 分享 */
-.css-1ktd0ak .acss-jum9ke,.css-1ktd0ak #preview>.css-1ktd0ak {
+.css-1ktd0ak .acss-jum9ke,.css-1ktd0ak .acss-1o7bqrh,.css-1ktd0ak #preview>.css-1ktd0ak {
     border: 0 !important;
     border-radius: 20px !important;
 }
@@ -889,6 +891,7 @@ content: "";
 		display: none !important;
 	}
 }
+
 
 
 
