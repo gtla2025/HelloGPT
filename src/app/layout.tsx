@@ -33,10 +33,10 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
               <h1><img src="https://dl.cmdpe.com/HelloGPT/HelloGPT-Logo.png"/></h1>
         			  <div></div>
               <ul>
-                <li><a href="https://pay.cmdpe.link" target="_blank">获取KEY</a></li>
-                <li><a href="https://pay.cmdpe.link" target="_blank">获取密码</a></li>
-                <li><a href="https://www.cmdpe.com/213.html" target="_blank">学习群</a></li>
-                <li><a href="https://www.cmdpe.com/category-10.html" target="_blank">软件下载</a></li>
+                <li><a href="https://pay.cmdpe.link" target="_blank" rel="noopener noreferrer">获取KEY</a></li>
+                <li><a href="https://pay.cmdpe.link" target="_blank" rel="noopener noreferrer">获取密码</a></li>
+                <li><a href="https://www.cmdpe.com/213.html" target="_blank" rel="noopener noreferrer">学习群</a></li>
+                <li><a href="https://www.cmdpe.com/category-10.html" target="_blank" rel="noopener noreferrer">软件下载</a></li>
               </ul>	  
             </div>
             {children}
