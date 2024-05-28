@@ -28,6 +28,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -306,7 +307,7 @@ a[href="/chat?session=inbox"]>div {
 .ant-btn-block {
     width: auto !important;
 }
-.css-px56x0 {
+.css-px56x0,.css-e7rmh7 {
     align-items: center !important;
 }
 /* 新建助手按钮+左侧栏按钮激活颜色 */
@@ -891,7 +892,6 @@ content: "";
 		display: none !important;
 	}
 }
-
 
 
 
