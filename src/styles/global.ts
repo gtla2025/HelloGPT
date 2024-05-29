@@ -883,7 +883,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 }
 @media (max-width: 575px) {
 	body>div {
-		zoom: 120%;
+		zoom: 80%;
 	}
     body {
         margin-left: 10px !important;
