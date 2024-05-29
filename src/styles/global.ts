@@ -26,7 +26,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -61,18 +60,20 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 html {
     background: black;
+    display: flex;
 }
 body * {
 	font-family: "JosefinSans", "hellogpt", "HarmonyOS Sans", "Segoe UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji" !important;
 	text-shadow: 0.01em 0.01em 0.05em #666;
 }
 body {
-	margin-left: 10%; !important;
+    margin-left: 10%;
+    padding-right: 10%;
 	/* background: url(https://dl.cmdpe.com/HelloGPT/img0.jpg) center center / cover no-repeat fixed !important; */
 }
-body>.ant-app {
+/* body>.ant-app {
 	width: 80% !important;
-}
+} */
 body>.css-tsw82g {
     justify-content: center;
 }
@@ -875,7 +876,7 @@ content: "";
 
 
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1341px) {
 	body>div {
 		zoom: 80%;
 	}
@@ -931,12 +932,6 @@ content: "";
 		background: #000;
 	}
 }
-
-
-
-
-
-
 
 
 
