@@ -772,34 +772,34 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
     z-index: -2;
 }
 .HelloGPT h1 {
-    margin: 0;
-    width: 296px;
+	margin: 0;
+    width: 138px;
     text-align: center;
-	position: relative;
-	left: -14px;
+    position: relative;
+    left: 64px;
 }
 .HelloGPT h1 img {
     width: 138px;
 }
 .HelloGPT h1::before {
-content: "";
+    content: "";
     background: #000;
     position: absolute;
     top: 6px;
     bottom: 4px;
-    left: 64px;
-    right: 64px;
+    left: -14px;
+    right: -14px;
     margin: 0px;
     z-index: -1;
 }
 .HelloGPT h1::after {
-content: "";
+	content: "";
     background: #000;
     position: absolute;
     top: 2px;
     bottom: 0px;
-    left: 68px;
-    right: 68px;
+    left: -10px;
+    right: -10px;
     z-index: -1;
 }
 .HelloGPT ul {
@@ -889,10 +889,14 @@ content: "";
 	.draggable-panel-toggle-right>div {
 		width: 26px !important;
 		left: 0 !important;
+		background: #161616 !important;
+		border: 0 !important;
 	}
 	.draggable-panel-toggle-left>div {
 		width: 26px !important;
 		right: 0 !important;
+		background: #161616 !important;
+		border: 0 !important;
 	}
 }
 @media (max-width: 575px) {
@@ -930,6 +934,7 @@ content: "";
 		background: #000;
 	}
 }
+
 
 
 
