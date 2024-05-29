@@ -23,10 +23,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
   }
 
 
-
-
-
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -595,6 +591,9 @@ div>.draggable-panel-top-handle:hover::before, div>.draggable-panel-top-handle:a
 }
 
 /* 删除 */
+.acss-1s2s9nk {
+    display: none !important;
+}
 a[href="https://github.com/lobehub/lobe-chat"] {
   display: none !important;
 }
@@ -616,6 +615,7 @@ li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="setting"] .css-5wokcq {
 .css-54fgub.acss-1g4myfy>.css-1109xs8>div:nth-child(1),div[aria-label="助手与会话"] {
 	display: none !important;
 }
+
 /* 删除安装浏览器应用（PWA） */
 #pwa-install {
     display: none !important;
@@ -882,6 +882,16 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		zoom: 80%;
 	} */
 }
+@media (max-width: 1280px) {
+	body {
+		margin-left: 20px !important;
+		padding-right: 20px !important;
+	}
+	body>div>.css-5m4etf {
+		height: calc(100% - 80px) !important;
+	}
+}
+
 @media (max-width: 991px) {
 	.draggable-panel-toggle-right,.draggable-panel-toggle-left {
 		opacity: 1 !important;
@@ -906,6 +916,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.HelloGPT {
 		display: none !important;
 	}
+	.HelloGPT h1 {
+		left: 20px;
+	}
+	.HelloGPT li:nth-last-child(-n+2) {
+		display: none !important;
+	}	
 	body::before {
 		content: "HelloGPT 手机版正在完善中，我是高逼格独裁冷血笑面九头身大魔王...";
 		position: fixed;
@@ -936,13 +952,4 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 }
 
 
-
-
-
-
-
-
-
-
-  
 `;
