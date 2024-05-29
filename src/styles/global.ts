@@ -606,13 +606,13 @@ form:first-child>div>div>.ant-collapse-content>div>div:nth-child(n+9),form:first
 #lobe-market-container .acss-1jn2ou {
     display: none;
 }
-.css-qx52nb ul>li:last-child {
-	display: none;
+li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="about"],.css-rq7h3k {
+    display: none;
 }
-.css-qx52nb .css-rq7h3k {
-	display: none !important;
+li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="setting"] .css-5wokcq {
+    display: none;
 }
-.css-54fgub.acss-1g4myfy>div:nth-child(1)>div:nth-child(1),div[aria-label="助手与会话"] {
+.css-54fgub.acss-1g4myfy>.css-1109xs8>div:nth-child(1),div[aria-label="助手与会话"] {
 	display: none;
 }
 /* 删除安装浏览器应用（PWA） */
@@ -698,7 +698,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 }
 /* 浮动窗口时背景虚化颜色 */
 .ant-modal-root .ant-modal-mask {
-    background-color: rgb(0 0 0 / 44%) !important;
+    background-color: rgb(0 0 0 / 60%) !important;
 }
 /* 分享 */
 .css-1ktd0ak .acss-jum9ke,.css-1ktd0ak .acss-1o7bqrh,.css-1ktd0ak #preview>.css-1ktd0ak {
@@ -882,9 +882,6 @@ content: "";
 	}
 }
 @media (max-width: 991px) {
-/* 	.css-54fgub.acss-1g4myfy>div:nth-child(1)>div:nth-child(1), div[aria-label="助手与会话"] {
-		display: flex !important;
-	} */
 	.draggable-panel-toggle-right,.draggable-panel-toggle-left {
 		opacity: 1 !important;
 	}
@@ -932,6 +929,8 @@ content: "";
 		background: #000;
 	}
 }
+
+
 
 
 
