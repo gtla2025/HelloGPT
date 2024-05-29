@@ -72,9 +72,6 @@ body>.ant-app {
 	justify-content: center;
     padding-bottom: 5px;
 }
-/* body>.css-tsw82g {
-    justify-content: center;
-} */
 body>.css-tsw82g:nth-child(1)::before {
     content: "";
     position: fixed;
@@ -85,10 +82,6 @@ body>.css-tsw82g:nth-child(1)::before {
     z-index: 0;
     background: #111;
 }
-/* body>.css-1eamzbi {
-    justify-content: center;
-	padding-bottom: 5px;
-} */
 body>.css-1eamzbi:nth-child(1)::before {
     content: "";
     position: fixed;
@@ -245,13 +238,6 @@ a[href="/chat?session=inbox"]>div {
 .css-i80ya5>button:hover {
     background: #FF5722 !important;
 }
-/* 侧边栏颜色 
-.css-1eamzbi .css-5m4etf>div:first-child {
-    background: #111 !important;
-}
-.css-tsw82g .css-5m4etf>div:first-child {
-    background: #fff !important;
-}*/
 /* 主页hellogpt logo */
 .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox::before {
     content: "HelloGPT";
@@ -274,8 +260,6 @@ a[href="/chat?session=inbox"]>div {
 .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox>div:first-child>svg:first-child {
     display: none !important;
 }
-
-
 /* 主页同步按钮 */
 .css-1109xs8>div>.ant-tag {
     padding: 3px 10px;
@@ -393,13 +377,6 @@ aside .css-1u84j5a {
 div[role='menubar']>div {
     border-radius: 10px !important;
 }
-/* 对话框pre */
-/* .css-1eamzbi div [data-code-type='highlighter'] pre {
-    background: #000 !important;
-}
-.css-tsw82g div [data-code-type='highlighter'] pre {
-    background: #fff !important;
-} */
 /* 对话框警告 */
 .ant-alert-warning {
     border-radius: 20px !important;
@@ -435,10 +412,6 @@ div[role='menubar']>div {
     background: none !important;
     border-radius: 20px !important;
 }
-/* 输入框上方按钮圆角 */
-/* .css-5wokcq {
-    border-radius: 10px !important;
-} */
 /* 输入框上方使用按钮 */
 .css-1a5hs83.acss-18qdyno>div:last-child {
     padding-inline: 8px 10.6px !important;
@@ -570,9 +543,6 @@ li,.ant-menu-submenu-title {
     border-radius: 10px !important;
     margin-block: 4px !important;
 }
-/* li>div {
-    border-radius: 10px !important;
-} */
 .css-1eamzbi li.ant-dropdown-menu-item-only-child:hover,.css-1eamzbi li.ant-dropdown-menu-item-active {
     background: #161616 !important;
 }
@@ -582,12 +552,6 @@ li,.ant-menu-submenu-title {
 li.ant-dropdown-menu-item-group:hover {
     background: none !important;
 }
-/* .css-1eamzbi li ul li:hover,.css-1eamzbi li ul li.ant-dropdown-menu-item-active {
-    background: #161616 !important;
-}
-.css-tsw82g li ul li:hover,.css-tsw82g li ul li.ant-dropdown-menu-item-active {
-    background: #FFEB3B !important;
-} */
 
 /* 拖拉条颜色 */
 div>.draggable-panel-top-handle:hover::before, div>.draggable-panel-top-handle:active::before, div>.draggable-panel-right-handle:hover::before, div>.draggable-panel-right-handle:active::before, div>.draggable-panel-left-handle:hover::before, div>.draggable-panel-left-handle:active::before {
@@ -631,10 +595,6 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:last-child {
 body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>svg {
     display: none !important;
 }
-/* 删除大家都在问 */
-/* .css-1txg53k {
-    display: none !important;
-} */
 /* 删除侧栏底部按钮 */
 body>div>.css-5m4etf>div:nth-child(1)>div:last-child {
     display: none !important;
@@ -719,16 +679,13 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
     padding-block: 40px !important;
     padding-inline: 40px !important;
 }
- 
 .ant-collapse-icon-position-start {
     border-radius: 20px !important;
-	/* background: rgba(255, 255, 255, 0.02) !important; */
 }
 .ant-collapse-icon-position-start>div>.ant-collapse-header {
 	border-radius: 0 !important;
     padding-block: 12px !important;
     padding-inline: 16px !important;
-    /* background: rgba(255, 255, 255, 0.06) !important; */
 }
 .ant-collapse-icon-position-start>div>.ant-collapse-content {
 	background: none !important;
@@ -886,7 +843,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		zoom: 80%;
 	} */
 }
-@media (max-width: 1280px) {
+@media (max-width: 1365px) {
 	body {
 		margin-left: 20px !important;
 		padding-right: 20px !important;
@@ -894,22 +851,32 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	body>div>.css-5m4etf {
 		height: calc(100% - 100px) !important;
 	}
-}
-
-@media (max-width: 991px) {
 	.draggable-panel-toggle-right,.draggable-panel-toggle-left {
 		opacity: 1 !important;
 	}
 	.draggable-panel-toggle-right>div {
 		width: 26px !important;
 		left: 0 !important;
-		background: #161616 !important;
+		background: #79008d !important;
 	}
 	.draggable-panel-toggle-left>div {
 		width: 26px !important;
 		right: 0 !important;
-		background: #161616 !important;
+		background: #79008d !important;
+	}	
+	.css-tsw82g .draggable-panel-toggle-right>div {
+		width: 26px !important;
+		left: 0 !important;
+		background: #99e640 !important;
 	}
+	.css-tsw82g .draggable-panel-toggle-left>div {
+		width: 26px !important;
+		right: 0 !important;
+		background: #99e640 !important;
+	}		
+}
+
+@media (max-width: 991px) {
 	.HelloGPT h1 {
 		left: 36px;
 	}
@@ -950,6 +917,9 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		right: 0;
 		z-index: 996;
 		background: #000;
+	}
+	body>div {
+		zoom: 120%;
 	}
 }
 
