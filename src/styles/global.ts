@@ -26,6 +26,7 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -242,7 +243,7 @@ a[href="/chat?session=inbox"]>div {
 	margin: 0 !important;
 }
 .css-i80ya5>button>span:last-child {
-	display: none !important
+	display: none !important;
 }
 .css-i80ya5>button:hover {
     background: #FF5722 !important;
@@ -274,7 +275,7 @@ a[href="/chat?session=inbox"]>div {
 	color: #000;
 }
 .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox>div:first-child>svg:first-child {
-    display: none
+    display: none !important;
 }
 
 
@@ -430,7 +431,7 @@ div[role='menubar']>div {
 }
 /* 提示输入key对话框 */
 .acss-mar5is {
-    padding: 10px;
+    padding: 10px !important;
 	border-radius: 0 !important;
 }
 .acss-mar5is .ant-alert-warning+div {
@@ -478,7 +479,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 }
 /* 标题栏模型按钮 */
 .ant-dropdown-trigger>span.ant-tag-borderless {
-    background: #79008d;
+    background: #79008d !important;
     border-radius: 6px !important;
     padding: 2px 5px !important;
 }
@@ -601,30 +602,30 @@ a[href="https://github.com/lobehub/lobe-chat"] {
 	display: none !important;
 }
 form:first-child>div>div>.ant-collapse-content>div>div:nth-child(n+9),form:first-child>div>div>.ant-collapse-content>div>div:nth-child(n+10) {
-	display: none;
+	display: none !important;
 }
 #lobe-market-container .acss-1jn2ou {
-    display: none;
+    display: none !important;
 }
 li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="about"],.css-rq7h3k {
-    display: none;
+    display: none !important;
 }
 li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="setting"] .css-5wokcq {
-    display: none;
+    display: none !important;
 }
 .css-54fgub.acss-1g4myfy>.css-1109xs8>div:nth-child(1),div[aria-label="助手与会话"] {
-	display: none;
+	display: none !important;
 }
 /* 删除安装浏览器应用（PWA） */
 #pwa-install {
-    display: none;
+    display: none !important;
 }
 /* 欢迎页面删除 */
 body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:last-child {
-    display: none;
+    display: none !important;
 }
 body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>svg {
-    display: none;
+    display: none !important;
 }
 /* 删除大家都在问 */
 /* .css-1txg53k {
@@ -632,7 +633,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>svg {
 } */
 /* 删除侧栏底部按钮 */
 body>div>.css-5m4etf>div:nth-child(1)>div:last-child {
-    display: none
+    display: none !important;
 }
 /* 设置按钮位置 */
 body>div>.css-5m4etf>.css-2tx0mv>div:nth-child(1)>div:nth-child(1) {
@@ -654,13 +655,13 @@ body>div>.acss-1afprqa {
 }
 /* 删除设置按钮下的东西 */
 .acss-1afprqa .css-1mcrjnz div:last-child {
-	display: none;
+	display: none !important;
 }
 .acss-1afprqa ul>li:nth-last-child(-n+3), .acss-1afprqa ul>li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"], .acss-1afprqa ul>li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"] + li {
-	display: none;
+	display: none !important;
 }
 .acss-1afprqa .css-b2xo4 {
-	display: none;
+	display: none !important;
 }
 
 /* 欢迎页面背景色 */
@@ -690,7 +691,7 @@ body>.css-tsw82g>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) stro
 	color: #000 !important;
 }
 body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) ol li strong::before {
-    display: none
+    display: none !important;
 }
 /* 设置页面背景色 */
 .css-1f4goe4,.css-qx52nb {
@@ -877,9 +878,9 @@ content: "";
 
 
 @media only screen and (max-width: 1341px) {
-	body>div {
+/* 	body>div {
 		zoom: 80%;
-	}
+	} */
 }
 @media (max-width: 991px) {
 	.draggable-panel-toggle-right,.draggable-panel-toggle-left {
@@ -929,6 +930,7 @@ content: "";
 		background: #000;
 	}
 }
+
 
 
 
