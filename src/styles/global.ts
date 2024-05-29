@@ -29,6 +29,37 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+import { Theme, css } from 'antd-style';
+
+// fix ios input keyboard
+// overflow: hidden;
+// ref: https://zhuanlan.zhihu.com/p/113855026
+export default ({ token }: { prefixCls: string; token: Theme }) => css`
+  html,
+  body,
+  #__next {
+    position: relative;
+
+    overscroll-behavior: none;
+
+    height: 100%;
+    min-height: 100dvh;
+    max-height: 100dvh;
+
+    background: ${token.colorBgLayout};
+
+    @media (min-device-width: 576px) {
+      overflow: hidden;
+    }
+  }
+
+
+
+
+
+
+
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -672,6 +703,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
     right: -6px;
     font-size: 56px;
     font-weight: 700;
+	line-height: 68px;
 }
 body>.css-1eamzbi >div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
     background: #222;
@@ -888,8 +920,43 @@ content: "";
 	.HelloGPT {
 		display: none !important;
 	}
+	body::before {
+		content: "HelloGPT 手机版正在完善中，我是高逼格独裁冷血笑面九头身大魔王...";
+		position: fixed;
+		top: 0;
+		left: 0px;
+		font-size: 16px;
+		color: #fff;
+		z-index: 999;
+		bottom: 0;
+		right: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: "hellogpt" !important;
+	}
+	body::after {
+		content: "";
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 996;
+		background: #000;
+	}
 }
 
+
+
+
+
+
+
+
+
+  
+`;
 
 
 
