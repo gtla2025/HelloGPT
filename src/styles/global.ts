@@ -897,16 +897,18 @@ content: "";
 		content: "HelloGPT 手机版正在完善中，我是高逼格独裁冷血笑面九头身大魔王...";
 		position: fixed;
 		top: 0;
-		left: 0px;
+		left: 30px;
 		font-size: 16px;
 		color: #fff;
 		z-index: 999;
 		bottom: 0;
-		right: 0;
+		right: 30px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		font-family: "hellogpt" !important;
+		line-height: 36px;
+		text-align: center;
 	}
 	body::after {
 		content: "";
