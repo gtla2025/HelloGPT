@@ -888,12 +888,12 @@ content: "";
 		opacity: 1 !important;
 	}
 	.draggable-panel-toggle-right>div {
-		width: 26px;
-		left: 0;
+		width: 26px !important;
+		left: 0 !important;
 	}
 	.draggable-panel-toggle-left>div {
-		width: 26px;
-		right: 0;
+		width: 26px !important;
+		right: 0 !important;
 	}
 }
 @media (max-width: 575px) {
@@ -931,6 +931,8 @@ content: "";
 		background: #000;
 	}
 }
+
+
 
 
 
