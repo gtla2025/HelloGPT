@@ -87,7 +87,7 @@ body>.css-tsw82g:nth-child(1)::before {
 }
 /* body>.css-1eamzbi {
     justify-content: center;
-	/* padding-bottom: 5px; */
+	padding-bottom: 5px;
 } */
 body>.css-1eamzbi:nth-child(1)::before {
     content: "";
