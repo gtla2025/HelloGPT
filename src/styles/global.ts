@@ -882,16 +882,16 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 }
 @media (max-width: 575px) {
-	body>div {
+/* 	body>div {
 		zoom: 80%;
-	}
+	} */
     body {
         margin-left: 10px !important;
         padding-right: 10px !important;
     }
-    body > div > .css-5m4etf {
+/*     body > div > .css-5m4etf {
         height: calc(100% - 80px) !important;
-    }	
+    }	 */
 /* 	.HelloGPT {
 		display: none !important;
 	} */
@@ -925,6 +925,25 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		z-index: 996;
 		background: #000;
 	} */
+	
+	
+/* body>.css-1eamzbi>.css-5m4etf>div:first-child, body>.css-1eamzbi>.css-5m4etf>.css-5m4etf aside, body>.css-1eamzbi>.css-5m4etf>.css-5m4etf>div>div, body>.css-1eamzbi #lobe-market-container>div:nth-child(1), body>.css-1eamzbi #lobe-market-container>div:nth-child(2)>aside, body>.css-1eamzbi>.HelloGPT, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after {
+    background: #000 !important;
+} */
+
+
+
+body>.ant-app .css-1lumxev svg {
+    display: none !important;
+}
+body>.ant-app>.css-o3n4io {
+    right: auto;
+    left: auto;
+    width: calc(100% - 20px);
+}
+	
+	
+	
 
 }
 
