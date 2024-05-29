@@ -456,6 +456,9 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     margin-left: 10px !important;
 }
 /* 发送消息按钮 */
+.css-1dbbase {
+    padding: 0 16px !important;
+}
 .css-1eamzbi button.ant-btn {
     background: #79008d !important;
     color: #fff !important;
