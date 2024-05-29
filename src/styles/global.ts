@@ -25,14 +25,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
-
-
-
-
-
-
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -131,9 +123,17 @@ body>div>.css-5m4etf::after {
 .css-5m4etf>.css-5m4etf {
 	overflow: initial !important;
 }
-body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.css-5m4etf>div>div,#lobe-market-container>div:nth-child(1),#lobe-market-container>div:nth-child(2)>aside,.acss-1s2s9nk {
-    background: none !important;
+body>.css-1eamzbi>.css-5m4etf>div:first-child,body>.css-1eamzbi>.css-5m4etf>.css-5m4etf aside,body>.css-1eamzbi>.css-5m4etf>.css-5m4etf>div>div,body>.css-1eamzbi #lobe-market-container>div:nth-child(1),body>.css-1eamzbi #lobe-market-container>div:nth-child(2)>aside,body>.css-1eamzbi>.HelloGPT,body>.css-1eamzbi>.HelloGPT::before,body>.css-1eamzbi>.HelloGPT::after,.acss-1s2s9nk {
+    background: #222 !important;
 }
+body>.css-tsw82g>.css-5m4etf>div:first-child,body>.css-tsw82g>.css-5m4etf>.css-5m4etf aside,body>.css-tsw82g>.css-5m4etf>.css-5m4etf>div>div,body>.css-tsw82g #lobe-market-container>div:nth-child(1),body>.css-tsw82g #lobe-market-container>div:nth-child(2)>aside,body>.css-tsw82g>.HelloGPT,body>.css-tsw82g>.HelloGPT::before,body>.css-tsw82g>.HelloGPT::after,.acss-1s2s9nk {
+    background: #fff !important;
+}
+/* body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.css-5m4etf>div>div,#lobe-market-container>div:nth-child(1),#lobe-market-container>div:nth-child(2)>aside,.acss-1s2s9nk {
+    background: none !important;
+} */
+
+
 .acss-rlur1a {
     box-shadow: none !important;
 }
@@ -845,11 +845,7 @@ content: "";
 
 /* HelloGPT黑 */
 .css-1eamzbi .HelloGPT {
-    background: #222;
 	border-bottom: 1px solid #333333;
-}
-.css-1eamzbi .HelloGPT::before,.css-1eamzbi .HelloGPT::after {
-    background: #222;
 }
 .css-1eamzbi .HelloGPT li a {
     color: #fff;
@@ -863,11 +859,7 @@ content: "";
 
 /* HelloGPT白 */
 .css-tsw82g .HelloGPT {
-    background: #fbfbfb;
 	border-bottom: 1px solid #dddddd;
-}
-.css-tsw82g .HelloGPT::before,.css-tsw82g .HelloGPT::after {
-    background: #fbfbfb;
 }
 .css-tsw82g .HelloGPT li a {
     color: #000;
@@ -884,6 +876,11 @@ content: "";
 @media only screen and (max-width: 1280px) {
 	body>div {
 		zoom: 80%;
+	}
+}
+@media (max-width: 767px) {
+	div[aria-label="助手与会话"] {
+		display: flex !important;
 	}
 }
 @media (max-width: 575px) {
@@ -921,7 +918,6 @@ content: "";
 		background: #000;
 	}
 }
-
 
 
 
