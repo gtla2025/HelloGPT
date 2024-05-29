@@ -882,9 +882,9 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 }
 @media (max-width: 575px) {
-/* 	body>div {
-		zoom: 80%;
-	} */
+	body>div {
+		zoom: 95%;
+	}
     body {
         margin-left: 10px !important;
         padding-right: 10px !important;
