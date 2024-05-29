@@ -882,16 +882,23 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 }
 @media (max-width: 575px) {
-	.css-1eamzbi {
-		background: none !important;
+	body>div {
+		zoom: 120%;
 	}
-	.HelloGPT {
+    body {
+        margin-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    body > div > .css-5m4etf {
+        height: calc(100% - 80px) !important;
+    }	
+/* 	.HelloGPT {
 		display: none !important;
-	}
+	} */
 	.HelloGPT li:nth-last-child(-n+2) {
 		display: none !important;
 	}	
-	body::before {
+/* 	body::before {
 		content: "HelloGPT 手机版正在完善中，我是高逼格独裁冷血笑面九头身大魔王...";
 		position: fixed;
 		top: 0;
@@ -917,10 +924,8 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		right: 0;
 		z-index: 996;
 		background: #000;
-	}
-	body>div {
-		zoom: 120%;
-	}
+	} */
+
 }
 
 
