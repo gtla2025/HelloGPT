@@ -25,6 +25,8 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -123,10 +125,10 @@ body>div>.css-5m4etf::after {
 .css-5m4etf>.css-5m4etf {
 	overflow: initial !important;
 }
-body>.css-1eamzbi>.css-5m4etf>div:first-child,body>.css-1eamzbi>.css-5m4etf>.css-5m4etf aside,body>.css-1eamzbi>.css-5m4etf>.css-5m4etf>div>div,body>.css-1eamzbi #lobe-market-container>div:nth-child(1),body>.css-1eamzbi #lobe-market-container>div:nth-child(2)>aside,body>.css-1eamzbi>.HelloGPT,body>.css-1eamzbi>.HelloGPT::before,body>.css-1eamzbi>.HelloGPT::after,.acss-1s2s9nk {
+body>.css-1eamzbi>.css-5m4etf>div:first-child,body>.css-1eamzbi>.css-5m4etf>.css-5m4etf aside,body>.css-1eamzbi>.css-5m4etf>.css-5m4etf>div>div,body>.css-1eamzbi #lobe-market-container>div:nth-child(1),body>.css-1eamzbi #lobe-market-container>div:nth-child(2)>aside,body>.css-1eamzbi>.HelloGPT,body>.css-1eamzbi>.HelloGPT::before,body>.css-1eamzbi>.HelloGPT::after {
     background: #222 !important;
 }
-body>.css-tsw82g>.css-5m4etf>div:first-child,body>.css-tsw82g>.css-5m4etf>.css-5m4etf aside,body>.css-tsw82g>.css-5m4etf>.css-5m4etf>div>div,body>.css-tsw82g #lobe-market-container>div:nth-child(1),body>.css-tsw82g #lobe-market-container>div:nth-child(2)>aside,body>.css-tsw82g>.HelloGPT,body>.css-tsw82g>.HelloGPT::before,body>.css-tsw82g>.HelloGPT::after,.acss-1s2s9nk {
+body>.css-tsw82g>.css-5m4etf>div:first-child,body>.css-tsw82g>.css-5m4etf>.css-5m4etf aside,body>.css-tsw82g>.css-5m4etf>.css-5m4etf>div>div,body>.css-tsw82g #lobe-market-container>div:nth-child(1),body>.css-tsw82g #lobe-market-container>div:nth-child(2)>aside,body>.css-tsw82g>.HelloGPT,body>.css-tsw82g>.HelloGPT::before,body>.css-tsw82g>.HelloGPT::after {
     background: #fff !important;
 }
 /* body>div>.css-5m4etf>div:first-child,.css-5m4etf>.css-5m4etf aside,.css-5m4etf>.css-5m4etf>div>div,#lobe-market-container>div:nth-child(1),#lobe-market-container>div:nth-child(2)>aside,.acss-1s2s9nk {
@@ -878,9 +880,20 @@ content: "";
 		zoom: 80%;
 	}
 }
-@media (max-width: 767px) {
-	div[aria-label="助手与会话"] {
+@media (max-width: 991px) {
+/* 	.css-54fgub.acss-1g4myfy>div:nth-child(1)>div:nth-child(1), div[aria-label="助手与会话"] {
 		display: flex !important;
+	} */
+	.draggable-panel-toggle-right,.draggable-panel-toggle-left {
+		opacity: 1 !important;
+	}
+	.draggable-panel-toggle-right>div {
+		width: 26px;
+		left: 0;
+	}
+	.draggable-panel-toggle-left>div {
+		width: 26px;
+		right: 0;
 	}
 }
 @media (max-width: 575px) {
@@ -918,6 +931,9 @@ content: "";
 		background: #000;
 	}
 }
+
+
+
 
 
 
