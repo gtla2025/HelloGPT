@@ -896,7 +896,8 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		display: none !important;
 	} */
     .HelloGPT h1 {
-        left: -10px !important;
+        left: 20px !important;
+		width: 100px !important;
     }
 	.HelloGPT h1 img {
 		width: 100px !important;
@@ -932,10 +933,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: #000;
 	} */
 
-	body>.css-1eamzbi>div, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after {
+	body>.css-1eamzbi>div, body>.css-1eamzbi>.HelloGPT, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after ,body>.css-1eamzbi>.css-1chk9wg .css-o3n4io {
 		background: #000 !important;
 	}
-	body>.css-tsw82g>div, body>.css-tsw82g>.HelloGPT::before, body>.css-tsw82g>.HelloGPT::after {
+	body>.css-tsw82g>div, body>.css-tsw82g>.HelloGPT, body>.css-tsw82g>.HelloGPT::before, body>.css-tsw82g>.HelloGPT::after ,body>.css-tsw82g>.css-1chk9wg .css-o3n4io {
 		background: #fff !important;
 	}
 	body>.ant-app>.css-o3n4io {
@@ -943,8 +944,27 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		left: auto !important;
 		width: calc(100% - 20px) !important;
 	}
+	body>.ant-app>.css-1chk9wg .css-o3n4io {
+		padding: 3px 0 !important;
+	}	
+	body>.css-1eamzbi>.css-1chk9wg .css-o3n4io {
+		border-bottom: 1px solid #333 !important;
+	}	
+	body>.css-tsw82g>.css-1chk9wg .css-o3n4io {
+		border-bottom: 1px solid #ddd !important;
+	}	
+	
 	#lobe-mobile-scroll-container {
 		padding: 10px !important;
+		/* padding-top: 20px !important; */
+	}
+	#lobe-mobile-scroll-container>.css-1qrrzv3,#lobe-mobile-scroll-container>.css-1fhzdir {
+		border-radius: 20px !important;
+		background: #161616 !important;
+		margin-bottom: 10px !important;
+	}
+	#lobe-mobile-scroll-container>.acss-la8zcw {
+		height: 1px !important;
 	}
 	#lobe-mobile-scroll-container>div:first-child {
 		padding: 8px 0px !important;
@@ -966,13 +986,15 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: #99e640 !important;
 		color: #000 !important;
 	}
-
+	.acss-cp5vt4 {
+		margin-top: 10px !important;
+	}
 
 
 	body>.ant-app .css-1lumxev svg {
 		display: none !important;
 	}
-	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(12),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(13),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
+	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(10),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(11),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(15),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(16),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
 		display: none !important;
 	}	
 	
