@@ -618,7 +618,7 @@ body>div>.acss-1afprqa {
     border-radius: 10px !important;
 }
 /* 删除设置按钮下的东西 */
-.acss-1afprqa .css-1mcrjnz div:last-child {
+.css-1mcrjnz div:last-child {
 	display: none !important;
 }
 .acss-1afprqa ul>li:nth-last-child(-n+3), .acss-1afprqa ul>li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"], .acss-1afprqa ul>li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"] + li {
@@ -895,6 +895,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 /* 	.HelloGPT {
 		display: none !important;
 	} */
+    .HelloGPT h1 {
+        left: -10px !important;
+    }
+	.HelloGPT h1 img {
+		width: 100px !important;
+	}
 	.HelloGPT li:nth-last-child(-n+2) {
 		display: none !important;
 	}
@@ -929,12 +935,8 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	body>.css-1eamzbi>div, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after {
 		background: #000 !important;
 	}
-	body>.css-tsw82g>div, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after {
+	body>.css-tsw82g>div, body>.css-tsw82g>.HelloGPT::before, body>.css-tsw82g>.HelloGPT::after {
 		background: #fff !important;
-	}
-	
-	body>.ant-app .css-1lumxev svg {
-		display: none !important;
 	}
 	body>.ant-app>.css-o3n4io {
 		right: auto !important;
@@ -954,9 +956,8 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		width: 100% !important;
 	}
 	#lobe-mobile-scroll-container .css-px56x0>div>div {
-		padding-inline: inherit!important;
+		padding-inline: inherit !important;
 	}
-
 	.css-1eamzbi #lobe-mobile-scroll-container .css-px56x0>div:last-child>div>div:last-child {
 		background: #79008d !important;
 		color: #fff !important;
@@ -966,6 +967,18 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		color: #000 !important;
 	}
 
+
+
+	body>.ant-app .css-1lumxev svg {
+		display: none !important;
+	}
+	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(12),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(13),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
+		display: none !important;
+	}	
+	
+	
+	
+	
 }
 
 
