@@ -614,7 +614,7 @@ body>div>.acss-1afprqa {
     left: 15px !important;
     top: auto !important;
 }
-.css-pv4bfb>div {
+.acss-jfwog7 {
     border-radius: 10px !important;
 }
 /* 删除设置按钮下的东西 */
@@ -896,7 +896,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		display: none !important;
 	} */
     .HelloGPT h1 {
-        left: 20px !important;
+        left: 10px !important;
 		width: 100px !important;
     }
 	.HelloGPT h1 img {
@@ -933,10 +933,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: #000;
 	} */
 
-	body>.css-1eamzbi>div, body>.css-1eamzbi>.HelloGPT, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after ,body>.css-1eamzbi>.css-1chk9wg .css-o3n4io {
+	body>.css-1eamzbi>div, body>.css-1eamzbi>.HelloGPT, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after, body>.css-1eamzbi>.css-1chk9wg>.css-o3n4io, body>.css-1eamzbi>.css-1chk9wg>.css-1chk9wg>.css-o3n4io {
 		background: #000 !important;
 	}
-	body>.css-tsw82g>div, body>.css-tsw82g>.HelloGPT, body>.css-tsw82g>.HelloGPT::before, body>.css-tsw82g>.HelloGPT::after ,body>.css-tsw82g>.css-1chk9wg .css-o3n4io {
+	body>.css-tsw82g>div, body>.css-tsw82g>.HelloGPT, body>.css-tsw82g>.HelloGPT::before, body>.css-tsw82g>.HelloGPT::after, body>.css-tsw82g>.css-1chk9wg>.css-o3n4io, body>.css-tsw82g>.css-1chk9wg>.css-1chk9wg>.css-o3n4io {
 		background: #fff !important;
 	}
 	body>.ant-app>.css-o3n4io {
@@ -944,13 +944,23 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		left: auto !important;
 		width: calc(100% - 20px) !important;
 	}
+	body>.css-1eamzbi>.css-o3n4io {
+		border-top: 1px solid #222 !important;
+	}
+	body>.css-tsw82g>.css-o3n4io {
+		border-top: 1px solid #ddd !important;
+	}
+	body>.ant-app>.css-o3n4io>div>div>.acss-10a45gp {
+		display: none !important;
+	}	
+	
 	body>.ant-app>.css-1chk9wg .css-o3n4io {
 		padding: 3px 0 !important;
 	}	
-	body>.css-1eamzbi>.css-1chk9wg .css-o3n4io {
-		border-bottom: 1px solid #333 !important;
+	body>.css-1eamzbi .css-1chk9wg>.css-o3n4io,.css-1eamzbi>.HelloGPT {
+		border-bottom: 1px solid #222 !important;
 	}	
-	body>.css-tsw82g>.css-1chk9wg .css-o3n4io {
+	body>.css-tsw82g .css-1chk9wg>.css-o3n4io,.css-tsw82g>.HelloGPT {
 		border-bottom: 1px solid #ddd !important;
 	}	
 	
