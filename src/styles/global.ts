@@ -568,7 +568,7 @@ a[href="https://github.com/lobehub/lobe-chat"] {
 .layoutkit-flexbox.css-fr78qt a:last-child {
 	display: none !important;
 }
-form:first-child>div>div>.ant-collapse-content>div>div:nth-child(n+9),form:first-child>div>div>.ant-collapse-content>div>div:nth-child(n+10) {
+form:first-child>div>div>.ant-collapse-content>div>.acss-spwjzp:nth-child(n+9), form:first-child>div>div>.ant-collapse-content>div>.ant-divider-horizontal:nth-child(n+7) {
 	display: none !important;
 }
 #lobe-market-container .acss-1jn2ou {
@@ -897,8 +897,8 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	} */
 	.HelloGPT li:nth-last-child(-n+2) {
 		display: none !important;
-	}	
-	body::before {
+	}
+/* 	body::before {
 		content: "HelloGPT 手机版正在完善中，我是高逼格独裁冷血笑面九头身大魔王...";
 		position: fixed;
 		top: 0;
@@ -924,19 +924,47 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		right: 0;
 		z-index: 996;
 		background: #000;
+	} */
+
+	body>.css-1eamzbi>div, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after {
+		background: #000 !important;
+	}
+	body>.css-tsw82g>div, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after {
+		background: #fff !important;
+	}
+	
+	body>.ant-app .css-1lumxev svg {
+		display: none !important;
+	}
+	body>.ant-app>.css-o3n4io {
+		right: auto !important;
+		left: auto !important;
+		width: calc(100% - 20px) !important;
+	}
+	#lobe-mobile-scroll-container {
+		padding: 10px !important;
+	}
+	#lobe-mobile-scroll-container>div:first-child {
+		padding: 8px 0px !important;
+	}
+	a[href="/chat?session=inbox"]>div {
+		margin-top: 10px !important;
+	}	
+	#lobe-mobile-scroll-container .css-px56x0>div {
+		width: 100% !important;
+	}
+	#lobe-mobile-scroll-container .css-px56x0>div>div {
+		padding-inline: inherit!important;
 	}
 
-body>.ant-app .css-1lumxev svg {
-    display: none !important;
-}
-body>.ant-app>.css-o3n4io {
-    right: auto;
-    left: auto;
-    width: calc(100% - 20px);
-}
-	
-	
-	
+	.css-1eamzbi #lobe-mobile-scroll-container .css-px56x0>div:last-child>div>div:last-child {
+		background: #79008d !important;
+		color: #fff !important;
+	}
+	.css-tsw82g	#lobe-mobile-scroll-container .css-px56x0>div:last-child>div>div:last-child {
+		background: #99e640 !important;
+		color: #000 !important;
+	}
 
 }
 
