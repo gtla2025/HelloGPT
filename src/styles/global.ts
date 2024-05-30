@@ -307,15 +307,15 @@ a[href="/chat?session=inbox"]>div {
     background: #99e640 !important;
 }
 /* 右侧栏话题列表 */
-aside .css-1u84j5a {
+.css-1u84j5a {
     margin: 5px 8px !important;
     border-radius: 10px !important;
     height: 40px !important;
 }
-.css-1eamzbi aside .css-1u84j5a:hover,.acss-1osp3tn {
+.css-1eamzbi .css-1u84j5a:hover,.acss-1osp3tn {
     background: #161616 !important;
 }
-.css-tsw82g aside .css-1u84j5a:hover,.acss-1wyfodc {
+.css-tsw82g .css-1u84j5a:hover,.acss-1wyfodc {
     background: rgba(0, 0, 0, 0.06) !important;
 }
 /* 对话框背景色 */
@@ -882,16 +882,36 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 }
 @media (max-width: 575px) {
-/* 	body>div {
-		zoom: 95%;
-	} */
     body {
         margin-left: 10px !important;
         padding-right: 10px !important;
     }
     body>.ant-app>.css-1chk9wg {
         height: calc(100% - 80px) !important;
-    }	
+		overflow: inherit !important;
+    }
+	body>.ant-app>.css-1chk9wg::after {
+		content: "";
+		position: absolute;
+		bottom: -6px;
+		left: 6px;
+		right: 6px;
+		z-index: 999;
+		background: #000;
+		height: 8px;
+	}
+	
+	
+	.HelloGPT {
+		width: calc(100% - 12px);
+		padding: 2px 0px 5px;
+	}
+	.HelloGPT::before {
+		inset: 6px -6px 3px;
+	}
+	.HelloGPT::after {
+		inset: -4px 6px 3px;
+	}
     .HelloGPT h1 {
         left: 10px !important;
 		width: 100px !important;
@@ -970,7 +990,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: #161616 !important;
 		margin-bottom: 10px !important;
 	}
-	body>.css-tsw82g #lobe-mobile-scroll-container>.css-1qrrzv3, body>.css-1eamzbi #lobe-mobile-scroll-container>.css-1fhzdir {
+	body>.css-tsw82g #lobe-mobile-scroll-container>.css-1qrrzv3, body>.css-tsw82g #lobe-mobile-scroll-container>.css-1fhzdir {
 		border-radius: 20px !important;
 		background: #eee !important;
 		margin-bottom: 10px !important;
@@ -983,18 +1003,29 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 	a[href="/chat?session=inbox"]>div {
 		margin-top: 10px !important;
+	}
+	#lobe-mobile-scroll-container>.css-px56x0 {
+		background: none !important;
 	}	
-	#lobe-mobile-scroll-container .css-px56x0>div {
+	#lobe-mobile-scroll-container>.css-px56x0>div {
 		width: 100% !important;
 	}
-	#lobe-mobile-scroll-container .css-px56x0>div>div {
+	#lobe-mobile-scroll-container>.css-px56x0>div>div {
 		padding-inline: inherit !important;
 	}
-	.css-1eamzbi #lobe-mobile-scroll-container .css-px56x0>div:last-child>div>div:last-child {
+	.css-1eamzbi #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>.ant-input-outlined {
+		height: 36px !important;
+		background: #222 !important;
+	}
+	.css-tsw82g #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>.ant-input-outlined {
+		height: 36px !important;
+		background: #eee !important;
+	}
+	.css-1eamzbi #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:last-child {
 		background: #79008d !important;
 		color: #fff !important;
 	}
-	.css-tsw82g	#lobe-mobile-scroll-container .css-px56x0>div:last-child>div>div:last-child {
+	.css-tsw82g	#lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:last-child {
 		background: #99e640 !important;
 		color: #000 !important;
 	}
@@ -1022,7 +1053,9 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.acss-cp5vt4 {
 		margin-top: 10px !important;
 	}
-
+    .acss-mg9xpl {
+        font-size: 18px !important;
+    }
 
 	body>.ant-app .css-1lumxev svg {
 		display: none !important;
