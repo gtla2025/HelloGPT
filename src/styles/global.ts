@@ -1,29 +1,26 @@
 import { Theme, css } from 'antd-style';
 
-// Fix iOS input keyboard overflow
+// fix ios input keyboard
+// overflow: hidden;
 // ref: https://zhuanlan.zhihu.com/p/113855026
-export default ({ token }: { prefixCls: string; token: Theme }) => {
-  const replacedString = (str: string) => str.replace(/LobeChat/g, 'HelloGPT');
+export default ({ token }: { prefixCls: string; token: Theme }) => css`
+  html,
+  body,
+  #__next {
+    position: relative;
 
-  return css`
-    html,
-    body,
-    #__next {
-      position: relative;
+    overscroll-behavior: none;
 
-      overscroll-behavior: none;
+    height: 100%;
+    min-height: 100dvh;
+    max-height: 100dvh;
 
-      height: 100%;
-      min-height: 100dvh;
-      max-height: 100dvh;
+    background: ${token.colorBgLayout};
 
-      background: ${token.colorBgLayout};
-
-      @media (min-device-width: 576px) {
-        overflow: hidden;
-      }
+    @media (min-device-width: 576px) {
+      overflow: hidden;
     }
-
+  }
 
 
 * {
@@ -159,7 +156,45 @@ body>.css-tsw82g>.css-5m4etf>div:first-child,body>.css-tsw82g>.css-5m4etf>.css-5
 }
 
 /* 对话页对话选项卡 */
-.LazyLoad.is-visible>a>div:first-child,a[href="/chat?session=inbox"]>div {
+.LazyLoad.is-visible>a>div:first-child,a:has(+ .ant-collapse-icon-position-end)>div {
+	margin: 20px 0;
+    height: 70px;
+    border-radius: 0;
+	transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+a:has(+ .ant-collapse-icon-position-end))>div {
+	margin-top: 0 !important;
+}
+.LazyLoad.is-visible>a>div:first-child::before,a:has(+ .ant-collapse-icon-position-end)>div::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    bottom: -6px;
+    left: 6px;
+    right: 6px;
+    transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.css-1eamzbi .LazyLoad.is-visible>a>div:first-child,.css-1eamzbi .LazyLoad.is-visible>a>div:first-child::before,.css-1eamzbi a:has(+ .ant-collapse-icon-position-end)>div,.css-1eamzbi a:has(+ .ant-collapse-icon-position-end)>div::before {
+    background: #161616;
+}
+.css-tsw82g .LazyLoad.is-visible>a>div:first-child,.css-tsw82g .LazyLoad.is-visible>a>div:first-child::before,.css-tsw82g a:has(+ .ant-collapse-icon-position-end)>div,.css-tsw82g a:has(+ .ant-collapse-icon-position-end)>div::before {
+    background: #f1f1f1;
+}
+.css-1eamzbi .LazyLoad.is-visible>a>div:first-child:hover,.css-1eamzbi .LazyLoad.is-visible>a>div:first-child:hover::before,.css-1eamzbi .LazyLoad.is-visible>a>.acss-14juscs,.css-1eamzbi .LazyLoad.is-visible>a>.acss-14juscs::before {
+    background: #79008d !important;
+}
+.css-tsw82g .LazyLoad.is-visible>a>div:first-child:hover,.css-tsw82g .LazyLoad.is-visible>a>div:first-child:hover::before,.css-tsw82g .LazyLoad.is-visible>a>.acss-1ua72wq,.css-tsw82g .LazyLoad.is-visible>a>.acss-1ua72wq::before {
+    background: #99e640 !important;
+}
+.css-1eamzbi a:has(+ .ant-collapse-icon-position-end)>div:hover,.css-1eamzbi a:has(+ .ant-collapse-icon-position-end)>div:hover::before,.css-1eamzbi a:has(+ .ant-collapse-icon-position-end)>.acss-14juscs,.css-1eamzbi a:has(+ .ant-collapse-icon-position-end)>.acss-14juscs::before {
+    background: #79008d !important;
+}
+.css-tsw82g a:has(+ .ant-collapse-icon-position-end)>div:hover,.css-tsw82g a:has(+ .ant-collapse-icon-position-end)>div:hover::before,.css-tsw82g a:has(+ .ant-collapse-icon-position-end)>.acss-1ua72wq,.css-tsw82g a:has(+ .ant-collapse-icon-position-end)>.acss-1ua72wq::before {
+    background: #99e640 !important;
+}
+
+
+/* .LazyLoad.is-visible>a>div:first-child,a[href="/chat?session=inbox"]>div {
 	margin: 20px 0;
     height: 70px;
     border-radius: 0;
@@ -194,7 +229,8 @@ a[href="/chat?session=inbox"]>div {
 }
 .css-tsw82g a[href="/chat?session=inbox"]>div:hover,.css-tsw82g a[href="/chat?session=inbox"]>div:hover::before,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq::before {
     background: #99e640 !important;
-}
+} */
+
 .LazyLoad.is-visible>a>div:first-child .acss-1hsh9br:hover {
     color: #fff !important;
     background: #333 !important;
@@ -1193,7 +1229,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.css-tsw82g .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #0000001c;
 	}
-	#lobe-mobile-scroll-container>a>div::before {
+/* 	#lobe-mobile-scroll-container>a>div::before {
 		content: "";
 		position: absolute;
 		top: -6px;
@@ -1207,7 +1243,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 	.css-tsw82g #lobe-mobile-scroll-container>a>div:hover,.css-tsw82g #lobe-mobile-scroll-container>a>div:hover::before,.css-tsw82g #lobe-mobile-scroll-container>a>.acss-1ua72wq,.css-tsw82g #lobe-mobile-scroll-container>a>.acss-1ua72wq::before {
 		background: #99e640 !important;
-	}
+	} */
 	
 	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(10),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(11),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(15),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(16),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
 		display: none !important;
@@ -1223,15 +1259,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	body>.ant-app>.css-tks1yl .ant-btn-block {
 		width: 100% !important;
 	}
+	
+	
+	
+	
+	
+}
 
 
-
-
-
-
-    /* Example of usage */
-    .example-class {
-      content: "${replacedString('Welcome to LobeChat!')}";
-    }
-  `;
-};
+`;
