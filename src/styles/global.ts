@@ -1,26 +1,29 @@
 import { Theme, css } from 'antd-style';
 
-// fix ios input keyboard
-// overflow: hidden;
+// Fix iOS input keyboard overflow
 // ref: https://zhuanlan.zhihu.com/p/113855026
-export default ({ token }: { prefixCls: string; token: Theme }) => css`
-  html,
-  body,
-  #__next {
-    position: relative;
+export default ({ token }: { prefixCls: string; token: Theme }) => {
+  const replacedString = (str: string) => str.replace(/LobeChat/g, 'HelloGPT');
 
-    overscroll-behavior: none;
+  return css`
+    html,
+    body,
+    #__next {
+      position: relative;
 
-    height: 100%;
-    min-height: 100dvh;
-    max-height: 100dvh;
+      overscroll-behavior: none;
 
-    background: ${token.colorBgLayout};
+      height: 100%;
+      min-height: 100dvh;
+      max-height: 100dvh;
 
-    @media (min-device-width: 576px) {
-      overflow: hidden;
+      background: ${token.colorBgLayout};
+
+      @media (min-device-width: 576px) {
+        overflow: hidden;
+      }
     }
-  }
+
 
 
 * {
@@ -1220,12 +1223,15 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	body>.ant-app>.css-tks1yl .ant-btn-block {
 		width: 100% !important;
 	}
-	
-	
-	
-	
-	
-}
 
 
-`;
+
+
+
+
+    /* Example of usage */
+    .example-class {
+      content: "${replacedString('Welcome to LobeChat!')}";
+    }
+  `;
+};
