@@ -307,15 +307,15 @@ a[href="/chat?session=inbox"]>div {
     background: #99e640 !important;
 }
 /* 右侧栏话题列表 */
-.css-1u84j5a {
+[data-testid="virtuoso-item-list"]>div>.css-1u84j5a {
     margin: 5px 8px !important;
     border-radius: 10px !important;
     height: 40px !important;
 }
-.css-1eamzbi .css-1u84j5a:hover,.acss-1osp3tn {
+.css-1eamzbi [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1osp3tn {
     background: #161616 !important;
 }
-.css-tsw82g .css-1u84j5a:hover,.acss-1wyfodc {
+.css-tsw82g [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1wyfodc {
     background: rgba(0, 0, 0, 0.06) !important;
 }
 /* 对话框背景色 */
@@ -916,6 +916,9 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
         left: 20px !important;
 		width: 100px !important;
     }
+    .css-1eamzbi .HelloGPT h1 {
+        left: 10px !important;
+    }
 	.HelloGPT h1 img {
 		width: 100px !important;
 	}
@@ -932,7 +935,9 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		top: 4px;
 		bottom: 2px;
 	}
-
+	.css-1eamzbi .HelloGPT h1::before, .css-1eamzbi .HelloGPT h1::after {
+		opacity: 0;
+	}
 	
 /* 	body::before {
 		content: "HelloGPT 手机版正在完善中，我是高逼格独裁冷血笑面九头身大魔王...";
@@ -1011,7 +1016,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	
 	
 	#lobe-mobile-scroll-container {
-		padding: 10px 10px 0 10px !important;
+		padding: 10px 10px 0px 10px !important;
 	}
 	body>.css-1eamzbi #lobe-mobile-scroll-container>.css-1qrrzv3, body>.css-1eamzbi #lobe-mobile-scroll-container>.css-1fhzdir {
 		border-radius: 20px !important;
@@ -1103,8 +1108,8 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 	.css-1eamzbi .ant-drawer-content-wrapper>.ant-drawer-content {
 		background: #161616 !important;
-		width: calc(100% - 10px) !important;
-		margin: 0 5px !important;
+		width: calc(100% - 20px) !important;
+		margin: 0 10px !important;
 		border-radius: 20px 20px 0 0 !important;
 	}
 	.ant-drawer-content-wrapper {
@@ -1124,7 +1129,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: #f1f1f1 !important;
 		box-shadow: none !important;
 	}	
-	
+	.css-1eamzbi [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1osp3tn {
+		background: #222 !important;
+	}
+	.css-tsw82g [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1wyfodc {
+		background: rgba(0, 0, 0, 0.06) !important;
+	}
     div.acss-xqi55h {
         padding-block: 0px !important;
         padding-inline: 0px !important;
@@ -1137,7 +1147,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		padding: 2px 8px !important;
 		border-radius: 10px !important;
 	}
-
+	.ant-drawer-close {
+		width: 36px !important;
+		height: 36px !important;
+	}
 	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(10),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(11),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(15),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(16),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
 		display: none !important;
 	}	
@@ -1145,7 +1158,9 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>form:first-child>div>div:last-child>.acss-spwjzp:nth-child(n+9), #lobe-mobile-scroll-container>form:first-child>div>div:last-child>.ant-divider-horizontal:nth-child(n+7) {
 		display: none !important;
 	}
-	
+	.ant-tooltip-content .ant-tooltip-inner {
+		display: none !important;
+	}
 	
 }
 
