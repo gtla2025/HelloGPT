@@ -993,7 +993,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	body>.css-tsw82g .css-1chk9wg>.css-o3n4io,.css-tsw82g>.HelloGPT {
 		border-bottom: 1px solid #ddd !important;
 	}	
-	body>.ant-app>.css-1chk9wg>.css-1chk9wg>.css-o3n4io svg {
+	body>.ant-app>.css-1chk9wg>.css-1chk9wg>.css-o3n4io .css-1lumxev svg {
 		display: none !important;
 	}	
 	
@@ -1018,6 +1018,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		padding: 0 !important;
 		margin-bottom: 10px !important;
 	}
+	.acss-cp5vt4 .ant-input-affix-wrapper {
+		border: 0 !important;
+	}	
+	
 	a[href="/chat?session=inbox"]>div {
 		margin-top: 10px !important;
 	}
