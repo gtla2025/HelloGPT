@@ -192,12 +192,6 @@ a[href="/chat?session=inbox"]>div {
 .css-tsw82g a[href="/chat?session=inbox"]>div:hover,.css-tsw82g a[href="/chat?session=inbox"]>div:hover::before,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq::before {
     background: #99e640 !important;
 }
-.css-1eamzbi a[href="/chat?session=inbox&showMobileWorkspace=true"]>div:hover,.css-1eamzbi a[href="/chat?session=inbox&showMobileWorkspace=true"]>div:hover::before,.css-1eamzbi a[href="/chat?session=inbox&showMobileWorkspace=true"]>.acss-14juscs,.css-1eamzbi a[href="/chat?session=inbox&showMobileWorkspace=true"]>.acss-14juscs::before {
-    background: #79008d !important;
-}
-.css-tsw82g a[href="/chat?session=inbox&showMobileWorkspace=true"]>div:hover,.css-tsw82g a[href="/chat?session=inbox&showMobileWorkspace=true"]>div:hover::before,.css-tsw82g a[href="/chat?session=inbox&showMobileWorkspace=true"]>.acss-1ua72wq,.css-tsw82g a[href="/chat?session=inbox&showMobileWorkspace=true"]>.acss-1ua72wq::before {
-    background: #99e640 !important;
-}
 .LazyLoad.is-visible>a>div:first-child .acss-1hsh9br:hover {
     color: #fff !important;
     background: #333 !important;
@@ -1196,7 +1190,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.css-tsw82g .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #0000001c;
 	}
-
+	.css-1eamzbi #lobe-mobile-scroll-container>a>div:hover,.css-1eamzbi #lobe-mobile-scroll-container>a>div:hover::before,.css-1eamzbi #lobe-mobile-scroll-container>a>.acss-14juscs,.css-1eamzbi #lobe-mobile-scroll-container>a>.acss-14juscs::before {
+		background: #79008d !important;
+	}
+	.css-tsw82g #lobe-mobile-scroll-container>a>div:hover,.css-tsw82g #lobe-mobile-scroll-container>a>div:hover::before,.css-tsw82g #lobe-mobile-scroll-container>a>.acss-1ua72wq,.css-tsw82g #lobe-mobile-scroll-container>a>.acss-1ua72wq::before {
+		background: #99e640 !important;
+	}
 	
 	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(10),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(11),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(15),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(16),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
 		display: none !important;
