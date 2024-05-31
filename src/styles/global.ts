@@ -1020,7 +1020,13 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 	#lobe-mobile-scroll-container>.css-px56x0 {
 		background: none !important;
-	}	
+	}
+    .css-1eamzbi #lobe-mobile-scroll-container>.css-px56x0 {
+        border-top: 1px solid #222 !important;
+    }	
+    .css-tsw82g #lobe-mobile-scroll-container>.css-px56x0 {
+        border-top: 1px solid #ddd !important;
+    }	
 	#lobe-mobile-scroll-container>.css-px56x0>div {
 		width: 100% !important;
 	}
@@ -1078,8 +1084,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(10),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(11),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(15),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(16),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
 		display: none !important;
 	}	
-	
-	
+
+	#lobe-mobile-scroll-container>form:first-child>div>div:last-child>.acss-spwjzp:nth-child(n+9), #lobe-mobile-scroll-container>form:first-child>div>div:last-child>.ant-divider-horizontal:nth-child(n+7) {
+		display: none !important;
+	}
 	
 	
 }
