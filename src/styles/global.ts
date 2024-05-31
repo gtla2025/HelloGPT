@@ -1014,6 +1014,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 	.css-1chk9wg>.css-1chk9wg>#lobe-mobile-scroll-container > div:first-child {
 		padding: 0 !important;
+		margin-bottom: 10px !important;
 	}
 	a[href="/chat?session=inbox"]>div {
 		margin-top: 10px !important;
