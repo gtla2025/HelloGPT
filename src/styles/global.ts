@@ -986,7 +986,6 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	
 	body>.ant-app>.css-1chk9wg>.css-o3n4io,body>.ant-app>.css-1chk9wg>.css-1chk9wg>.css-o3n4io {
 		padding: 3px 0 !important;
-		/* margin-bottom: 10px; */
 	}	
 	body>.css-1eamzbi .css-1chk9wg>.css-o3n4io,.css-1eamzbi>.HelloGPT {
 		border-bottom: 1px solid #222 !important;
@@ -994,10 +993,13 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	body>.css-tsw82g .css-1chk9wg>.css-o3n4io,.css-tsw82g>.HelloGPT {
 		border-bottom: 1px solid #ddd !important;
 	}	
+	body>.ant-app>.css-1chk9wg>.css-1chk9wg>.css-o3n4io svg {
+		display: none !important;
+	}	
+	
 	
 	#lobe-mobile-scroll-container {
 		padding: 10px 10px 0 10px !important;
-		/* padding-top: 20px !important; */
 	}
 	body>.css-1eamzbi #lobe-mobile-scroll-container>.css-1qrrzv3, body>.css-1eamzbi #lobe-mobile-scroll-container>.css-1fhzdir {
 		border-radius: 20px !important;
@@ -1079,9 +1081,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
         font-size: 18px !important;
     }
 
-	body>.ant-app .css-1lumxev svg {
-		display: none !important;
-	}
+
 	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(10),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(11),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(15),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(16),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
 		display: none !important;
 	}	
