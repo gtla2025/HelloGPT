@@ -1158,10 +1158,6 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		height: 36px !important;
 	}
 	
-	.css-1eamzbi .LazyLoad.is-visible>a>div:first-child:hover, .css-1eamzbi .LazyLoad.is-visible>a>div:first-child:hover::before, .css-1eamzbi .LazyLoad.is-visible>a>.acss-14juscs, .css-1eamzbi .LazyLoad.is-visible>a>.acss-14juscs::before {
-		background: inherit !important;
-	}
-	
 	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(10),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(11),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(15),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(16),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
 		display: none !important;
 	}	
