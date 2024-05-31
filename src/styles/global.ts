@@ -913,15 +913,27 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		inset: -4px 6px 3px;
 	}
     .HelloGPT h1 {
-        left: 10px !important;
+        left: 20px !important;
 		width: 100px !important;
     }
 	.HelloGPT h1 img {
 		width: 100px !important;
 	}
-	.HelloGPT h1::before,.HelloGPT h1::after,.HelloGPT li:nth-last-child(-n+2) {
+	.HelloGPT li:nth-last-child(-n+2) {
 		display: none !important;
 	}
+	.HelloGPT h1::before {
+		background: #161616;
+		top: 8px;
+		bottom: 6px;
+	}	
+	.HelloGPT h1::after {
+		background: #161616;
+		top: 4px;
+		bottom: 2px;
+	}
+
+	
 /* 	body::before {
 		content: "HelloGPT 手机版正在完善中，我是高逼格独裁冷血笑面九头身大魔王...";
 		position: fixed;
@@ -1044,6 +1056,13 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>.css-px56x0>div>div {
 		padding-inline: inherit !important;
 	}
+	
+	.css-1eamzbi #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:first-child {
+		background: #222 !important;
+	}
+	.css-tsw82g	#lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:first-child {
+		background: #eee !important;
+	}	
 	.css-1eamzbi #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>.ant-input-outlined {
 		height: 36px !important;
 		background: #222 !important;
