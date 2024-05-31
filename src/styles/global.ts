@@ -1062,6 +1062,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 	#lobe-mobile-scroll-container>.css-px56x0 {
 		background: none !important;
+		position: relative !important;
 	}
     .css-1eamzbi #lobe-mobile-scroll-container>.css-px56x0 {
         border-top: 1px solid #222 !important;
@@ -1072,8 +1073,8 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>.css-px56x0::before {
 		content: "";
 		position: absolute;
-		bottom: 102px;
-		left: 0px;
+		top: 0;
+		left: -10px;
 		z-index: -1;
 		width: 6px;
 		height: 6px;
@@ -1081,8 +1082,8 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>.css-px56x0::after {
 		content: "";
 		position: absolute;
-		bottom: 102px;
-		right: 0px;
+		top: 0;
+		right: -10px;
 		z-index: -1;
 		width: 6px;
 		height: 6px;
