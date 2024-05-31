@@ -1076,9 +1076,28 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: none !important;
 	}
 	.css-1eamzbi .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
-		background: #161616;
+		background: #161616 !important;
 	}
-
+	.css-1eamzbi .ant-drawer-content-wrapper>.ant-drawer-content {
+		background: #161616 !important;
+		width: calc(100% - 10px) !important;
+		margin: 0 5px !important;
+		border-radius: 20px 20px 0 0 !important;
+	}
+	.css-tsw82g .ant-drawer-content-wrapper>.ant-drawer-content {
+		background: #fff !important;
+		width: calc(100% - 10px) !important;
+		margin: 0 5px !important;
+		border-radius: 20px 20px 0 0 !important;
+	}
+	.css-1eamzbi #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
+		background: #161616 !important;
+		box-shadow: none !important;
+	}	
+	.css-tsw82g #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
+		background: #f1f1f1 !important;
+		box-shadow: none !important;
+	}	
 	
     div.acss-xqi55h {
         padding-block: 0px !important;
