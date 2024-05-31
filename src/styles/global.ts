@@ -882,11 +882,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 }
 @media (max-width: 575px) {
-    *:hover {
+/*     *:hover {
         color: inherit !important;
+		background: inherit !important;
         background-color: inherit !important;
         border-color: inherit !important;
-    }
+    } */
     body {
         margin-left: 10px !important;
         padding-right: 10px !important;
