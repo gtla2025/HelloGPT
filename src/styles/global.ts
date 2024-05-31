@@ -157,12 +157,12 @@ body>.css-tsw82g>.css-5m4etf>div:first-child,body>.css-tsw82g>.css-5m4etf>.css-5
 
 /* 对话页对话选项卡 */
 .LazyLoad.is-visible>a>div:first-child,a:has(+ .ant-collapse-icon-position-end)>div {
-	margin: 20px 0;
+	margin: 22px 0;
     height: 70px;
     border-radius: 0;
 	transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
-a:has(+ .ant-collapse-icon-position-end))>div {
+a:has(+ .ant-collapse-icon-position-end)>div {
 	margin-top: 0 !important;
 }
 .LazyLoad.is-visible>a>div:first-child::before,a:has(+ .ant-collapse-icon-position-end)>div::before {
@@ -192,45 +192,6 @@ a:has(+ .ant-collapse-icon-position-end))>div {
 .css-tsw82g a:has(+ .ant-collapse-icon-position-end)>div:hover,.css-tsw82g a:has(+ .ant-collapse-icon-position-end)>div:hover::before,.css-tsw82g a:has(+ .ant-collapse-icon-position-end)>.acss-1ua72wq,.css-tsw82g a:has(+ .ant-collapse-icon-position-end)>.acss-1ua72wq::before {
     background: #99e640 !important;
 }
-
-
-/* .LazyLoad.is-visible>a>div:first-child,a[href="/chat?session=inbox"]>div {
-	margin: 20px 0;
-    height: 70px;
-    border-radius: 0;
-	transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
-}
-a[href="/chat?session=inbox"]>div {
-	margin-top: 0 !important;
-}
-.LazyLoad.is-visible>a>div:first-child::before,a[href="/chat?session=inbox"]>div::before {
-    content: "";
-    position: absolute;
-    top: -6px;
-    bottom: -6px;
-    left: 6px;
-    right: 6px;
-    transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
-}
-.css-1eamzbi .LazyLoad.is-visible>a>div:first-child,.css-1eamzbi .LazyLoad.is-visible>a>div:first-child::before,.css-1eamzbi a[href="/chat?session=inbox"]>div,.css-1eamzbi a[href="/chat?session=inbox"]>div::before {
-    background: #161616;
-}
-.css-tsw82g .LazyLoad.is-visible>a>div:first-child,.css-tsw82g .LazyLoad.is-visible>a>div:first-child::before,.css-tsw82g a[href="/chat?session=inbox"]>div,.css-tsw82g a[href="/chat?session=inbox"]>div::before {
-    background: #f1f1f1;
-}
-.css-1eamzbi .LazyLoad.is-visible>a>div:first-child:hover,.css-1eamzbi .LazyLoad.is-visible>a>div:first-child:hover::before,.css-1eamzbi .LazyLoad.is-visible>a>.acss-14juscs,.css-1eamzbi .LazyLoad.is-visible>a>.acss-14juscs::before {
-    background: #79008d !important;
-}
-.css-tsw82g .LazyLoad.is-visible>a>div:first-child:hover,.css-tsw82g .LazyLoad.is-visible>a>div:first-child:hover::before,.css-tsw82g .LazyLoad.is-visible>a>.acss-1ua72wq,.css-tsw82g .LazyLoad.is-visible>a>.acss-1ua72wq::before {
-    background: #99e640 !important;
-}
-.css-1eamzbi a[href="/chat?session=inbox"]>div:hover,.css-1eamzbi a[href="/chat?session=inbox"]>div:hover::before,.css-1eamzbi a[href="/chat?session=inbox"]>.acss-14juscs,.css-1eamzbi a[href="/chat?session=inbox"]>.acss-14juscs::before {
-    background: #79008d !important;
-}
-.css-tsw82g a[href="/chat?session=inbox"]>div:hover,.css-tsw82g a[href="/chat?session=inbox"]>div:hover::before,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq::before {
-    background: #99e640 !important;
-} */
-
 .LazyLoad.is-visible>a>div:first-child .acss-1hsh9br:hover {
     color: #fff !important;
     background: #333 !important;
@@ -256,6 +217,7 @@ a[href="/chat?session=inbox"]>div {
 .css-1eamzbi .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
     border-radius: 10px !important;
     background: rgba(255, 255, 255, 0.06) !important;
+	margin: -6px 0 !important;
 }
 .css-tsw82g .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
     border-radius: 10px !important;
@@ -1087,7 +1049,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
         align-content: center !important;
         justify-content: center !important;
         align-items: center !important;
-		line-height: inherit !important;
+		line-height: 36px !important;
 	}	
 	.css-1eamzbi #lobe-mobile-scroll-container .acss-cp5vt4>.ant-input-affix-wrapper {
 		background: #161616 !important;
@@ -1095,8 +1057,8 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.css-tsw82g #lobe-mobile-scroll-container .acss-cp5vt4>.ant-input-affix-wrapper {
 		background: #f1f1f1 !important;
 	}
-	a[href="/chat?session=inbox"]>div {
-		margin-top: 10px !important;
+	a:has(+ .ant-collapse-icon-position-end)>div {
+		margin-top: 16px !important;
 	}
 	#lobe-mobile-scroll-container>.css-px56x0 {
 		background: none !important;
@@ -1111,7 +1073,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>.css-px56x0::before {
 		content: "";
 		position: absolute;
-		top: -4px;
+		top: 0px;
 		left: -10px;
 		z-index: -1;
 		width: 6px;
@@ -1120,7 +1082,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>.css-px56x0::after {
 		content: "";
 		position: absolute;
-		top: -4px;
+		top: 0px;
 		right: -10px;
 		z-index: -1;
 		width: 6px;
