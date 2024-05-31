@@ -892,7 +892,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
         margin-left: 10px !important;
         padding-right: 10px !important;
     }
-    body>.ant-app>.css-1chk9wg {
+    body>.ant-app>.css-1chk9wg,body>.ant-app>.css-tks1yl {
         height: calc(100% - 80px) !important;
 		overflow: inherit !important;
 		z-index: 9;
@@ -1190,6 +1190,15 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.css-tsw82g .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #0000001c;
 	}
+	#lobe-mobile-scroll-container>a>div::before {
+		content: "";
+		position: absolute;
+		top: -6px;
+		bottom: -6px;
+		left: 6px;
+		right: 6px;
+		transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+	}
 	.css-1eamzbi #lobe-mobile-scroll-container>a>div:hover,.css-1eamzbi #lobe-mobile-scroll-container>a>div:hover::before,.css-1eamzbi #lobe-mobile-scroll-container>a>.acss-14juscs,.css-1eamzbi #lobe-mobile-scroll-container>a>.acss-14juscs::before {
 		background: #79008d !important;
 	}
@@ -1207,6 +1216,14 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.ant-tooltip-content .ant-tooltip-inner {
 		display: none !important;
 	}
+	
+	body>.ant-app>.css-tks1yl .ant-btn-block {
+		width: 100% !important;
+	}
+	
+	
+	
+	
 	
 }
 
