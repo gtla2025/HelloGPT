@@ -1012,7 +1012,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>.acss-la8zcw {
 		height: 0 !important;
 	}
-	#lobe-mobile-scroll-container>div:first-child {
+	.css-1chk9wg>.css-1chk9wg>#lobe-mobile-scroll-container > div:first-child {
 		padding: 0 !important;
 	}
 	a[href="/chat?session=inbox"]>div {
@@ -1043,29 +1043,30 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: #99e640 !important;
 		color: #000 !important;
 	}
-	.css-1eamzbi #lobe-mobile-scroll-container>.ant-form-horizontal>.css-o3n4io {
+	.css-1eamzbi #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io {
 		background: #222222;
 		margin-bottom: 10px;
 		border-radius: 20px;
 	}	
-	.css-tsw82g	#lobe-mobile-scroll-container>.ant-form-horizontal>.css-o3n4io {
+	.css-tsw82g	#lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io {
 		background: #eee;
 		margin-bottom: 10px;
 		border-radius: 20px;
 	}
-	.css-1eamzbi #lobe-mobile-scroll-container>.ant-form-horizontal>.css-o3n4io>div:first-child {
+	.css-1eamzbi #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div:first-child {
 		border-bottom: 1px solid #000 !important;
 	}
-	.css-tsw82g #lobe-mobile-scroll-container>.ant-form-horizontal>.css-o3n4io>div:first-child {
+	.css-tsw82g #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div:first-child {
 		border-bottom: 1px solid #ccc !important;
 	}
-	#lobe-mobile-scroll-container>.ant-form-horizontal>.css-o3n4io>div {
+	#lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div {
 		background: none !important;
 	}
 	
-    .acss-xqi55h {
+    div.acss-xqi55h {
         padding-block: 0px !important;
         padding-inline: 0px !important;
+		justify-content: flex-start !important;
     }
     .acss-mg9xpl {
         font-size: 18px !important;
