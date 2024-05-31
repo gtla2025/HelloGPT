@@ -192,10 +192,10 @@ a[href="/chat?session=inbox"]>div {
 .css-tsw82g a[href="/chat?session=inbox"]>div:hover,.css-tsw82g a[href="/chat?session=inbox"]>div:hover::before,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq,.css-tsw82g a[href="/chat?session=inbox"]>.acss-1ua72wq::before {
     background: #99e640 !important;
 }
-.css-1eamzbi a[href="/chat?session=inbox&amp;showMobileWorkspace=true"]>div:hover,.css-1eamzbi a[href="/chat?session=inbox&amp;showMobileWorkspace=true"]>div:hover::before,.css-1eamzbi a[href="/chat?session=inbox&amp;showMobileWorkspace=true"]>.acss-14juscs,.css-1eamzbi a[href="/chat?session=inbox&amp;showMobileWorkspace=true"]>.acss-14juscs::before {
+.css-1eamzbi a[href="/chat?session=inbox&showMobileWorkspace=true"]>div:hover,.css-1eamzbi a[href="/chat?session=inbox&showMobileWorkspace=true"]>div:hover::before,.css-1eamzbi a[href="/chat?session=inbox&showMobileWorkspace=true"]>.acss-14juscs,.css-1eamzbi a[href="/chat?session=inbox&showMobileWorkspace=true"]>.acss-14juscs::before {
     background: #79008d !important;
 }
-.css-tsw82g a[href="/chat?session=inbox&amp;showMobileWorkspace=true"]>div:hover,.css-tsw82g a[href="/chat?session=inbox&amp;showMobileWorkspace=true"]>div:hover::before,.css-tsw82g a[href="/chat?session=inbox&amp;showMobileWorkspace=true"]>.acss-1ua72wq,.css-tsw82g a[href="/chat?session=inbox&amp;showMobileWorkspace=true"]>.acss-1ua72wq::before {
+.css-tsw82g a[href="/chat?session=inbox&showMobileWorkspace=true"]>div:hover,.css-tsw82g a[href="/chat?session=inbox&showMobileWorkspace=true"]>div:hover::before,.css-tsw82g a[href="/chat?session=inbox&showMobileWorkspace=true"]>.acss-1ua72wq,.css-tsw82g a[href="/chat?session=inbox&showMobileWorkspace=true"]>.acss-1ua72wq::before {
     background: #99e640 !important;
 }
 .LazyLoad.is-visible>a>div:first-child .acss-1hsh9br:hover {
