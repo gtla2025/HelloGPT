@@ -1026,10 +1026,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		overflow: inherit !important;
 	}
 	body>.css-1eamzbi>.css-o3n4io {
-		border-top: 1px solid #222 !important;
+		border-top: 1px solid #fafafa1f !important;
 	}
 	body>.css-tsw82g>.css-o3n4io {
-		border-top: 1px solid #ddd !important;
+		border-top: 1px solid #0000001c !important;
 	}
 	body>.ant-app>.css-o3n4io>div>div>.acss-10a45gp {
 		display: none !important;
@@ -1050,10 +1050,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		padding: 3px 0 !important;
 	}	
 	body>.css-1eamzbi .css-1chk9wg>.css-o3n4io,.css-1eamzbi>.HelloGPT {
-		border-bottom: 1px solid #222 !important;
+		border-bottom: 1px solid #fafafa1f !important;
 	}	
 	body>.css-tsw82g .css-1chk9wg>.css-o3n4io,.css-tsw82g>.HelloGPT {
-		border-bottom: 1px solid #ddd !important;
+		border-bottom: 1px solid #0000001c !important;
 	}	
 	body>.ant-app>.css-1chk9wg>.css-1chk9wg>.css-o3n4io .css-1lumxev svg {
 		display: none !important;
@@ -1098,10 +1098,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		position: relative !important;
 	}
     .css-1eamzbi #lobe-mobile-scroll-container>.css-px56x0 {
-        border-top: 1px solid #222 !important;
+        border-top: 1px solid #fafafa1f !important;
     }	
     .css-tsw82g #lobe-mobile-scroll-container>.css-px56x0 {
-        border-top: 1px solid #ddd !important;
+        border-top: 1px solid #0000001c !important;
     }	
 	#lobe-mobile-scroll-container>.css-px56x0::before {
 		content: "";
@@ -1268,11 +1268,3 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 
 
 `;
-
-// 假设这段代码中有出现 LobeChat 字符串
-const code = `...`;  // 你的代码字符串
-
-// 替换所有 "LobeChat" 为 "HelloGPT"
-const updatedCode = code.replace(/LobeChat/g, 'HelloGPT');
-
-console.log(updatedCode);
