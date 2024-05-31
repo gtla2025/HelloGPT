@@ -973,10 +973,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: #000;
 	} */
 
-	body>.css-1eamzbi>div, body>.css-1eamzbi>.HelloGPT, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after, body>.css-1eamzbi>.css-1chk9wg>.css-o3n4io, body>.css-1eamzbi>.css-1chk9wg>.css-1chk9wg>.css-o3n4io, body>.css-1eamzbi>.css-1chk9wg::after, body>.css-1eamzbi>.css-o3n4io::after {
+	body>.css-1eamzbi:first-child>div, body>.css-1eamzbi>.HelloGPT, body>.css-1eamzbi>.HelloGPT::before, body>.css-1eamzbi>.HelloGPT::after, body>.css-1eamzbi>.css-1chk9wg>.css-o3n4io, body>.css-1eamzbi>.css-1chk9wg>.css-1chk9wg>.css-o3n4io, body>.css-1eamzbi>.css-1chk9wg::after, body>.css-1eamzbi>.css-o3n4io::after {
 		background: #000 !important;
 	}
-	body>.css-tsw82g>div, body>.css-tsw82g>.HelloGPT, body>.css-tsw82g>.HelloGPT::before, body>.css-tsw82g>.HelloGPT::after, body>.css-tsw82g>.css-1chk9wg>.css-o3n4io, body>.css-tsw82g>.css-1chk9wg>.css-1chk9wg>.css-o3n4io, body>.css-tsw82g>.css-1chk9wg::after, body>.css-tsw82g>.css-o3n4io::after {
+	body>.css-tsw82g:first-child>div, body>.css-tsw82g>.HelloGPT, body>.css-tsw82g>.HelloGPT::before, body>.css-tsw82g>.HelloGPT::after, body>.css-tsw82g>.css-1chk9wg>.css-o3n4io, body>.css-tsw82g>.css-1chk9wg>.css-1chk9wg>.css-o3n4io, body>.css-tsw82g>.css-1chk9wg::after, body>.css-tsw82g>.css-o3n4io::after {
 		background: #fff !important;
 	}
 	body>.ant-app>.css-o3n4io {
@@ -1034,7 +1034,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: #eee !important;
 		margin-bottom: 10px !important;
 	}
-	#lobe-mobile-scroll-container>.acss-la8zcw {
+	#lobe-mobile-scroll-container>.acss-la8zcw,#lobe-mobile-scroll-container>.acss-u1xl7d {
 		height: 0 !important;
 	}
 	.css-1chk9wg>.css-1chk9wg>#lobe-mobile-scroll-container > div:first-child {
