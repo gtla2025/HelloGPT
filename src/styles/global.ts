@@ -1080,7 +1080,6 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 	.css-1chk9wg>.css-1chk9wg>#lobe-mobile-scroll-container > div:first-child {
 		padding: 0 !important;
-		margin-bottom: 10px !important;
 	}
 	#lobe-mobile-scroll-container .acss-cp5vt4>.ant-input-affix-wrapper {
 		border: 0 !important;
@@ -1088,8 +1087,14 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
         align-content: center !important;
         justify-content: center !important;
         align-items: center !important;
+		line-height: inherit !important;
 	}	
-	
+	.css-1eamzbi #lobe-mobile-scroll-container .acss-cp5vt4>.ant-input-affix-wrapper {
+		background: #161616 !important;
+	}
+	.css-tsw82g #lobe-mobile-scroll-container .acss-cp5vt4>.ant-input-affix-wrapper {
+		background: #f1f1f1 !important;
+	}
 	a[href="/chat?session=inbox"]>div {
 		margin-top: 10px !important;
 	}
@@ -1106,7 +1111,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>.css-px56x0::before {
 		content: "";
 		position: absolute;
-		top: 0;
+		top: -4px;
 		left: -10px;
 		z-index: -1;
 		width: 6px;
@@ -1115,7 +1120,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	#lobe-mobile-scroll-container>.css-px56x0::after {
 		content: "";
 		position: absolute;
-		top: 0;
+		top: -4px;
 		right: -10px;
 		z-index: -1;
 		width: 6px;
@@ -1167,10 +1172,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		border-radius: 20px;
 	}
 	.css-1eamzbi #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div:first-child {
-		border-bottom: 1px solid #000 !important;
+		border-bottom: 1px solid #fafafa1f !important;
 	}
 	.css-tsw82g #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div:first-child {
-		border-bottom: 1px solid #ccc !important;
+		border-bottom: 1px solid #0000001c !important;
 	}
 	#lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div {
 		background: none !important;
