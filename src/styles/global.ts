@@ -1268,3 +1268,11 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 
 
 `;
+
+// 假设这段代码中有出现 LobeChat 字符串
+const code = `...`;  // 你的代码字符串
+
+// 替换所有 "LobeChat" 为 "HelloGPT"
+const updatedCode = code.replace(/LobeChat/g, 'HelloGPT');
+
+console.log(updatedCode);
