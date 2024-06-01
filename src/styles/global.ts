@@ -945,6 +945,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.css-1eamzbi .HelloGPT h1::before, .css-1eamzbi .HelloGPT h1::after {
 		opacity: 0;
 	}
+	.css-1eamzbi>.HelloGPT {
+		border-bottom: 1px solid #fafafa1f !important;
+	}	
+	.css-tsw82g>.HelloGPT {
+		border-bottom: 1px solid #0000001c !important;
+	}	
 	
 /* 	body::before {
 		content: "HelloGPT 手机版正在完善中，我是高逼格独裁冷血笑面九头身大魔王...";
@@ -1011,12 +1017,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	body>.ant-app>.css-1chk9wg>.css-o3n4io,body>.ant-app>.css-1chk9wg>.css-1chk9wg>.css-o3n4io {
 		padding: 3px 0 !important;
 	}	
-	body>.css-1eamzbi .css-1chk9wg>.css-o3n4io,.css-1eamzbi>.HelloGPT {
+/* 	body>.css-1eamzbi .css-1chk9wg>.css-o3n4io {
 		border-bottom: 1px solid #fafafa1f !important;
 	}	
-	body>.css-tsw82g .css-1chk9wg>.css-o3n4io,.css-tsw82g>.HelloGPT {
+	body>.css-tsw82g .css-1chk9wg>.css-o3n4io {
 		border-bottom: 1px solid #0000001c !important;
-	}	
+	} */	
 	body>.ant-app>.css-1chk9wg>.css-1chk9wg>.css-o3n4io .css-1lumxev svg {
 		display: none !important;
 	}	
@@ -1147,18 +1153,18 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 	.css-1eamzbi .ant-drawer-content-wrapper>.ant-drawer-content {
 		background: #161616 !important;
-		width: calc(100% - 40px) !important;
-		margin: 0 20px !important;
-		border-radius: 20px 20px 0 0 !important;
+		width: calc(100% - 10px) !important;
+		margin: 0 5px !important;
+		/* border-radius: 20px 20px 0 0 !important; */
 	}
 	.ant-drawer-content-wrapper {
 		box-shadow: none !important;
 	}
 	.css-tsw82g .ant-drawer-content-wrapper>.ant-drawer-content {
 		background: #fff !important;
-		width: calc(100% - 40px) !important;
-		margin: 0 20px !important;
-		border-radius: 20px 20px 0 0 !important;
+		width: calc(100% - 10px) !important;
+		margin: 0 0px !important;
+		/* border-radius: 20px 20px 0 0 !important; */
 	}
 	.css-1eamzbi #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
 		background: #161616 !important;
@@ -1196,21 +1202,20 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.css-tsw82g .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #0000001c;
 	}
-/* 	#lobe-mobile-scroll-container>a>div::before {
-		content: "";
-		position: absolute;
-		top: -6px;
-		bottom: -6px;
-		left: 6px;
-		right: 6px;
-		transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+	body>div>.HelloGPT+div>h1>strong {
+		display: none;
+	}		
+	body>div>.HelloGPT+div>h1::before {
+		content: 'HelloGPT';
+		font-size: 30px;
+		font-weight: 700;
+	}	
+	body>.css-tsw82g>.HelloGPT+div>h1::before {
+		color: #000;
+	}	
+	.ant-drawer .ant-drawer-mask {
+		opacity: 0;
 	}
-	.css-1eamzbi #lobe-mobile-scroll-container>a>div:hover,.css-1eamzbi #lobe-mobile-scroll-container>a>div:hover::before,.css-1eamzbi #lobe-mobile-scroll-container>a>.acss-14juscs,.css-1eamzbi #lobe-mobile-scroll-container>a>.acss-14juscs::before {
-		background: #79008d !important;
-	}
-	.css-tsw82g #lobe-mobile-scroll-container>a>div:hover,.css-tsw82g #lobe-mobile-scroll-container>a>div:hover::before,.css-tsw82g #lobe-mobile-scroll-container>a>.acss-1ua72wq,.css-tsw82g #lobe-mobile-scroll-container>a>.acss-1ua72wq::before {
-		background: #99e640 !important;
-	} */
 	
 	#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(8),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(10),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(11),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(14),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(15),#lobe-mobile-scroll-container>.css-1qrrzv3:nth-child(16),#lobe-mobile-scroll-container>.css-h53c9y:last-child {
 		display: none !important;
