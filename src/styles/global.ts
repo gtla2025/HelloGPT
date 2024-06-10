@@ -24,8 +24,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -343,15 +341,17 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     border-radius: 20px 10px 20px 20px !important;
 }
 /* 对话框代码高亮 */
-.css-xd6w39 div [data-code-type='highlighter'] {
+.css-xd6w39 div [data-code-type='highlighter'], .css-xd6w39 .ant-steps-item-description .css-1lumxev {
     background: none !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #333 !important;
+	border: 1px solid transparent !important;
 }
-.css-1lu2tee div [data-code-type='highlighter'] {
+.css-1lu2tee div [data-code-type='highlighter'], .css-1lu2tee .ant-steps-item-description .css-1lumxev {
     background: #fff !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #00000000;
+	border: 1px solid transparent !important;
 }
 .css-xd6w39 div [data-code-type='highlighter']:hover {
     background: none !important;
@@ -376,6 +376,11 @@ a:has(+ .ant-collapse-icon-position-end)>div {
 }
 .css-1lu2tee div [data-code-type='highlighter']>div:nth-child(1)>div:nth-child(3):hover {
     background: #99e640 !important;
+}
+
+.ant-steps.ant-steps-vertical >.ant-steps-item .ant-steps-item-content {
+    overflow: inherit !important;
+    margin-left: 40px !important;
 }
 /* 对话框旁边小按钮 */
 div[role='menubar']>div {
@@ -472,10 +477,12 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 }
 /* 左侧栏搜索框 */
 .css-xd6w39 .acss-cp5vt4 .ant-input-affix-wrapper {
-    border: 1px solid #333 !important;
+    border: 0 !important;
+	box-shadow: #333 0px 0px 0px 1px !important;
 }
 .css-1lu2tee .acss-cp5vt4 .ant-input-affix-wrapper {
-    border: 1px solid #eee !important;
+    border: 0 !important;
+	box-shadow: #eee 0px 0px 0px 1px !important;
 }
 .acss-cp5vt4 .ant-tag-borderless {
     background: none !important;
