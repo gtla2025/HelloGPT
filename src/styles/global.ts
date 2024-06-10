@@ -314,10 +314,10 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     border-radius: 10px !important;
     height: 40px !important;
 }
-.css-xd6w39 [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1osp3tn {
+.css-xd6w39 [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-12lti30 {
     background: #161616 !important;
 }
-.css-1lu2tee [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1wyfodc {
+.css-1lu2tee [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-41ifly {
     background: rgba(0, 0, 0, 0.06) !important;
 }
 /* 对话框背景色 */
