@@ -158,7 +158,7 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
     -webkit-backdrop-filter: none !important;
     border-block-end: 1px solid #333;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div {
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div, body > .css-1f9addb #lobe-market-container {
     background: rgba(241, 241, 241, 0.6) !important;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
@@ -364,6 +364,13 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-1f9addb [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-41ifly {
     background: rgba(0, 0, 0, 0.06) !important;
 }
+/* 右侧角色设定阴影 */
+.acss-gwdivr {
+    display: none;
+}
+.acss-wod8yj {
+    border-bottom: 1px solid #333;
+}
 /* 对话框背景色 */
 .css-1jgus78 .acss-1fr3od3 > .css-o3n4io {
     background-color: #161616 !important;
@@ -371,6 +378,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-1f9addb .acss-1fr3od3 > .css-o3n4io {
 	background-color: rgb(255 255 255 / 80%) !important;
 }
+
 /* 对话框背圆角 */
 .acss-1fr3od3 > .acss-12mj41h {
     border-radius: 10px 20px 20px !important;
@@ -532,6 +540,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 }
 .acss-cp5vt4 .ant-tag-borderless {
     background: none !important;
+	backdrop-filter: none !important;
 }
 /* 助手页hellogpt logo */
 #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
