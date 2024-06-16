@@ -113,6 +113,11 @@ body > div > .css-5m4etf::after {
     left: 9px;
     right: 9px;
     z-index: -1;
+	background: url(https://chat.cmdpe.link/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(10px);
 }
 .css-1jgus78 > .css-5m4etf, .css-1jgus78 > .css-5m4etf::after {
     background: #222;
@@ -137,15 +142,22 @@ body > .css-1f9addb > .css-5m4etf > div:first-child, body > .css-1f9addb > .css-
 
 body > .css-1f9addb > .css-5m4etf > div:first-child {
     background: rgba(6, 147, 227, 0.8) !important;
+    border-inline-end: 1px solid #333;
 }
 body > .css-1f9addb > .css-5m4etf > div:first-child * {
     color: #eee !important;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf aside {
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside {
 	background: rgba(6, 147, 227, 0.6) !important;
+    border-inline-end: 1px solid #333;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf aside * {
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside * {
     color: #fff !important;
+}
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
+    background: rgba(241, 241, 241, 0.6) !important;
+	backdrop-filter: none !important;
+    border-block-end: 1px solid #333;
 }
 div[data-testid="virtuoso-scroller"] {
     margin-top: 64px !important;
@@ -246,7 +258,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 }
 .css-1f9addb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
-    background: rgb(162 0 189) !important;
+	background: rgba(6, 147, 227, 1) !important;
 }
 .css-fr78qt {
     gap: 5px !important;
@@ -295,7 +307,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #111;
 }
 .css-1f9addb .css-1109xs8 > div > .ant-tag {
-	background: rgb(162 0 189) !important;
+	background: rgba(6, 147, 227, 1) !important;
 }
 /* 按钮样式 */
 .css-5wokcq, .ant-modal-close, button, .ant-select-selector, .ant-input-number, .ant-input-affix-wrapper, .ant-input-outlined, .ant-input-password, .ant-select-selection-item, .ant-segmented, .ant-segmented-item, .ant-dropdown-menu-submenu-title {
@@ -866,13 +878,13 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 
 /* HelloGPT白 */
 .css-1f9addb .HelloGPT {
-	border-bottom: 1px solid #dddddd;
+	border-bottom: 1px solid #333;
 }
 .css-1f9addb .HelloGPT li a {
     color: #000;
 }
 .css-1f9addb .HelloGPT li:hover::after, .css-1f9addb .HelloGPT li:hover::before {
-    background: #000;
+    background: rgba(6, 147, 227, 0.8) !important;
 }
 .css-1f9addb .HelloGPT li:hover a {
     color: #fff;
