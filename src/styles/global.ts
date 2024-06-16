@@ -140,14 +140,14 @@ body > .css-1f9addb > .css-5m4etf > div:first-child, body > .css-1f9addb > .css-
 	background: none !important;
 }
 body > .css-1f9addb > .css-5m4etf > div:first-child {
-    background: rgba(6, 147, 227, 0.8) !important;
+    background: rgba(252, 185, 0, 0.8) !important;
     border-inline-end: 1px solid #333;
 }
 body > .css-1f9addb > .css-5m4etf > div:first-child * {
     color: #eee !important;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside {
-	background: rgba(6, 147, 227, 0.6) !important;
+	background: rgba(252, 185, 0, 0.6) !important;
     border-inline-end: 1px solid #333;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside * {
@@ -167,9 +167,7 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div > div >aside {
 	border-color: #333 !important;
 }
-div[data-testid="virtuoso-scroller"] {
-    margin-top: 64px !important;
-}
+
 
 
 
@@ -223,7 +221,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #161616;
 }
 .css-1f9addb .LazyLoad.is-visible > a > div:first-child, .css-1f9addb .LazyLoad.is-visible > a > div:first-child::before, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div::before {
-	background: rgba(6, 147, 227, 1);
+	background: rgba(252, 185, 0, 1);
 }
 .css-1jgus78 .LazyLoad.is-visible > a > div:first-child:hover, .css-1jgus78 .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1jgus78 .LazyLoad.is-visible > a > .acss-14juscs, .css-1jgus78 .LazyLoad.is-visible > a > .acss-14juscs::before {
     background: #79008d !important;
@@ -266,7 +264,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 }
 .css-1f9addb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
-	background: rgba(6, 147, 227, 1) !important;
+	background: rgba(252, 185, 0, 1) !important;
 }
 .css-fr78qt {
     gap: 5px !important;
@@ -315,7 +313,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #111;
 }
 .css-1f9addb .css-1109xs8 > div > .ant-tag {
-	background: rgba(6, 147, 227, 1) !important;
+	background: rgba(252, 185, 0, 1) !important;
 }
 /* 按钮样式 */
 .css-5wokcq, .ant-modal-close, button, .ant-select-selector, .ant-input-number, .ant-input-affix-wrapper, .ant-input-outlined, .ant-input-password, .ant-select-selection-item, .ant-segmented, .ant-segmented-item, .ant-dropdown-menu-submenu-title {
@@ -379,6 +377,10 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-120gwed > .css-o3n4io {
     border-radius: 20px !important;
     border: 0 !important;
+}
+/* 对话主题下移 */
+.css-i80ya5 div[data-testid="virtuoso-scroller"] {
+    margin-top: 64px !important;
 }
 /* 对话框背景色 */
 .css-1jgus78 .acss-1fr3od3 > .css-o3n4io {
@@ -549,7 +551,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 .css-1f9addb .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	/* box-shadow: #eee 0px 0px 0px 1px !important; */
-    background: rgb(255 255 255 / 90%);
+    background: rgb(255 255 255 / 30%);
 }
 .acss-cp5vt4 .ant-tag-borderless {
     background: none !important;
@@ -754,16 +756,16 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 	background: none !important;
 }
 /* 设置里的选项卡背景色 */
-.css-1jgus78 .ant-collapse-icon-position-start, .css-61jd0t .ant-collapse-icon-position-start {
+.css-1jgus78 > .ant-collapse-icon-position-start, .css-1jgus78 > .ant-collapse-icon-position-start {
 	background: rgba(255, 255, 255, 0.02) !important;
 }
-.css-1f9addb .ant-collapse-icon-position-start, .css-1acpc37 .ant-collapse-icon-position-start {
+.css-1f9addb > .ant-collapse-icon-position-start, .css-6likvs > .ant-collapse-icon-position-start {
 	background: rgb(0 0 0 / 3%) !important;
 }
-.css-1jgus78 .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-61jd0t .ant-collapse-icon-position-start > div > .ant-collapse-header {
+.css-1jgus78 > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-1jgus78 > .ant-collapse-icon-position-start > div > .ant-collapse-header {
     background: rgba(255, 255, 255, 0.06) !important;
 }
-.css-1f9addb .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-1acpc37 .ant-collapse-icon-position-start > div > .ant-collapse-header {
+.css-1f9addb > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-6likvs > .ant-collapse-icon-position-start > div > .ant-collapse-header {
     background: rgb(0 0 0 / 4%) !important;
 }
 
@@ -920,7 +922,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     color: #fff;
 }
 body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after {
-    background: rgba(6, 147, 227, 0.8) !important;
+    background: rgba(252, 185, 0, 0.8) !important;
 }
 
 
