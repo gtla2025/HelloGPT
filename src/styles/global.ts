@@ -504,6 +504,10 @@ div[role='menubar'] > div {
     background: none !important;
     border-radius: 20px !important;
 }
+.css-1f9addb .ant-input-outlined {
+    border: 3px solid #efefef !important;
+}
+
 /* 输入框上方使用按钮 */
 .css-1a5hs83.acss-18qdyno > div:last-child {
     padding-inline: 8px 10.6px !important;
@@ -968,7 +972,7 @@ body > .css-1f9addb > .HelloGPT {
 } */
 
 /* 造型切割 */
-body > .css-1f9addb > .css-5m4etf > div:first-child::before, body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
+body > .css-1f9addb > .css-5m4etf > div:first-child::before, body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after, body > .css-1f9addb > .css-5m4etf > div:nth-child(2)::before, body > .css-1f9addb > .css-5m4etf > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -990,11 +994,11 @@ body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > 
     bottom: 0;
     left: 0;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::before, .HelloGPT::after, .HelloGPT > div::after {
+body > .css-1f9addb > .css-5m4etf > div:nth-child(2)::before, .HelloGPT::after, .HelloGPT > div::after {
 	top: 0;
 	right: 0;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after {
+body > .css-1f9addb > .css-5m4etf > div:nth-child(2)::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after {
 	bottom: 0;
 	right: 0;
 }
