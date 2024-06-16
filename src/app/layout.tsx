@@ -29,6 +29,7 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
       <body>
         <GlobalProvider>
           <AuthProvider>
+            <div className="HelloGPT"></div>
             {children}
             {modal}
           </AuthProvider>
