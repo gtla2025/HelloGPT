@@ -65,7 +65,7 @@ html {
 }
 body * {
 	font-family: "JosefinSans", "hellogpt", "HarmonyOS Sans", "Segoe UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji" !important;
-	text-shadow: 0.01em 0.01em 0.05em #666;
+	/* text-shadow: 0.01em 0.01em 0.05em #666; */
 }
 body {
     margin-left: 10%;
@@ -171,14 +171,50 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div > div >aside {
 
 
 
+
+
 .acss-rlur1a {
     box-shadow: none !important;
 }
 .css-1jgus78 a:hover, .css-1jgus78 button:hover {
     color: #fff !important;
 }
+
+
+
+/* 造型切割 */
+body > .css-1f9addb > .css-5m4etf > div:first-child::before, body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 9px;
+    height: 9px;
+    background: url(https://chat.cmdpe.link/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body > .css-1f9addb > .css-5m4etf > div:first-child::before, .HelloGPT::before, .HelloGPT > div::before {
+    top: 0;
+    left: 0;
+}
+body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before {
+    bottom: 0;
+    left: 0;
+}
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::before, .HelloGPT::after, .HelloGPT > div::after {
+	top: 0;
+	right: 0;
+}
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after {
+	bottom: 0;
+	right: 0;
+}
+
+
+
 /* 对话页与设置页切割造型 */
-.css-5m4etf > aside::before, .css-5m4etf > aside::after, .css-5m4etf > div:nth-child(2)::before, .css-5m4etf > div:nth-child(2)::after {
+/* .css-5m4etf > aside::before, .css-5m4etf > aside::after, .css-5m4etf > div:nth-child(2)::before, .css-5m4etf > div:nth-child(2)::after {
     content: '';
     position: absolute;
     right: 0;
@@ -190,7 +226,7 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div > div >aside {
 }
 .css-5m4etf > aside::after, .css-5m4etf > div:nth-child(2)::after {
     bottom: -9px;
-}
+} */
 .css-1jgus78 .css-5m4etf > aside::before, .css-1jgus78 .css-5m4etf > aside::after, .css-1jgus78 .css-5m4etf > div:nth-child(2)::before, .css-1jgus78 .css-5m4etf > div:nth-child(2)::after {
     background: #fff !important;
 }
@@ -360,7 +396,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #161616 !important;
 }
 .css-1f9addb [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-41ifly {
-	background: rgba(241, 241, 241, 0.8) !important;
+	background: rgba(0, 0, 0, 0.1) !important;
 }
 /* 右侧角色设定阴影 */
 .acss-1s2s9nk {
@@ -695,7 +731,7 @@ body > div > .acss-1afprqa {
     left: 15px !important;
     top: auto !important;
 }
-.acss-jfwog7 {
+.acss-jfwog7, .acss-a6jv4b {
     border-radius: 10px !important;
 }
 /* 删除设置按钮下的东西 */
@@ -803,7 +839,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     position: relative;
 	align-items: center;
 }
-.HelloGPT::before {
+/* .HelloGPT::before {
     content: "";
     position: absolute;
     top: 9px;
@@ -817,7 +853,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     position: absolute;
     inset: -4px 9px 3px;
     z-index: -2;
-}
+} */
 .HelloGPT h1 {
 	margin: 0;
     width: 138px;
@@ -921,10 +957,12 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 .css-1f9addb .HelloGPT li:hover a {
     color: #fff;
 }
-body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after {
+body > .css-1f9addb > .HelloGPT {
     background: rgba(252, 185, 0, 0.8) !important;
 }
-
+/* body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after {
+    background: rgba(252, 185, 0, 0.8) !important;
+} */
 
 @media only screen and (max-width: 1341px) {
 /* 	body > div {
