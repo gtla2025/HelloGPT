@@ -31,6 +31,12 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
           <AuthProvider>
             <div className="HelloGPT">
               <h1><img src="https://raw.githubusercontent.com/gtla2025/SSR/master/HelloGPT-Logo.png"/></h1>
+              <ul>
+                <li><a href="https://pay.cmdpe.link">获取key</a></li>
+                <li><a href="https://pay.cmdpe.link">获取密码</a></li>
+                <li><a href="https://www.cmdpe.com/69.html">学习群</a></li>
+                <li><a href="https://www.cmdpe.com/category-10.html">软件下载</a></li>
+              </ul>	
             </div>
             {children}
             {modal}
