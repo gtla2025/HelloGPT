@@ -158,7 +158,7 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
     -webkit-backdrop-filter: none !important;
     border-block-end: 1px solid #333;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div, body > .css-1f9addb #lobe-market-container {
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1f9addb #lobe-market-container {
     background: rgba(241, 241, 241, 0.6) !important;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
@@ -223,7 +223,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #161616;
 }
 .css-1f9addb .LazyLoad.is-visible > a > div:first-child, .css-1f9addb .LazyLoad.is-visible > a > div:first-child::before, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div::before {
-	background: rgba(6, 147, 227, 1) !important;
+	background: rgba(6, 147, 227, 1);
 }
 .css-1jgus78 .LazyLoad.is-visible > a > div:first-child:hover, .css-1jgus78 .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1jgus78 .LazyLoad.is-visible > a > .acss-14juscs, .css-1jgus78 .LazyLoad.is-visible > a > .acss-14juscs::before {
     background: #79008d !important;
@@ -237,19 +237,19 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
     background: rgb(162 0 189) !important;
 }
-.LazyLoad.is-visible > a > div:first-child .acss-1hsh9br:hover {
+.css-1jgus78 .LazyLoad.is-visible > a > div:first-child .acss-1hsh9br:hover {
     color: #fff !important;
     background: #333 !important;
 }
-.LazyLoad.is-visible > a > div:first-child .acss-1rzhzi1:hover {
+.css-1f9addb .LazyLoad.is-visible > a > div:first-child .acss-1rzhzi1:hover {
     color: #000 !important;
-    background: #eee !important;
+    background: rgb(44 44 44) !important
 }
 .css-1jgus78 .LazyLoad.is-visible > a > div:first-child > div:last-child {
     z-index: 1 !important;
 	color: #666 !important;
 }
-.css-1f9addb .LazyLoad.is-visible > a > div:first-child > div:last-child {
+.css-1f9addb  .LazyLoad.is-visible > a > div:first-child > div:last-child {
     z-index: 1 !important;
 	color: #bbb !important;
 }
@@ -362,7 +362,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #161616 !important;
 }
 .css-1f9addb [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-41ifly {
-    background: rgba(0, 0, 0, 0.06) !important;
+	background: rgba(241, 241, 241, 0.8) !important;
 }
 /* 右侧角色设定阴影 */
 .acss-gwdivr {
@@ -499,7 +499,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 }
 .css-1f9addb button.ant-btn {
     color: rgb(255 255 255) !important;
-    background: rgba(6, 147, 227, 1) !important;
+    background: #a200bd !important;
 }
 .ant-space-compact > button:nth-child(1) {
     border-radius: 10px 0 0 10px !important;
@@ -521,8 +521,8 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     background: #79008d !important;
 }
 .css-1f9addb .ant-dropdown-trigger > span.ant-tag-borderless {
-    color: rgb(255 255 255) !important;
-    background: rgba(6, 147, 227, 1) !important;
+    color: rgb(255, 255, 255) !important;
+    background: rgb(162 0 189) !important;
 }
 .ant-dropdown-trigger > span.ant-tag-borderless:hover {
     background: #FF5722 !important;
@@ -541,6 +541,9 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 .acss-cp5vt4 .ant-tag-borderless {
     background: none !important;
 	backdrop-filter: none !important;
+}
+.css-1f9addb > input::placeholder {
+    color: #eee !important;
 }
 /* 助手页hellogpt logo */
 #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
