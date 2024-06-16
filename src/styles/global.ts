@@ -60,7 +60,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 html {
-    background: black;
     display: flex;
 }
 body * {
@@ -150,9 +149,6 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside {
 	background: rgba(6, 147, 227, 0.6) !important;
     border-inline-end: 1px solid #333;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside * {
-    color: #fff !important;
-}
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
@@ -167,22 +163,12 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div > div >aside {
 	border-color: #333 !important;
 }
-
-body > .css-1f9addb > .draggable-panel-toggle > div {
-    background: rgba(6, 147, 227, 0.6) !important;
-	border: 0 !important;
-	color: #fff !important;
-}
-body > .css-1f9addb > .draggable-panel-toggle > div:hover {
-    background: rgba(6, 147, 227, 1) !important;
-}
-body > .css-1f9addb > .css-5wokcq {
-	color: #666 !important;
-}
 body > .css-1f9addb #lobe-market-container > div > aside {
 	background: #fff !important;
 }
-
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside * {
+    color: #fff !important;
+}
 
 
 
@@ -365,6 +351,11 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-px56x0, .css-e7rmh7 {
     align-items: center !important;
 }
+
+body > .css-1f9addb > .css-5wokcq {
+	color: #666 !important;
+}
+
 /* 新建助手按钮+左侧栏按钮激活颜色 */
 .css-1jgus78 .css-9tjxg1 .css-5wokcq:hover, .css-1jgus78 .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-i3padr {
     background: #79008d !important;
@@ -565,7 +556,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     background: #FF5722 !important;
     color: #fff !important;
 }
-/* 左侧栏搜索框 */
+/* 搜索框 */
 .css-1jgus78 .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	box-shadow: #333 0px 0px 0px 1px !important;
@@ -575,13 +566,24 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 	/* box-shadow: #eee 0px 0px 0px 1px !important; */
     background: rgb(255 255 255 / 30%);
 }
+.css-1f9addb .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
+    color: #eee !important;
+}
 .acss-cp5vt4 .ant-tag-borderless {
     background: none !important;
 	backdrop-filter: none !important;
 }
-.css-1f9addb .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
-    color: #eee !important;
+/* 发现页搜索框 */
+.css-1f9addb #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper {
+    border: 0 !important;
+	/* box-shadow: #eee 0px 0px 0px 1px !important; */
+    background: rgb(255 255 255 / 60%);
 }
+.css-1f9addb #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
+    color: #333 !important;
+}
+
+
 /* 助手页hellogpt logo */
 #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
 	position: relative;
@@ -662,6 +664,14 @@ li.ant-dropdown-menu-item-group:hover {
 /* 拖拉条颜色 */
 div > .draggable-panel-top-handle:hover::before, div > .draggable-panel-top-handle:active::before, div > .draggable-panel-right-handle:hover::before, div > .draggable-panel-right-handle:active::before, div > .draggable-panel-left-handle:hover::before, div > .draggable-panel-left-handle:active::before {
     background: #99e640 !important;
+}
+.css-1f9addb > .draggable-panel-toggle > div {
+    background: rgba(6, 147, 227, 0.6) !important;
+	border: 0 !important;
+	color: #fff !important;
+}
+.css-1f9addb > .draggable-panel-toggle > div:hover {
+    background: rgba(6, 147, 227, 1) !important;
 }
 
 /* 删除 */
@@ -825,15 +835,13 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     position: relative;
     -webkit-box-align: center;
     align-items: center;
-    height: 60px;
-    line-height: 60px;
+    height: 56px;
+    line-height: 56px;
 }
 .HelloGPT > div {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 9px;
-    right: 9px;
+    inset: 0px 9px;
+    z-index: -1;
 }
 /* .HelloGPT::before {
     content: "";
@@ -855,7 +863,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     width: 138px;
     text-align: center;
     position: relative;
-    left: 64px;
+    left: 73px;
 }
 .HelloGPT h1 img {
     width: 138px;
@@ -864,7 +872,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     content: "";
     background: rgb(0, 0, 0);
     position: absolute;
-    inset: 14px -14px 14px;
+	inset: 12px -14px 10px;
     margin: 0px;
     z-index: -1;
 }
@@ -872,7 +880,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     content: "";
     background: rgb(0, 0, 0);
     position: absolute;
-    inset: 10px -10px 10px;
+    inset: 8px -10px 6px;
     z-index: -1;
 }
 .HelloGPT ul {
