@@ -83,7 +83,7 @@ body > .css-1f9addb:nth-child(1)::before {
     left: 0;
     right: 0;
     z-index: 0;
-	background: url(https://chat.cmdpe.link/images/background.jpg);
+	background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -112,7 +112,7 @@ body > div > .css-5m4etf::after {
     left: 0px;
     right: 0px;
     z-index: -1;
-	background: url(https://chat.cmdpe.link/images/background.jpg);
+	background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -699,7 +699,9 @@ li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="setting"] .css-5wokcq {
 .css-54fgub.acss-1g4myfy > .css-1109xs8 > div:nth-child(1), div[aria-label="助手与会话"] {
 	display: none !important;
 }
-
+.HelloGPT + .css-1chk9wg > div >div:first-child {
+    display: none;
+}
 /* 删除安装浏览器应用（PWA） */
 #pwa-install {
     display: none !important;
@@ -745,15 +747,16 @@ body > div > .acss-1afprqa {
 }
 
 /* 欢迎页面背景色 */
-body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
-	background: none !important;
+body > .css-1f9addb:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
+	/* background: none !important; */
+	background: rgba(241, 241, 241, 0.8) !important;
 }
 /* 欢迎页面logo */
-body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) strong {
+body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) h1 {
     position: relative;
 }
-body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) strong::before {
-    content: 'HelloGPT';
+body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) h1::before {
+    content: 'HelloGPT 给自己一个更聪明的大脑';
     position: absolute;
     top: -3px;
     left: 0px;
@@ -762,7 +765,12 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     font-weight: 700;
 	line-height: 68px;
 }
-body > .css-1jgus78 > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) strong::before {
+body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) h1 * {
+    display: none;
+}
+
+
+/* body > .css-1jgus78 > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) strong::before {
     background: #222;
 	color: #fff !important;
 }
@@ -772,7 +780,7 @@ body > .css-1f9addb > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-chil
 }
 body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) ol li strong::before {
     display: none !important;
-}
+} */
 /* 设置页面背景色 */
 .css-1f4goe4, .css-qx52nb {
     background: none !important;
@@ -966,7 +974,7 @@ body > .css-1f9addb > .css-5m4etf > div:first-child::before, body > .css-1f9addb
     z-index: 1;
     width: 9px;
     height: 9px;
-    background: url(https://chat.cmdpe.link/images/background.jpg);
+    background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
