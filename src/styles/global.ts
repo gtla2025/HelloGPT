@@ -108,10 +108,10 @@ body > div > .css-5m4etf {
 body > div > .css-5m4etf::after {
     content: "";
     position: absolute;
-    top: -9px;
-    bottom: -9px;
-    left: 9px;
-    right: 9px;
+    top: -64px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     z-index: -1;
 	background: url(https://chat.cmdpe.link/images/background.jpg);
     background-repeat: no-repeat;
@@ -140,14 +140,14 @@ body > .css-1f9addb > .css-5m4etf > div:first-child, body > .css-1f9addb > .css-
 	background: none !important;
 }
 body > .css-1f9addb > .css-5m4etf > div:first-child {
-    background: rgba(252, 185, 0, 0.8) !important;
+    background: rgba(6, 147, 227, 0.8) !important;
     border-inline-end: 1px solid #333;
 }
 body > .css-1f9addb > .css-5m4etf > div:first-child * {
     color: #eee !important;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside {
-	background: rgba(252, 185, 0, 0.6) !important;
+	background: rgba(6, 147, 227, 0.6) !important;
     border-inline-end: 1px solid #333;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside * {
@@ -226,13 +226,13 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::after,
 }
 .css-5m4etf > aside::after, .css-5m4etf > div:nth-child(2)::after {
     bottom: -9px;
-} */
+}
 .css-1jgus78 .css-5m4etf > aside::before, .css-1jgus78 .css-5m4etf > aside::after, .css-1jgus78 .css-5m4etf > div:nth-child(2)::before, .css-1jgus78 .css-5m4etf > div:nth-child(2)::after {
     background: #fff !important;
 }
 .css-1f9addb .css-5m4etf > aside::before, .css-1f9addb .css-5m4etf > aside::after, .css-1f9addb .css-5m4etf > div:nth-child(2)::before, .css-1f9addb .css-5m4etf > div:nth-child(2)::after {
     background: #000 !important;
-}
+} */
 
 /* 对话页对话选项卡 */
 .LazyLoad.is-visible > a > div:first-child, a:has(+ .ant-collapse-icon-position-end) > div {
@@ -257,7 +257,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #161616;
 }
 .css-1f9addb .LazyLoad.is-visible > a > div:first-child, .css-1f9addb .LazyLoad.is-visible > a > div:first-child::before, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div::before {
-	background: rgba(252, 185, 0, 1);
+	background: rgba(6, 147, 227, 1);
 }
 .css-1jgus78 .LazyLoad.is-visible > a > div:first-child:hover, .css-1jgus78 .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1jgus78 .LazyLoad.is-visible > a > .acss-14juscs, .css-1jgus78 .LazyLoad.is-visible > a > .acss-14juscs::before {
     background: #79008d !important;
@@ -300,7 +300,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 }
 .css-1f9addb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
-	background: rgba(252, 185, 0, 1) !important;
+	background: rgba(6, 147, 227, 1) !important;
 }
 .css-fr78qt {
     gap: 5px !important;
@@ -349,7 +349,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #111;
 }
 .css-1f9addb .css-1109xs8 > div > .ant-tag {
-	background: rgba(252, 185, 0, 1) !important;
+	background: rgba(6, 147, 227, 1) !important;
 }
 /* 按钮样式 */
 .css-5wokcq, .ant-modal-close, button, .ant-select-selector, .ant-input-number, .ant-input-affix-wrapper, .ant-input-outlined, .ant-input-password, .ant-select-selection-item, .ant-segmented, .ant-segmented-item, .ant-dropdown-menu-submenu-title {
@@ -830,14 +830,17 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 
 /* HelloGPT */
 .HelloGPT {
-	z-index: 20;
-    margin: 0 auto;
-    padding: 5px 0;
+    z-index: 20;
+    margin: 0px auto;
     display: flex;
+    -webkit-box-pack: justify;
     justify-content: space-between;
     width: calc(100% - 18px);
     position: relative;
-	align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 64px;
+    line-height: 64px;
 }
 /* .HelloGPT::before {
     content: "";
@@ -866,23 +869,17 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 }
 .HelloGPT h1::before {
     content: "";
-    background: #000;
+    background: rgb(0, 0, 0);
     position: absolute;
-    top: 6px;
-    bottom: 4px;
-    left: -14px;
-    right: -14px;
+    inset: 14px -14px 14px;
     margin: 0px;
     z-index: -1;
 }
 .HelloGPT h1::after {
-	content: "";
-    background: #000;
+    content: "";
+    background: rgb(0, 0, 0);
     position: absolute;
-    top: 2px;
-    bottom: 0px;
-    left: -10px;
-    right: -10px;
+    inset: 10px -10px 10px;
     z-index: -1;
 }
 .HelloGPT ul {
@@ -907,10 +904,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 .HelloGPT li::before {
     content: "";
     position: absolute;
-    top: -4px;
-    bottom: -4px;
-    left: 4px;
-    right: 4px;
+    inset: 20px 4px;
     opacity: 0;
     z-index: -1;
     background: #79008d;
@@ -918,10 +912,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 .HelloGPT li::after {
     content: "";
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    inset: 17px 7px;
     opacity: 0;
     z-index: -1;
     background: #79008d;
@@ -958,10 +949,10 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     color: #fff;
 }
 body > .css-1f9addb > .HelloGPT {
-    background: rgba(252, 185, 0, 0.8) !important;
+    background: rgba(6, 147, 227, 0.8) !important;
 }
 /* body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after {
-    background: rgba(252, 185, 0, 0.8) !important;
+    background: rgba(6, 147, 227, 0.8) !important;
 } */
 
 @media only screen and (max-width: 1341px) {
