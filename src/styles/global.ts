@@ -328,6 +328,9 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     border-radius: 10px !important;
 	border: 0!important;
 }
+.css-1f9addb .css-5wokcq {
+	color: #666 !important;
+}
 .css-1jgus78 .css-5wokcq:hover {
     color: #fff !important;
     background: #444 !important;
@@ -352,9 +355,6 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     align-items: center !important;
 }
 
-body > .css-1f9addb > .css-5wokcq {
-	color: #666 !important;
-}
 
 /* 新建助手按钮+左侧栏按钮激活颜色 */
 .css-1jgus78 .css-9tjxg1 .css-5wokcq:hover, .css-1jgus78 .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-i3padr {
@@ -766,7 +766,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 	line-height: 68px;
 }
 body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) h1 * {
-    display: none;
+	opacity: 0;
 }
 
 
