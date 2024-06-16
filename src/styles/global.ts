@@ -116,7 +116,7 @@ body > div > .css-5m4etf::after {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(10px);
+    filter: blur(6px);
 }
 .css-1jgus78 > .css-5m4etf, .css-1jgus78 > .css-5m4etf::after {
     background: #222;
@@ -155,7 +155,7 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
     border-block-end: 1px solid #333;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1f9addb #lobe-market-container {
-    background: rgba(241, 241, 241, 0.6) !important;
+    background: rgba(241, 241, 241, 0.8) !important;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
 	border-color: #333 !important;
@@ -394,6 +394,9 @@ body > .css-1f9addb > .css-5wokcq {
 /* 对话主题下移 */
 .css-i80ya5 div[data-testid="virtuoso-scroller"] {
     margin-top: 64px !important;
+}
+.css-i80ya5 div[data-testid="virtuoso-scroller"] > div {
+	top: -64px !important;
 }
 /* 对话框背景色 */
 .css-1jgus78 .acss-1fr3od3 > .css-o3n4io {
@@ -665,12 +668,12 @@ li.ant-dropdown-menu-item-group:hover {
 div > .draggable-panel-top-handle:hover::before, div > .draggable-panel-top-handle:active::before, div > .draggable-panel-right-handle:hover::before, div > .draggable-panel-right-handle:active::before, div > .draggable-panel-left-handle:hover::before, div > .draggable-panel-left-handle:active::before {
     background: #99e640 !important;
 }
-.css-1f9addb > .draggable-panel-toggle > div {
+.css-1f9addb .draggable-panel-toggle > div {
     background: rgba(6, 147, 227, 0.6) !important;
 	border: 0 !important;
 	color: #fff !important;
 }
-.css-1f9addb > .draggable-panel-toggle > div:hover {
+.css-1f9addb .draggable-panel-toggle > div:hover {
     background: rgba(6, 147, 227, 1) !important;
 }
 
@@ -905,7 +908,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 .HelloGPT li::before {
     content: "";
     position: absolute;
-    inset: 20px 4px;
+	inset: 16px 4px;
     opacity: 0;
     z-index: -1;
     background: #79008d;
@@ -913,7 +916,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 .HelloGPT li::after {
     content: "";
     position: absolute;
-    inset: 17px 7px;
+    inset: 13px 7px;
     opacity: 0;
     z-index: -1;
     background: #79008d;
