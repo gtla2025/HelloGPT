@@ -168,7 +168,20 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div > div >aside {
 	border-color: #333 !important;
 }
 
-
+body > .css-1f9addb > .draggable-panel-toggle > div {
+    background: rgba(6, 147, 227, 0.6) !important;
+	border: 0 !important;
+	color: #fff !important;
+}
+body > .css-1f9addb > .draggable-panel-toggle > div:hover {
+    background: rgba(6, 147, 227, 1) !important;
+}
+body > .css-1f9addb > .css-5wokcq {
+	color: #666 !important;
+}
+body > .css-1f9addb #lobe-market-container > div > aside {
+	background: #fff !important;
+}
 
 
 
@@ -182,34 +195,7 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div > div >aside {
 
 
 
-/* 造型切割 */
-body > .css-1f9addb > .css-5m4etf > div:first-child::before, body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    width: 9px;
-    height: 9px;
-    background: url(https://chat.cmdpe.link/images/background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-body > .css-1f9addb > .css-5m4etf > div:first-child::before, .HelloGPT::before, .HelloGPT > div::before {
-    top: 0;
-    left: 0;
-}
-body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before {
-    bottom: 0;
-    left: 0;
-}
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::before, .HelloGPT::after, .HelloGPT > div::after {
-	top: 0;
-	right: 0;
-}
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after {
-	bottom: 0;
-	right: 0;
-}
+
 
 
 
@@ -633,7 +619,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 	box-shadow: none !important;
 }
 .css-1f9addb #lobe-market-container .css-15l7r2q .css-fj3h1o {
-    background: #f1f1f1 !important;
+    background: #fff !important;
 	box-shadow: none !important;
 }
 
@@ -835,12 +821,19 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    width: calc(100% - 18px);
+    width: calc(100% - 0px);
     position: relative;
     -webkit-box-align: center;
     align-items: center;
-    height: 64px;
-    line-height: 64px;
+    height: 60px;
+    line-height: 60px;
+}
+.HelloGPT > div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9px;
+    right: 9px;
 }
 /* .HelloGPT::before {
     content: "";
@@ -936,7 +929,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 }
 
 /* HelloGPT白 */
-.css-1f9addb .HelloGPT {
+.css-1f9addb .HelloGPT > div {
 	border-bottom: 1px solid #333;
 }
 .css-1f9addb .HelloGPT li a {
@@ -954,6 +947,41 @@ body > .css-1f9addb > .HelloGPT {
 /* body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after {
     background: rgba(6, 147, 227, 0.8) !important;
 } */
+
+/* 造型切割 */
+body > .css-1f9addb > .css-5m4etf > div:first-child::before, body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 9px;
+    height: 9px;
+    background: url(https://chat.cmdpe.link/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.HelloGPT > div::before, .HelloGPT > div::after {
+	height: 3px;
+}
+body > .css-1f9addb > .css-5m4etf > div:first-child::before, .HelloGPT::before, .HelloGPT > div::before {
+    top: 0;
+    left: 0;
+}
+body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before {
+    bottom: 0;
+    left: 0;
+}
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::before, .HelloGPT::after, .HelloGPT > div::after {
+	top: 0;
+	right: 0;
+}
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2)::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after {
+	bottom: 0;
+	right: 0;
+}
+
+
+
 
 @media only screen and (max-width: 1341px) {
 /* 	body > div {
