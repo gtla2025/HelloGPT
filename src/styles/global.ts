@@ -365,11 +365,20 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 	background: rgba(241, 241, 241, 0.8) !important;
 }
 /* 右侧角色设定阴影 */
+.acss-1s2s9nk {
+    display: none;
+}
 .acss-gwdivr {
     display: none;
 }
-.acss-wod8yj {
-    border-bottom: 1px solid #333;
+/* 右侧角色设定下边线 */
+.css-1f9addb .css-1p9yj2p > .css-p4qequ {
+    border-bottom: 1px solid #333 !important;
+}
+/* 右侧话题列表 */
+.css-120gwed > .css-o3n4io {
+    border-radius: 20px !important;
+    border: 0 !important;
 }
 /* 对话框背景色 */
 .css-1jgus78 .acss-1fr3od3 > .css-o3n4io {
@@ -443,6 +452,10 @@ div[role='menubar'] > div {
     border-radius: 20px !important;
     border: 0 !important;
 }
+.css-1f9addb .ant-alert-warning {
+	background: rgb(255 87 34 / 20%) !important;
+}
+    
 /* 对话框重新编辑对话 */
 .css-1jgus78 .acss-v66yhe {
     border: 0 !important;
@@ -536,13 +549,13 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 .css-1f9addb .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	/* box-shadow: #eee 0px 0px 0px 1px !important; */
-    background: rgb(255 255 255 / 20%);
+    background: rgb(255 255 255 / 90%);
 }
 .acss-cp5vt4 .ant-tag-borderless {
     background: none !important;
 	backdrop-filter: none !important;
 }
-.css-1f9addb > input::placeholder {
+.css-1f9addb .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
     color: #eee !important;
 }
 /* 助手页hellogpt logo */
@@ -628,9 +641,6 @@ div > .draggable-panel-top-handle:hover::before, div > .draggable-panel-top-hand
 }
 
 /* 删除 */
-.acss-1s2s9nk {
-    display: none !important;
-}
 a[href="https://github.com/lobehub/lobe-chat"] {
   display: none !important;
 }
