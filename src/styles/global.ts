@@ -135,11 +135,10 @@ body > div > .css-5m4etf > div:first-child {
 body > .css-1jgus78 > .css-5m4etf > div:first-child, body > .css-1jgus78 > .css-5m4etf > .css-5m4etf aside, body > .css-1jgus78 > .css-5m4etf > .css-5m4etf > div > div, body > .css-1jgus78 #lobe-market-container > div:nth-child(1), body > .css-1jgus78 #lobe-market-container > div:nth-child(2) > aside, body > .css-1jgus78 > .HelloGPT, body > .css-1jgus78 > .HelloGPT::before, body > .css-1jgus78 > .HelloGPT::after {
     background: #222 !important;
 }
-body > .css-1f9addb > .css-5m4etf > div:first-child, body > .css-1f9addb > .css-5m4etf > .css-5m4etf aside, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div, body > .css-1f9addb #lobe-market-container > div:nth-child(1), body > .css-1f9addb #lobe-market-container > div:nth-child(2) > aside, body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after {
+body > .css-1f9addb > .css-5m4etf > div:first-child, body > .css-1f9addb > .css-5m4etf > .css-5m4etf aside, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div, body > .css-1f9addb #lobe-market-container > div:nth-child(1), body > .css-1f9addb #lobe-market-container > div:nth-child(2) > aside {
     /* background: #fff !important; */
 	background: none !important;
 }
-
 body > .css-1f9addb > .css-5m4etf > div:first-child {
     background: rgba(6, 147, 227, 0.8) !important;
     border-inline-end: 1px solid #333;
@@ -155,9 +154,18 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside * {
     color: #fff !important;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
-    background: rgba(241, 241, 241, 0.6) !important;
-	backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
     border-block-end: 1px solid #333;
+}
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div {
+    background: rgba(241, 241, 241, 0.6) !important;
+}
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
+	border-color: #333 !important;
+}
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div > div >aside {
+	border-color: #333 !important;
 }
 div[data-testid="virtuoso-scroller"] {
     margin-top: 64px !important;
@@ -881,15 +889,17 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 	border-bottom: 1px solid #333;
 }
 .css-1f9addb .HelloGPT li a {
-    color: #000;
+    color: #fff;
 }
 .css-1f9addb .HelloGPT li:hover::after, .css-1f9addb .HelloGPT li:hover::before {
-    background: rgba(6, 147, 227, 0.8) !important;
+    background: #000;
 }
 .css-1f9addb .HelloGPT li:hover a {
     color: #fff;
 }
-
+body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after {
+    background: rgba(6, 147, 227, 0.8) !important;
+}
 
 
 @media only screen and (max-width: 1341px) {
