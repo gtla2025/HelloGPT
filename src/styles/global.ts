@@ -76,7 +76,7 @@ body>.ant-app {
 	justify-content: center;
     padding-bottom: 5px;
 }
-body>.css-1lu2tee:nth-child(1)::before {
+body>.css-1f9addb:nth-child(1)::before {
     content: "";
     position: fixed;
     top: 0;
@@ -86,7 +86,7 @@ body>.css-1lu2tee:nth-child(1)::before {
     z-index: 0;
     background: #111;
 }
-body>.css-xd6w39:nth-child(1)::before {
+body>.css-1jgus78:nth-child(1)::before {
     content: "";
     position: fixed;
     top: 0;
@@ -111,10 +111,10 @@ body>div>.css-5m4etf::after {
     right: 9px;
     z-index: -1;
 }
-.css-xd6w39>.css-5m4etf,.css-xd6w39>.css-5m4etf::after {
+.css-1jgus78>.css-5m4etf,.css-1jgus78>.css-5m4etf::after {
     background: #222;
 }
-.css-1lu2tee>.css-5m4etf,.css-1lu2tee>.css-5m4etf::after {
+.css-1f9addb>.css-5m4etf,.css-1f9addb>.css-5m4etf::after {
     background: #fff;
 }
 
@@ -124,10 +124,10 @@ body>div>.css-5m4etf>div:first-child {
 .css-5m4etf>.css-5m4etf {
 	overflow: initial !important;
 }
-body>.css-xd6w39>.css-5m4etf>div:first-child,body>.css-xd6w39>.css-5m4etf>.css-5m4etf aside,body>.css-xd6w39>.css-5m4etf>.css-5m4etf>div>div,body>.css-xd6w39 #lobe-market-container>div:nth-child(1),body>.css-xd6w39 #lobe-market-container>div:nth-child(2)>aside,body>.css-xd6w39>.HelloGPT,body>.css-xd6w39>.HelloGPT::before,body>.css-xd6w39>.HelloGPT::after {
+body>.css-1jgus78>.css-5m4etf>div:first-child,body>.css-1jgus78>.css-5m4etf>.css-5m4etf aside,body>.css-1jgus78>.css-5m4etf>.css-5m4etf>div>div,body>.css-1jgus78 #lobe-market-container>div:nth-child(1),body>.css-1jgus78 #lobe-market-container>div:nth-child(2)>aside,body>.css-1jgus78>.HelloGPT,body>.css-1jgus78>.HelloGPT::before,body>.css-1jgus78>.HelloGPT::after {
     background: #222 !important;
 }
-body>.css-1lu2tee>.css-5m4etf>div:first-child,body>.css-1lu2tee>.css-5m4etf>.css-5m4etf aside,body>.css-1lu2tee>.css-5m4etf>.css-5m4etf>div>div,body>.css-1lu2tee #lobe-market-container>div:nth-child(1),body>.css-1lu2tee #lobe-market-container>div:nth-child(2)>aside,body>.css-1lu2tee>.HelloGPT,body>.css-1lu2tee>.HelloGPT::before,body>.css-1lu2tee>.HelloGPT::after {
+body>.css-1f9addb>.css-5m4etf>div:first-child,body>.css-1f9addb>.css-5m4etf>.css-5m4etf aside,body>.css-1f9addb>.css-5m4etf>.css-5m4etf>div>div,body>.css-1f9addb #lobe-market-container>div:nth-child(1),body>.css-1f9addb #lobe-market-container>div:nth-child(2)>aside,body>.css-1f9addb>.HelloGPT,body>.css-1f9addb>.HelloGPT::before,body>.css-1f9addb>.HelloGPT::after {
     background: #fff !important;
 }
 
@@ -135,7 +135,7 @@ body>.css-1lu2tee>.css-5m4etf>div:first-child,body>.css-1lu2tee>.css-5m4etf>.css
 .acss-rlur1a {
     box-shadow: none !important;
 }
-.css-xd6w39 a:hover,.css-xd6w39 button:hover {
+.css-1jgus78 a:hover,.css-1jgus78 button:hover {
     color: #fff !important;
 }
 /* 对话页与设置页切割造型 */
@@ -152,10 +152,10 @@ body>.css-1lu2tee>.css-5m4etf>div:first-child,body>.css-1lu2tee>.css-5m4etf>.css
 .css-5m4etf>aside::after,.css-5m4etf>div:nth-child(2)::after {
     bottom: -9px;
 }
-.css-xd6w39 .css-5m4etf>aside::before,.css-xd6w39 .css-5m4etf>aside::after,.css-xd6w39 .css-5m4etf>div:nth-child(2)::before,.css-xd6w39 .css-5m4etf>div:nth-child(2)::after {
+.css-1jgus78 .css-5m4etf>aside::before,.css-1jgus78 .css-5m4etf>aside::after,.css-1jgus78 .css-5m4etf>div:nth-child(2)::before,.css-1jgus78 .css-5m4etf>div:nth-child(2)::after {
     background: #fff !important;
 }
-.css-1lu2tee .css-5m4etf>aside::before,.css-1lu2tee .css-5m4etf>aside::after,.css-1lu2tee .css-5m4etf>div:nth-child(2)::before,.css-1lu2tee .css-5m4etf>div:nth-child(2)::after {
+.css-1f9addb .css-5m4etf>aside::before,.css-1f9addb .css-5m4etf>aside::after,.css-1f9addb .css-5m4etf>div:nth-child(2)::before,.css-1f9addb .css-5m4etf>div:nth-child(2)::after {
     background: #000 !important;
 }
 
@@ -178,22 +178,22 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     right: 6px;
     transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
-.css-xd6w39 .LazyLoad.is-visible>a>div:first-child,.css-xd6w39 .LazyLoad.is-visible>a>div:first-child::before,.css-xd6w39 a:has(+ .ant-collapse-icon-position-end)>div,.css-xd6w39 a:has(+ .ant-collapse-icon-position-end)>div::before {
+.css-1jgus78 .LazyLoad.is-visible>a>div:first-child,.css-1jgus78 .LazyLoad.is-visible>a>div:first-child::before,.css-1jgus78 a:has(+ .ant-collapse-icon-position-end)>div,.css-1jgus78 a:has(+ .ant-collapse-icon-position-end)>div::before {
     background: #161616;
 }
-.css-1lu2tee .LazyLoad.is-visible>a>div:first-child,.css-1lu2tee .LazyLoad.is-visible>a>div:first-child::before,.css-1lu2tee a:has(+ .ant-collapse-icon-position-end)>div,.css-1lu2tee a:has(+ .ant-collapse-icon-position-end)>div::before {
+.css-1f9addb .LazyLoad.is-visible>a>div:first-child,.css-1f9addb .LazyLoad.is-visible>a>div:first-child::before,.css-1f9addb a:has(+ .ant-collapse-icon-position-end)>div,.css-1f9addb a:has(+ .ant-collapse-icon-position-end)>div::before {
     background: #f1f1f1;
 }
-.css-xd6w39 .LazyLoad.is-visible>a>div:first-child:hover,.css-xd6w39 .LazyLoad.is-visible>a>div:first-child:hover::before,.css-xd6w39 .LazyLoad.is-visible>a>.acss-14juscs,.css-xd6w39 .LazyLoad.is-visible>a>.acss-14juscs::before {
+.css-1jgus78 .LazyLoad.is-visible>a>div:first-child:hover,.css-1jgus78 .LazyLoad.is-visible>a>div:first-child:hover::before,.css-1jgus78 .LazyLoad.is-visible>a>.acss-14juscs,.css-1jgus78 .LazyLoad.is-visible>a>.acss-14juscs::before {
     background: #79008d !important;
 }
-.css-1lu2tee .LazyLoad.is-visible>a>div:first-child:hover,.css-1lu2tee .LazyLoad.is-visible>a>div:first-child:hover::before,.css-1lu2tee .LazyLoad.is-visible>a>.acss-1ua72wq,.css-1lu2tee .LazyLoad.is-visible>a>.acss-1ua72wq::before {
+.css-1f9addb .LazyLoad.is-visible>a>div:first-child:hover,.css-1f9addb .LazyLoad.is-visible>a>div:first-child:hover::before,.css-1f9addb .LazyLoad.is-visible>a>.acss-1ua72wq,.css-1f9addb .LazyLoad.is-visible>a>.acss-1ua72wq::before {
     background: #99e640 !important;
 }
-.css-xd6w39 a:has(+ .ant-collapse-icon-position-end)>div:hover,.css-xd6w39 a:has(+ .ant-collapse-icon-position-end)>div:hover::before,.css-xd6w39 a:has(+ .ant-collapse-icon-position-end)>.acss-14juscs,.css-xd6w39 a:has(+ .ant-collapse-icon-position-end)>.acss-14juscs::before {
+.css-1jgus78 a:has(+ .ant-collapse-icon-position-end)>div:hover,.css-1jgus78 a:has(+ .ant-collapse-icon-position-end)>div:hover::before,.css-1jgus78 a:has(+ .ant-collapse-icon-position-end)>.acss-14juscs,.css-1jgus78 a:has(+ .ant-collapse-icon-position-end)>.acss-14juscs::before {
     background: #79008d !important;
 }
-.css-1lu2tee a:has(+ .ant-collapse-icon-position-end)>div:hover,.css-1lu2tee a:has(+ .ant-collapse-icon-position-end)>div:hover::before,.css-1lu2tee a:has(+ .ant-collapse-icon-position-end)>.acss-1ua72wq,.css-1lu2tee a:has(+ .ant-collapse-icon-position-end)>.acss-1ua72wq::before {
+.css-1f9addb a:has(+ .ant-collapse-icon-position-end)>div:hover,.css-1f9addb a:has(+ .ant-collapse-icon-position-end)>div:hover::before,.css-1f9addb a:has(+ .ant-collapse-icon-position-end)>.acss-1ua72wq,.css-1f9addb a:has(+ .ant-collapse-icon-position-end)>.acss-1ua72wq::before {
     background: #99e640 !important;
 }
 .LazyLoad.is-visible>a>div:first-child .acss-1hsh9br:hover {
@@ -204,26 +204,26 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     color: #000 !important;
     background: #eee !important;
 }
-.css-xd6w39 .LazyLoad.is-visible>a>div:first-child>div:last-child {
+.css-1jgus78 .LazyLoad.is-visible>a>div:first-child>div:last-child {
     z-index: 1 !important;
 	color: #666 !important;
 }
-.css-1lu2tee .LazyLoad.is-visible>a>div:first-child>div:last-child {
+.css-1f9addb .LazyLoad.is-visible>a>div:first-child>div:last-child {
     z-index: 1 !important;
 	color: #bbb !important;
 }
-.css-xd6w39 .LazyLoad.is-visible>a>div:first-child>div>div {
+.css-1jgus78 .LazyLoad.is-visible>a>div:first-child>div>div {
     color: #bbb !important;
 }
-.css-1lu2tee .LazyLoad.is-visible>a>div:first-child>div>div {
+.css-1f9addb .LazyLoad.is-visible>a>div:first-child>div>div {
     color: #999 !important;
 }
-.css-xd6w39 .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
+.css-1jgus78 .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
     border-radius: 10px !important;
     background: rgba(255, 255, 255, 0.06) !important;
 	margin: -6px 0 !important;
 }
-.css-1lu2tee .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
+.css-1f9addb .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
     border-radius: 10px !important;
     background: #f1f1f1 !important;
 }
@@ -254,11 +254,11 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     font-weight: 700;
 	opacity: 0;
 }
-.css-xd6w39 .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox::before {
+.css-1jgus78 .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox::before {
     background: #222;
 	color: #fff;
 }
-.css-1lu2tee .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox::before {
+.css-1f9addb .css-9tjxg1.acss-lo0bkt>.layoutkit-flexbox::before {
     background: #fff;
 	color: #000;
 }
@@ -270,10 +270,10 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     padding: 3px 10px;
     border-radius: 10px;
 }
-.css-xd6w39 .css-1109xs8>div>.ant-tag {
+.css-1jgus78 .css-1109xs8>div>.ant-tag {
     background: #111;
 }
-.css-1lu2tee .css-1109xs8>div>.ant-tag {
+.css-1f9addb .css-1109xs8>div>.ant-tag {
     background: #f1f1f1;
 }
 /* 按钮样式 */
@@ -281,11 +281,11 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     border-radius: 10px !important;
 	border: 0!important;
 }
-.css-xd6w39 .css-5wokcq:hover {
+.css-1jgus78 .css-5wokcq:hover {
     color: #fff !important;
     background: #444 !important;
 }
-.css-1lu2tee .css-5wokcq:hover {
+.css-1f9addb .css-5wokcq:hover {
     color: #000 !important;
     background: #FFEB3B !important;
 }
@@ -305,10 +305,10 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     align-items: center !important;
 }
 /* 新建助手按钮+左侧栏按钮激活颜色 */
-.css-xd6w39 .css-9tjxg1 .css-5wokcq:hover,.css-xd6w39 .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-i3padr {
+.css-1jgus78 .css-9tjxg1 .css-5wokcq:hover,.css-1jgus78 .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-i3padr {
     background: #79008d !important;
 }
-.css-1lu2tee .css-9tjxg1 .css-5wokcq:hover,.css-1lu2tee .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-wpp9jw {
+.css-1f9addb .css-9tjxg1 .css-5wokcq:hover,.css-1f9addb .css-zcfm67 .css-5wokcq:hover,.css-zcfm67 .acss-wpp9jw {
     background: #99e640 !important;
 }
 /* 右侧栏话题列表 */
@@ -317,17 +317,17 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     border-radius: 10px !important;
     height: 40px !important;
 }
-.css-xd6w39 [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-12lti30 {
+.css-1jgus78 [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-12lti30 {
     background: #161616 !important;
 }
-.css-1lu2tee [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-41ifly {
+.css-1f9addb [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-41ifly {
     background: rgba(0, 0, 0, 0.06) !important;
 }
 /* 对话框背景色 */
-.css-xd6w39 .acss-1fr3od3>.css-o3n4io {
+.css-1jgus78 .acss-1fr3od3>.css-o3n4io {
     background-color: #161616 !important;
 }
-.css-1lu2tee .acss-1fr3od3>.css-o3n4io {
+.css-1f9addb .acss-1fr3od3>.css-o3n4io {
     background-color: #f1f1f1 !important;
 }
 /* 对话框背圆角 */
@@ -344,40 +344,40 @@ a:has(+ .ant-collapse-icon-position-end)>div {
     border-radius: 20px 10px 20px 20px !important;
 }
 /* 对话框代码高亮 */
-.css-xd6w39 div [data-code-type='highlighter'], .css-xd6w39 .ant-steps-item-description .css-1lumxev {
+.css-1jgus78 div [data-code-type='highlighter'], .css-1jgus78 .ant-steps-item-description .css-1lumxev {
     background: none !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #333 !important;
 	border: 1px solid transparent !important;
 }
-.css-1lu2tee div [data-code-type='highlighter'], .css-1lu2tee .ant-steps-item-description .css-1lumxev {
+.css-1f9addb div [data-code-type='highlighter'], .css-1f9addb .ant-steps-item-description .css-1lumxev {
     background: #fff !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #00000000;
 	border: 1px solid transparent !important;
 }
-.css-xd6w39 div [data-code-type='highlighter']:hover {
+.css-1jgus78 div [data-code-type='highlighter']:hover {
     background: none !important;
 }
-.css-1lu2tee div [data-code-type='highlighter']:hover {
+.css-1f9addb div [data-code-type='highlighter']:hover {
     background: #fff !important;
 }
-.css-xd6w39 div [data-code-type='highlighter']>div:nth-child(1) {
+.css-1jgus78 div [data-code-type='highlighter']>div:nth-child(1) {
 	background: #222 !important;
 }
-.css-1lu2tee div [data-code-type='highlighter']>div:nth-child(1) {
+.css-1f9addb div [data-code-type='highlighter']>div:nth-child(1) {
     background: #333 !important;
 }
-.css-xd6w39 div [data-code-type='highlighter']>div:nth-child(1):hover {
+.css-1jgus78 div [data-code-type='highlighter']>div:nth-child(1):hover {
 	background: #333 !important;
 }
-.css-1lu2tee div [data-code-type='highlighter']>div:nth-child(1):hover {
+.css-1f9addb div [data-code-type='highlighter']>div:nth-child(1):hover {
     background: #79008d !important;
 }
-.css-xd6w39 div [data-code-type='highlighter']>div:nth-child(1)>div:nth-child(3):hover {
+.css-1jgus78 div [data-code-type='highlighter']>div:nth-child(1)>div:nth-child(3):hover {
 	background: #79008d !important;
 }
-.css-1lu2tee div [data-code-type='highlighter']>div:nth-child(1)>div:nth-child(3):hover {
+.css-1f9addb div [data-code-type='highlighter']>div:nth-child(1)>div:nth-child(3):hover {
     background: #99e640 !important;
 }
 
@@ -395,13 +395,13 @@ div[role='menubar']>div {
     border: 0 !important;
 }
 /* 对话框重新编辑对话 */
-.css-xd6w39 .acss-v66yhe {
+.css-1jgus78 .acss-v66yhe {
     border: 0 !important;
     border-radius: 20px !important;
     background: #333 !important;
     padding: 12px !important;
 }
-.css-1lu2tee .acss-xfb8ma {
+.css-1f9addb .acss-xfb8ma {
     border: 0 !important;
     border-radius: 20px !important;
     background: #f1f1f1 !important;
@@ -429,10 +429,10 @@ div[role='menubar']>div {
     padding-inline: 8px 10.6px !important;
     border-radius: 10px !important;	
 }
-.css-xd6w39 .css-1a5hs83.acss-18qdyno>div:last-child {
+.css-1jgus78 .css-1a5hs83.acss-18qdyno>div:last-child {
     background: #161616 !important;
 }
-.css-1lu2tee .css-1a5hs83.acss-18qdyno>div:last-child {
+.css-1f9addb .css-1a5hs83.acss-18qdyno>div:last-child {
     background: #eee !important;
 }
 /* 输入框上方插件按钮 */
@@ -444,11 +444,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 .css-1dbbase {
     padding: 0 16px !important;
 }
-.css-xd6w39 button.ant-btn {
+.css-1jgus78 button.ant-btn {
     background: #79008d !important;
     color: #fff !important;
 }
-.css-1lu2tee button.ant-btn {
+.css-1f9addb button.ant-btn {
     background: #99e640 !important;
     color: #000 !important;
 }
@@ -468,10 +468,10 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     border-radius: 6px !important;
     padding: 2px 5px !important;
 }
-.css-xd6w39 .ant-dropdown-trigger>span.ant-tag-borderless {
+.css-1jgus78 .ant-dropdown-trigger>span.ant-tag-borderless {
     background: #79008d !important;
 }
-.css-1lu2tee .ant-dropdown-trigger>span.ant-tag-borderless {
+.css-1f9addb .ant-dropdown-trigger>span.ant-tag-borderless {
     background: #99e640 !important;
 }
 .ant-dropdown-trigger>span.ant-tag-borderless:hover {
@@ -479,11 +479,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     color: #fff !important;
 }
 /* 左侧栏搜索框 */
-.css-xd6w39 .acss-cp5vt4 .ant-input-affix-wrapper {
+.css-1jgus78 .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	box-shadow: #333 0px 0px 0px 1px !important;
 }
-.css-1lu2tee .acss-cp5vt4 .ant-input-affix-wrapper {
+.css-1f9addb .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	box-shadow: #eee 0px 0px 0px 1px !important;
 }
@@ -502,10 +502,10 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     font-size: 1.6em;
     font-weight: 700;
 }
-.css-xd6w39 #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
+.css-1jgus78 #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
     color: #fff;
 }
-.css-1lu2tee #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
+.css-1f9addb #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)::before {
     color: #111;
 }
 #lobe-market-container>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>svg:first-child {
@@ -522,11 +522,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     align-items: flex-end;
 }
 /* 助手页助手卡片 */
-.css-xd6w39 #lobe-market-container .css-15l7r2q .css-fj3h1o {
+.css-1jgus78 #lobe-market-container .css-15l7r2q .css-fj3h1o {
     background: #161616 !important;
 	box-shadow: none !important;
 }
-.css-1lu2tee #lobe-market-container .css-15l7r2q .css-fj3h1o {
+.css-1f9addb #lobe-market-container .css-15l7r2q .css-fj3h1o {
     background: #f1f1f1 !important;
 	box-shadow: none !important;
 }
@@ -557,10 +557,10 @@ li,.ant-menu-submenu-title {
     border-radius: 10px !important;
     margin-block: 4px !important;
 }
-.css-xd6w39 li.ant-dropdown-menu-item-only-child:hover,.css-xd6w39 li.ant-dropdown-menu-item-active {
+.css-1jgus78 li.ant-dropdown-menu-item-only-child:hover,.css-1jgus78 li.ant-dropdown-menu-item-active {
     background: #161616 !important;
 }
-.css-1lu2tee li.ant-dropdown-menu-item-only-child:hover,.css-1lu2tee li.ant-dropdown-menu-item-active {
+.css-1f9addb li.ant-dropdown-menu-item-only-child:hover,.css-1f9addb li.ant-dropdown-menu-item-active {
     background: #FFEB3B !important;
 }
 li.ant-dropdown-menu-item-group:hover {
@@ -660,11 +660,11 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
     font-weight: 700;
 	line-height: 68px;
 }
-body>.css-xd6w39 >div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
+body>.css-1jgus78 >div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
     background: #222;
 	color: #fff !important;
 }
-body>.css-1lu2tee>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
+body>.css-1f9addb>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2) strong::before {
     background: #fff;
 	color: #000 !important;
 }
@@ -689,16 +689,16 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	background: none !important;
 }
 /* 设置里的选项卡背景色 */
-.css-xd6w39 .ant-collapse-icon-position-start,.css-61jd0t .ant-collapse-icon-position-start {
+.css-1jgus78 .ant-collapse-icon-position-start,.css-61jd0t .ant-collapse-icon-position-start {
 	background: rgba(255, 255, 255, 0.02) !important;
 }
-.css-1lu2tee .ant-collapse-icon-position-start,.css-1acpc37 .ant-collapse-icon-position-start {
+.css-1f9addb .ant-collapse-icon-position-start,.css-1acpc37 .ant-collapse-icon-position-start {
 	background: rgb(0 0 0 / 3%) !important;
 }
-.css-xd6w39 .ant-collapse-icon-position-start>div>.ant-collapse-header,.css-61jd0t .ant-collapse-icon-position-start>div>.ant-collapse-header {
+.css-1jgus78 .ant-collapse-icon-position-start>div>.ant-collapse-header,.css-61jd0t .ant-collapse-icon-position-start>div>.ant-collapse-header {
     background: rgba(255, 255, 255, 0.06) !important;
 }
-.css-1lu2tee .ant-collapse-icon-position-start>div>.ant-collapse-header,.css-1acpc37 .ant-collapse-icon-position-start>div>.ant-collapse-header {
+.css-1f9addb .ant-collapse-icon-position-start>div>.ant-collapse-header,.css-1acpc37 .ant-collapse-icon-position-start>div>.ant-collapse-header {
     background: rgb(0 0 0 / 4%) !important;
 }
 
@@ -828,30 +828,30 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 }
 
 /* HelloGPT黑 */
-.css-xd6w39 .HelloGPT {
+.css-1jgus78 .HelloGPT {
 	border-bottom: 1px solid #333333;
 }
-.css-xd6w39 .HelloGPT li a {
+.css-1jgus78 .HelloGPT li a {
     color: #fff;
 }
-.css-xd6w39 .HelloGPT li:hover::after, .css-xd6w39 .HelloGPT li:hover::before {
+.css-1jgus78 .HelloGPT li:hover::after, .css-1jgus78 .HelloGPT li:hover::before {
     background: #000;
 }
-.css-xd6w39 .HelloGPT li:hover a {
+.css-1jgus78 .HelloGPT li:hover a {
     color: #fff;
 }
 
 /* HelloGPT白 */
-.css-1lu2tee .HelloGPT {
+.css-1f9addb .HelloGPT {
 	border-bottom: 1px solid #dddddd;
 }
-.css-1lu2tee .HelloGPT li a {
+.css-1f9addb .HelloGPT li a {
     color: #000;
 }
-.css-1lu2tee .HelloGPT li:hover::after, .css-1lu2tee .HelloGPT li:hover::before {
+.css-1f9addb .HelloGPT li:hover::after, .css-1f9addb .HelloGPT li:hover::before {
     background: #000;
 }
-.css-1lu2tee .HelloGPT li:hover a {
+.css-1f9addb .HelloGPT li:hover a {
     color: #fff;
 }
 
@@ -883,12 +883,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		right: 0 !important;
 		background: #79008d !important;
 	}	
-	.css-1lu2tee .draggable-panel-toggle-right>div {
+	.css-1f9addb .draggable-panel-toggle-right>div {
 		width: 26px !important;
 		left: 0 !important;
 		background: #99e640 !important;
 	}
-	.css-1lu2tee .draggable-panel-toggle-left>div {
+	.css-1f9addb .draggable-panel-toggle-left>div {
 		width: 26px !important;
 		right: 0 !important;
 		background: #99e640 !important;
@@ -941,7 +941,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
         left: 20px !important;
 		width: 100px !important;
     }
-    .css-xd6w39 .HelloGPT h1 {
+    .css-1jgus78 .HelloGPT h1 {
         left: 10px !important;
     }
 	.HelloGPT h1 img {
@@ -960,13 +960,13 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		top: 4px;
 		bottom: 2px;
 	}
-	.css-xd6w39 .HelloGPT h1::before, .css-xd6w39 .HelloGPT h1::after {
+	.css-1jgus78 .HelloGPT h1::before, .css-1jgus78 .HelloGPT h1::after {
 		opacity: 0;
 	}
-	.css-xd6w39>.HelloGPT {
+	.css-1jgus78>.HelloGPT {
 		border-bottom: 1px solid #fafafa1f !important;
 	}	
-	.css-1lu2tee>.HelloGPT {
+	.css-1f9addb>.HelloGPT {
 		border-bottom: 1px solid #0000001c !important;
 	}	
 	
@@ -998,10 +998,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: #000;
 	} */
 
-	body>.css-xd6w39:first-child>div, body>.css-xd6w39>.HelloGPT, body>.css-xd6w39>.HelloGPT::before, body>.css-xd6w39>.HelloGPT::after, body>.css-xd6w39>.css-1chk9wg>.css-o3n4io, body>.css-xd6w39>.css-1chk9wg>.css-1chk9wg>.css-o3n4io, body>.css-xd6w39>.css-1chk9wg::after, body>.css-xd6w39>.css-o3n4io::after {
+	body>.css-1jgus78:first-child>div, body>.css-1jgus78>.HelloGPT, body>.css-1jgus78>.HelloGPT::before, body>.css-1jgus78>.HelloGPT::after, body>.css-1jgus78>.css-1chk9wg>.css-o3n4io, body>.css-1jgus78>.css-1chk9wg>.css-1chk9wg>.css-o3n4io, body>.css-1jgus78>.css-1chk9wg::after, body>.css-1jgus78>.css-o3n4io::after {
 		background: #000 !important;
 	}
-	body>.css-1lu2tee:first-child>div, body>.css-1lu2tee>.HelloGPT, body>.css-1lu2tee>.HelloGPT::before, body>.css-1lu2tee>.HelloGPT::after, body>.css-1lu2tee>.css-1chk9wg>.css-o3n4io, body>.css-1lu2tee>.css-1chk9wg>.css-1chk9wg>.css-o3n4io, body>.css-1lu2tee>.css-1chk9wg::after, body>.css-1lu2tee>.css-o3n4io::after {
+	body>.css-1f9addb:first-child>div, body>.css-1f9addb>.HelloGPT, body>.css-1f9addb>.HelloGPT::before, body>.css-1f9addb>.HelloGPT::after, body>.css-1f9addb>.css-1chk9wg>.css-o3n4io, body>.css-1f9addb>.css-1chk9wg>.css-1chk9wg>.css-o3n4io, body>.css-1f9addb>.css-1chk9wg::after, body>.css-1f9addb>.css-o3n4io::after {
 		background: #fff !important;
 	}
 	body>.ant-app>.css-o3n4io {
@@ -1011,10 +1011,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		bottom: 16px !important;
 		overflow: inherit !important;
 	}
-	body>.css-xd6w39>.css-o3n4io {
+	body>.css-1jgus78>.css-o3n4io {
 		border-top: 1px solid #fafafa1f !important;
 	}
-	body>.css-1lu2tee>.css-o3n4io {
+	body>.css-1f9addb>.css-o3n4io {
 		border-top: 1px solid #0000001c !important;
 	}
 	body>.ant-app>.css-o3n4io>div>div>.acss-10a45gp {
@@ -1036,10 +1036,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		padding: 3px 0 !important;
 		margin: 0 !important;
 	}	
-	body>.css-xd6w39 .css-1chk9wg>.css-o3n4io {
+	body>.css-1jgus78 .css-1chk9wg>.css-o3n4io {
 		border-bottom: 1px solid #fafafa1f !important;
 	}	
-	body>.css-1lu2tee .css-1chk9wg>.css-o3n4io {
+	body>.css-1f9addb .css-1chk9wg>.css-o3n4io {
 		border-bottom: 1px solid #0000001c !important;
 	}	
 	body>.ant-app>.css-1chk9wg>.css-1chk9wg>.css-o3n4io .css-1lumxev svg {
@@ -1052,12 +1052,12 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	}
 	
 	
-	body>.css-xd6w39 #lobe-mobile-scroll-container>.css-1qrrzv3, body>.css-xd6w39 #lobe-mobile-scroll-container>.css-1fhzdir {
+	body>.css-1jgus78 #lobe-mobile-scroll-container>.css-1qrrzv3, body>.css-1jgus78 #lobe-mobile-scroll-container>.css-1fhzdir {
 		border-radius: 20px !important;
 		background: #161616 !important;
 		margin-bottom: 10px !important;
 	}
-	body>.css-1lu2tee #lobe-mobile-scroll-container>.css-1qrrzv3, body>.css-1lu2tee #lobe-mobile-scroll-container>.css-1fhzdir {
+	body>.css-1f9addb #lobe-mobile-scroll-container>.css-1qrrzv3, body>.css-1f9addb #lobe-mobile-scroll-container>.css-1fhzdir {
 		border-radius: 20px !important;
 		background: #eee !important;
 		margin-bottom: 10px !important;
@@ -1076,10 +1076,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
         align-items: center !important;
 		line-height: 36px !important;
 	}	
-	.css-xd6w39 #lobe-mobile-scroll-container .acss-cp5vt4>.ant-input-affix-wrapper {
+	.css-1jgus78 #lobe-mobile-scroll-container .acss-cp5vt4>.ant-input-affix-wrapper {
 		background: #161616 !important;
 	}
-	.css-1lu2tee #lobe-mobile-scroll-container .acss-cp5vt4>.ant-input-affix-wrapper {
+	.css-1f9addb #lobe-mobile-scroll-container .acss-cp5vt4>.ant-input-affix-wrapper {
 		background: #f1f1f1 !important;
 	}
 	a:has(+ .ant-collapse-icon-position-end)>div {
@@ -1089,10 +1089,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		background: none !important;
 		position: relative !important;
 	}
-    .css-xd6w39 #lobe-mobile-scroll-container>.css-px56x0 {
+    .css-1jgus78 #lobe-mobile-scroll-container>.css-px56x0 {
         border-top: 1px solid #fafafa1f !important;
     }	
-    .css-1lu2tee #lobe-mobile-scroll-container>.css-px56x0 {
+    .css-1f9addb #lobe-mobile-scroll-container>.css-px56x0 {
         border-top: 1px solid #0000001c !important;
     }	
 	#lobe-mobile-scroll-container>.css-px56x0::before {
@@ -1113,10 +1113,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		width: 6px;
 		height: 6px;
 	}
-	.css-xd6w39 #lobe-mobile-scroll-container>.css-px56x0::before, .css-xd6w39 #lobe-mobile-scroll-container>.css-px56x0::after {
+	.css-1jgus78 #lobe-mobile-scroll-container>.css-px56x0::before, .css-1jgus78 #lobe-mobile-scroll-container>.css-px56x0::after {
 		background: #fff;
 	}
-	.css-1lu2tee #lobe-mobile-scroll-container>.css-px56x0::before, .css-1lu2tee #lobe-mobile-scroll-container>.css-px56x0::after {
+	.css-1f9addb #lobe-mobile-scroll-container>.css-px56x0::before, .css-1f9addb #lobe-mobile-scroll-container>.css-px56x0::after {
 		background: #000;
 	}
 	#lobe-mobile-scroll-container>.css-px56x0>div {
@@ -1126,51 +1126,51 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		padding-inline: inherit !important;
 	}
 	
-	.css-xd6w39 #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:first-child {
+	.css-1jgus78 #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:first-child {
 		background: #222 !important;
 	}
-	.css-1lu2tee	#lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:first-child {
+	.css-1f9addb	#lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:first-child {
 		background: #eee !important;
 	}	
-	.css-xd6w39 #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>.ant-input-outlined {
+	.css-1jgus78 #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>.ant-input-outlined {
 		height: 36px !important;
 		background: #222 !important;
 	}
-	.css-1lu2tee #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>.ant-input-outlined {
+	.css-1f9addb #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>.ant-input-outlined {
 		height: 36px !important;
 		background: #eee !important;
 	}
-	.css-xd6w39 #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:last-child {
+	.css-1jgus78 #lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:last-child {
 		background: #79008d !important;
 		color: #fff !important;
 	}
-	.css-1lu2tee	#lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:last-child {
+	.css-1f9addb	#lobe-mobile-scroll-container>.css-px56x0>div:last-child>div>div:last-child {
 		background: #99e640 !important;
 		color: #000 !important;
 	}
-	.css-xd6w39 #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io {
+	.css-1jgus78 #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io {
 		background: #222222;
 		margin-bottom: 10px;
 		border-radius: 20px;
 	}	
-	.css-1lu2tee	#lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io {
+	.css-1f9addb	#lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io {
 		background: #eee;
 		margin-bottom: 10px;
 		border-radius: 20px;
 	}
-	.css-xd6w39 #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div:first-child {
+	.css-1jgus78 #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div:first-child {
 		border-bottom: 1px solid #fafafa1f !important;
 	}
-	.css-1lu2tee #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div:first-child {
+	.css-1f9addb #lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div:first-child {
 		border-bottom: 1px solid #0000001c !important;
 	}
 	#lobe-mobile-scroll-container .ant-form-horizontal>.css-o3n4io>div {
 		background: none !important;
 	}
-	.css-xd6w39 .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
+	.css-1jgus78 .ant-collapse-ghost.ant-collapse-small>div>.ant-collapse-header {
 		background: #161616 !important;
 	}
-	.css-xd6w39 .ant-drawer-content-wrapper>.ant-drawer-content {
+	.css-1jgus78 .ant-drawer-content-wrapper>.ant-drawer-content {
 		background: #161616 !important;
 		width: calc(100% - 10px) !important;
 		margin: 0px 5px !important;
@@ -1179,24 +1179,24 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 	.ant-drawer-content-wrapper {
 		box-shadow: none !important;
 	}
-	.css-1lu2tee .ant-drawer-content-wrapper>.ant-drawer-content {
+	.css-1f9addb .ant-drawer-content-wrapper>.ant-drawer-content {
 		background: #fff !important;
 		width: calc(100% - 10px) !important;
 		margin: 0px 5px !important;
 		border-radius: 20px 20px 0 0 !important;
 	}
-	.css-xd6w39 #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
+	.css-1jgus78 #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
 		background: #161616 !important;
 		box-shadow: none !important;
 	}	
-	.css-1lu2tee #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
+	.css-1f9addb #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
 		background: #f1f1f1 !important;
 		box-shadow: none !important;
 	}	
-	.css-xd6w39 [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1osp3tn {
+	.css-1jgus78 [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1osp3tn {
 		background: #222 !important;
 	}
-	.css-1lu2tee [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1wyfodc {
+	.css-1f9addb [data-testid="virtuoso-item-list"]>div>.css-1u84j5a:hover,.acss-1wyfodc {
 		background: rgba(0, 0, 0, 0.06) !important;
 	}
     div.acss-xqi55h {
@@ -1215,10 +1215,10 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		width: 36px !important;
 		height: 36px !important;
 	}
-	.css-xd6w39 .ant-drawer-content-wrapper .ant-drawer-footer {
+	.css-1jgus78 .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #fafafa1f;
 	}
-	.css-1lu2tee .ant-drawer-content-wrapper .ant-drawer-footer {
+	.css-1f9addb .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #0000001c;
 	}
 	body>div>.HelloGPT+div>h1>strong {
@@ -1229,7 +1229,7 @@ body>div:nth-child(1)>div:nth-child(2)>.css-zlqreh:nth-child(2)>div:nth-child(2)
 		font-size: 30px;
 		font-weight: 700;
 	}	
-	body>.css-1lu2tee>.HelloGPT+div>h1::before {
+	body>.css-1f9addb>.HelloGPT+div>h1::before {
 		color: #000;
 	}	
 	.ant-drawer .ant-drawer-mask {
