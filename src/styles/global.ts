@@ -1256,9 +1256,9 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: #222222;
 		margin-bottom: 10px;
 		border-radius: 20px;
-	}	
+	}
 	.css-2y88ru	#lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io {
-		background: #eee;
+		background: #fff;
 		margin-bottom: 10px;
 		border-radius: 20px;
 	}
@@ -1294,7 +1294,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		box-shadow: none !important;
 	}	
 	.css-2y88ru #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
-		background: #f1f1f1 !important;
+		background: #fff !important;
 		box-shadow: none !important;
 	}	
 	.css-1vnjfxo [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-1osp3tn {
