@@ -119,7 +119,7 @@ body > div > .css-5m4etf::after {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(6px);
+    filter: blur(10px);
 }
 /* .css-1jgus78 > .css-5m4etf, .css-1jgus78 > .css-5m4etf::after {
     background: #222;
@@ -157,7 +157,7 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
     border-block-end: 1px solid #333;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1f9addb #lobe-market-container {
-    background: rgba(241, 241, 241, 0.8) !important;
+    background: rgba(241, 241, 241, 0.7) !important;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
 	border-color: #333 !important;
@@ -1071,14 +1071,16 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
         border-color: inherit !important;
     } */
     body {
-        margin-left: 10px !important;
-        padding-right: 10px !important;
+        margin-left: 5px !important;
+        padding-right: 5px !important;
     }
     body > .ant-app > .css-1chk9wg, body > .ant-app > .css-tks1yl {
-        height: calc(100% - 80px) !important;
+        height: calc(100% - 65px) !important;
 		overflow: inherit !important;
 		z-index: 9;
-		background: rgba(241, 241, 241, 0.8) !important;
+    }
+    body > .css-1f9addb > .css-1chk9wg, body > .ant-app > .css-tks1yl {
+		background: rgba(241, 241, 241, 1) !important;
     }
 	body > .ant-app > .css-1chk9wg::after {
         content: "";
@@ -1104,7 +1106,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		inset: -4px 6px 3px;
 	} */
     .HelloGPT h1 {
-        left: 20px !important;
+        left: 28px !important;
 		width: 100px !important;
     }
     .css-1jgus78 .HelloGPT h1 {
@@ -1171,11 +1173,11 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: #fff !important;
 	} */
 	body > .ant-app > .css-o3n4io {
-		right: auto !important;
-		left: auto !important;
-		width: calc(100% - 20px) !important;
-		bottom: 16px !important;
-		overflow: inherit !important;
+        right: auto !important;
+        left: auto !important;
+        width: calc(100% - 10px) !important;
+        bottom: 5px !important;
+        overflow: inherit !important;
 	}
 	body > .css-1jgus78 > .css-o3n4io {
 		border-top: 1px solid #fafafa1f !important;
