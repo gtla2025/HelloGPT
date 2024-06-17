@@ -1046,7 +1046,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: #000 !important;
     }
     body > .css-2y88ru > .css-1chk9wg, body > .ant-app > .css-tks1yl {
-		background: rgba(241, 241, 241, 1) !important;
+		background: rgba(241, 241, 241, 0.6) !important;
     }
 	body > .css-2y88ru > .css-1chk9wg::after {
 		opacity: 0;
@@ -1096,6 +1096,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
         width: calc(100% - 10px) !important;
         bottom: 5px !important;
         overflow: inherit !important;
+		background: rgba(252, 185, 0, 0.8) !important;
 	}
 	body > .css-1vnjfxo > .css-o3n4io {
 		border-top: 1px solid #fafafa1f !important;
@@ -1106,16 +1107,6 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	body > .ant-app > .css-o3n4io > div > div > .acss-10a45gp {
 		display: none !important;
 	}	
-	body > .ant-app > .css-o3n4io::after {
-		content: "";
-		position: absolute;
-		bottom: -6px;
-		left: 6px;
-		right: 6px;
-		z-index: -1;
-		top: 0;
-	}	
-	
 	
 	
 	body > .ant-app > .css-1chk9wg > .css-o3n4io, body > .ant-app > .css-1chk9wg > .css-1chk9wg > .css-o3n4io {
@@ -1184,30 +1175,43 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
     .css-2y88ru #lobe-mobile-scroll-container > .css-px56x0 {
         border-top: 1px solid #0000001c !important;
     }	
-	#lobe-mobile-scroll-container > .css-px56x0::before {
+	.css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::before, .css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::after, body>.css-1vnjfxo>.css-tks1yl::before, body>.css-1vnjfxo>.css-tks1yl::after {
 		content: "";
 		position: absolute;
-		top: 0px;
-		left: -10px;
-		z-index: -1;
-		width: 6px;
-		height: 6px;
-	}
-	#lobe-mobile-scroll-container > .css-px56x0::after {
-		content: "";
-		position: absolute;
-		top: 0px;
-		right: -10px;
-		z-index: -1;
-		width: 6px;
-		height: 6px;
-	}
-	.css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::before, .css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::after {
+		z-index: 9999;
+		width: 9px;
+		height: 9px;
 		background: #fff;
 	}
-	.css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::before, .css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::after {
-		background: #000;
+	.css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::before, .css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::after, body>.css-2y88ru>.css-tks1yl::before, body>.css-2y88ru>.css-tks1yl::after {
+		content: "";
+		position: absolute;
+		z-index: 9999;
+		width: 9px;
+		height: 9px;
+		background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		background-size: cover;
 	}
+	#lobe-mobile-scroll-container > .css-px56x0::before {
+		top: 0px;
+		left: -10px;
+	}
+	#lobe-mobile-scroll-container > .css-px56x0::after {
+		top: 0px;
+		right: -10px;
+	}
+	body>.ant-app>.css-1chk9wg::before {
+		bottom: 0px;
+		left: 0px;
+	}
+	body>.ant-app>.css-1chk9wg::after {
+		bottom: 0px;
+		right: 0px;
+	}	
+	
 	#lobe-mobile-scroll-container > .css-px56x0 > div {
 		width: 100% !important;
 	}
