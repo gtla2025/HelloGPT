@@ -1079,10 +1079,13 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		overflow: inherit !important;
 		z-index: 9;
     }
+    body > .css-1jgus78 > .css-1chk9wg, body > .ant-app > .css-tks1yl {
+		background: #000 !important;
+    }
     body > .css-1f9addb > .css-1chk9wg, body > .ant-app > .css-tks1yl {
 		background: rgba(241, 241, 241, 1) !important;
     }
-	body > .ant-app > .css-1chk9wg::after {
+	body > .css-1f9addb > .css-1chk9wg::after {
         content: "";
         position: absolute;
         top: -64px;
@@ -1097,14 +1100,14 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	
 	.HelloGPT {
 		width: calc(100% - 0px);
-		/* padding: 2px 0px 5px; */
 	}
-/* 	.HelloGPT::before {
-		inset: 6px -6px 3px;
+	.css-1jgus78 .HelloGPT {
+		background: #000 !important;
 	}
-	.HelloGPT::after {
-		inset: -4px 6px 3px;
-	} */
+	.css-1f9addb .HelloGPT {
+		background: rgba(6, 147, 227, 0.8) !important;
+	}	
+
     .HelloGPT h1 {
         left: 28px !important;
 		width: 100px !important;
@@ -1118,60 +1121,9 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.HelloGPT li:nth-last-child(-n+2) {
 		display: none !important;
 	}
-/* 	.HelloGPT h1::before {
-		background: #161616;
-		top: 8px;
-		bottom: 6px;
-	}	
-	.HelloGPT h1::after {
-		background: #161616;
-		top: 4px;
-		bottom: 2px;
-	} */
 	.css-1jgus78 .HelloGPT h1::before, .css-1jgus78 .HelloGPT h1::after {
 		opacity: 0;
 	}
-/* 	.css-1jgus78 > .HelloGPT {
-		border-bottom: 1px solid #fafafa1f !important;
-	}	
-	.css-1f9addb > .HelloGPT {
-		border-bottom: 1px solid #0000001c !important;
-	} */	
-	
-/* 	body::before {
-		content: "HelloGPT 手机版正在完善中，我是高逼格独裁冷血笑面九头身大魔王...";
-		position: fixed;
-		top: 0;
-		left: 30px;
-		font-size: 16px;
-		color: #fff;
-		z-index: 999;
-		bottom: 0;
-		right: 30px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-family: "hellogpt" !important;
-		line-height: 36px;
-		text-align: center;
-	}
-	body::after {
-		content: "";
-		position: fixed;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		z-index: 996;
-		background: #000;
-	} */
-
-/* 	body > .css-1jgus78:first-child > div, body > .css-1jgus78 > .HelloGPT, body > .css-1jgus78 > .HelloGPT::before, body > .css-1jgus78 > .HelloGPT::after, body > .css-1jgus78 > .css-1chk9wg > .css-o3n4io, body > .css-1jgus78 > .css-1chk9wg > .css-1chk9wg > .css-o3n4io, body > .css-1jgus78 > .css-1chk9wg::after, body > .css-1jgus78 > .css-o3n4io::after {
-		background: #000 !important;
-	}
-	body > .css-1f9addb:first-child > div, body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after, body > .css-1f9addb > .css-1chk9wg > .css-o3n4io, body > .css-1f9addb > .css-1chk9wg > .css-1chk9wg > .css-o3n4io, body > .css-1f9addb > .css-1chk9wg::after, body > .css-1f9addb > .css-o3n4io::after {
-		background: #fff !important;
-	} */
 	body > .ant-app > .css-o3n4io {
         right: auto !important;
         left: auto !important;
