@@ -1038,7 +1038,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	
 	
     body > .ant-app > .css-1chk9wg, body > .ant-app > .css-tks1yl {
-        height: calc(100% - 65px) !important;
+        height: calc(100% - 115px) !important;
 		overflow: inherit !important;
 		z-index: 9;
     }
@@ -1051,14 +1051,14 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	body > .css-2y88ru > .css-1chk9wg::after {
 		opacity: 0;
 	}
-	.LazyLoad.is-visible>a>div:first-child, .css-2y88ru a:has(+ .ant-collapse-icon-position-end)>div {
+	.LazyLoad.is-visible > a > div:first-child, .LazyLoad.is-visible > a > div:first-child::before, a:has(+ .ant-collapse-icon-position-end) > div, a:has(+ .ant-collapse-icon-position-end) > div::before {
 		border-radius: 20px !important;
 		margin: 10px 0 !important;
+		background: rgba(252, 185, 0, 0.8) !important;
 	}
-	.LazyLoad.is-visible>a>div:first-child::before, a:has(+ .ant-collapse-icon-position-end)>div::before {
+	.LazyLoad.is-visible > a > div:first-child, .LazyLoad.is-visible > a > div:first-child::before, a:has(+ .ant-collapse-icon-position-end) > div, a:has(+ .ant-collapse-icon-position-end) > div::before {
 		opacity: 0;
 	}
-	
 	
 	.HelloGPT {
 		width: calc(100% - 0px);
@@ -1093,10 +1093,11 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	body > .ant-app > .css-o3n4io {
         right: auto !important;
         left: auto !important;
-        width: calc(100% - 10px) !important;
-        bottom: 5px !important;
+        width: calc(100% - 0px) !important;
+        bottom: 0px !important;
         overflow: inherit !important;
-		background: rgba(252, 185, 0, 0.8) !important;
+        position: relative !important;
+        background: rgba(241, 241, 241, 0.6) !important;
 	}
 	body > .css-1vnjfxo > .css-o3n4io {
 		border-top: 1px solid #fafafa1f !important;
@@ -1175,7 +1176,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
     .css-2y88ru #lobe-mobile-scroll-container > .css-px56x0 {
         border-top: 1px solid #0000001c !important;
     }	
-	.css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::before, .css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::after, body>.css-1vnjfxo>.css-tks1yl::before, body>.css-1vnjfxo>.css-tks1yl::after {
+	.css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::before, .css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::after, body > .css-1vnjfxo > .css-o3n4io::before, body > .css-1vnjfxo > .css-o3n4io::after {
 		content: "";
 		position: absolute;
 		z-index: 9999;
@@ -1183,7 +1184,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		height: 9px;
 		background: #fff;
 	}
-	.css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::before, .css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::after, body>.css-2y88ru>.css-tks1yl::before, body>.css-2y88ru>.css-tks1yl::after {
+	.css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::before, .css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::after, body > .css-2y88ru > .css-o3n4io::before, body > .css-2y88ru > .css-o3n4io::after {
 		content: "";
 		position: absolute;
 		z-index: 9999;
@@ -1203,11 +1204,11 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		top: 0px;
 		right: -10px;
 	}
-	body>.ant-app>.css-1chk9wg::before {
+	body > .ant-app > .css-o3n4io::before {
 		bottom: 0px;
 		left: 0px;
 	}
-	body>.ant-app>.css-1chk9wg::after {
+	body > .ant-app > .css-o3n4io::after {
 		bottom: 0px;
 		right: 0px;
 	}	
