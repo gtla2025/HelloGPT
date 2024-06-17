@@ -354,7 +354,9 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-px56x0, .css-e7rmh7 {
     align-items: center !important;
 }
-
+.css-5wokcq {
+	transition: none !important;
+}
 
 /* 新建助手按钮+左侧栏按钮激活颜色 */
 .css-1jgus78 .css-9tjxg1 .css-5wokcq:hover, .css-1jgus78 .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-i3padr {
@@ -939,7 +941,10 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 
 /* HelloGPT黑 */
 .css-1jgus78 .HelloGPT {
-	border-bottom: 1px solid #333333;
+	background: #222;
+}
+.css-1jgus78 .HelloGPT > div {
+	border-bottom: 1px solid #333;
 }
 .css-1jgus78 .HelloGPT li a {
     color: #fff;
@@ -952,6 +957,9 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 }
 
 /* HelloGPT白 */
+.css-1f9addb .HelloGPT {
+    background: rgba(6, 147, 227, 0.8) !important;
+}
 .css-1f9addb .HelloGPT > div {
 	border-bottom: 1px solid #333;
 }
@@ -964,18 +972,16 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 .css-1f9addb .HelloGPT li:hover a {
     color: #fff;
 }
-body > .css-1f9addb > .HelloGPT {
-    background: rgba(6, 147, 227, 0.8) !important;
-}
+
 /* body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after {
     background: rgba(6, 147, 227, 0.8) !important;
 } */
 
 /* 造型切割 */
-body > div:first-child > .css-5m4etf > div:first-child::before, body > div:first-child > .css-5m4etf>div:first-child::after, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::before, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::after, body > div:first-child > .css-5m4etf > div:nth-child(2)::before, body > div:first-child > .css-5m4etf > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
+body > div:first-child > .css-5m4etf > div:first-child::before, body > div:first-child > .css-5m4etf>div:first-child::after, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::after, body > div:first-child > .css-5m4etf > div:nth-child(2)::before, body > div:first-child > .css-5m4etf > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
     content: "";
     position: absolute;
-    z-index: 1;
+    z-index: 9999;
     width: 9px;
     height: 9px;
     background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg);
@@ -990,7 +996,7 @@ body > div:first-child > .css-5m4etf > div:first-child::before, .HelloGPT::befor
     top: 0;
     left: 0;
 }
-body > div:first-child > .css-5m4etf>div:first-child::after, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::before {
+body > div:first-child > .css-5m4etf>div:first-child::after {
     bottom: 0;
     left: 0;
 }
