@@ -1070,15 +1070,18 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
         height: calc(100% - 80px) !important;
 		overflow: inherit !important;
 		z-index: 9;
+		background: rgba(241, 241, 241, 0.8) !important;
     }
 	body > .ant-app > .css-1chk9wg::after {
-		content: "";
+        content: "";
         position: absolute;
-        bottom: -6px;
-        left: 6px;
-        right: 6px;
+        top: -64px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
         z-index: -1;
-        top: 0;
+        filter: blur(6px);
+        background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg) 0% 0% / cover no-repeat fixed;
 	}
 	
 	
