@@ -1145,10 +1145,11 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	
 	#lobe-mobile-scroll-container {
 		padding: 10px 10px 0px 10px !important;
+
+	}
+	.css-1chk9wg:nth-child(3) > .css-1chk9wg > #lobe-mobile-scroll-container {
 		display: flex;
         align-items: center;
-        align-content: center;
-
 	}
 /* 	#lobe-mobile-scroll-container > .ant-collapse-icon-position-end * {
 		color: #fff !important;
@@ -1171,7 +1172,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		padding: 0 !important;
 		display: none;
 	}
-	.css-1chk9wg > .css-1chk9wg > #lobe-mobile-scroll-container > div:first-child {
+	.css-1chk9wg:nth-child(3) > .css-1chk9wg > #lobe-mobile-scroll-container > div:first-child {
 		padding: 0 !important;
 		width: calc(100% + 20px);
 	}
