@@ -244,11 +244,10 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-1vnjfxo .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
     background: rgba(255, 255, 255, 0.06) !important;
-	margin: -6px 0 !important;
 }
 .css-2y88ru .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
-	background: rgba(6, 147, 227, 1) !important;
+	background: #fff !important;
 }
 .css-fr78qt {
     gap: 5px !important;
@@ -1054,7 +1053,12 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.LazyLoad.is-visible > a > div:first-child, .LazyLoad.is-visible > a > div:first-child::before, a:has(+ .ant-collapse-icon-position-end) > div, a:has(+ .ant-collapse-icon-position-end) > div::before {
 		border-radius: 20px !important;
 		margin: 10px 0 !important;
-		background: rgba(252, 185, 0, 0.8) !important;
+	}
+	.css-2y88ru .LazyLoad.is-visible > a > div:first-child, .css-2y88ru .LazyLoad.is-visible > a > div:first-child::before, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div::before {
+		background: #ffffff !important;
+	}
+	.css-1vnjfxo .LazyLoad.is-visible>a>div:first-child, .css-1vnjfxo .LazyLoad.is-visible>a>div:first-child::before, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end)>div, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end)>div::before {
+		background: #161616 !important;
 	}
 	.LazyLoad.is-visible > a > div:first-child, .LazyLoad.is-visible > a > div:first-child::before, a:has(+ .ant-collapse-icon-position-end) > div, a:has(+ .ant-collapse-icon-position-end) > div::before {
 		opacity: 0;
@@ -1129,9 +1133,9 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	#lobe-mobile-scroll-container {
 		padding: 10px 10px 0px 10px !important;
 	}
-	#lobe-mobile-scroll-container > .ant-collapse-icon-position-end * {
+/* 	#lobe-mobile-scroll-container > .ant-collapse-icon-position-end * {
 		color: #fff !important;
-	}
+	} */
 	
 	body > .css-1vnjfxo #lobe-mobile-scroll-container > .css-1qrrzv3, body > .css-1vnjfxo #lobe-mobile-scroll-container > .css-1fhzdir {
 		border-radius: 20px !important;
