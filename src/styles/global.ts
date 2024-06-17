@@ -156,10 +156,10 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
     -webkit-backdrop-filter: none !important;
     border-block-end: 1px solid #333;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1f9addb #lobe-market-container {
+body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1f9addb #lobe-market-container, body > .css-1f9addb .css-5m4etf > .css-5m4etf {
     background: rgba(241, 241, 241, 0.7) !important;
 }
-body > .css-1jgus78 > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1jgus78 #lobe-market-container {
+body > .css-1jgus78 > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1jgus78 #lobe-market-container, body > .css-1jgus78 .css-5m4etf > .css-5m4etf {
     background: #222 !important;
 }
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
@@ -729,8 +729,10 @@ body > div > .acss-1afprqa {
 }
 
 /* 欢迎页面背景色 */
+body > .css-1jgus78:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
+	background: #222 !important;
+}
 body > .css-1f9addb:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
-	/* background: none !important; */
 	background: rgba(241, 241, 241, 0.8) !important;
 }
 /* 欢迎页面logo */
@@ -768,13 +770,13 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 	background: none !important;
 }
 /* 设置里的选项卡背景色 */
-.css-1jgus78 > .ant-collapse-icon-position-start, .css-1jgus78 > .ant-collapse-icon-position-start {
+.css-1jgus78 > .ant-collapse-icon-position-start, .css-r0azvr > .ant-collapse-icon-position-start {
 	background: rgba(255, 255, 255, 0.02) !important;
 }
 .css-1f9addb > .ant-collapse-icon-position-start, .css-6likvs > .ant-collapse-icon-position-start {
 	background: rgb(0 0 0 / 3%) !important;
 }
-.css-1jgus78 > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-1jgus78 > .ant-collapse-icon-position-start > div > .ant-collapse-header {
+.css-1jgus78 > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-r0azvr > .ant-collapse-icon-position-start > div > .ant-collapse-header {
     background: rgba(255, 255, 255, 0.06) !important;
 }
 .css-1f9addb > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-6likvs > .ant-collapse-icon-position-start > div > .ant-collapse-header {
@@ -1022,6 +1024,20 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
         margin-left: 5px !important;
         padding-right: 5px !important;
     }
+	body>div:nth-child(1)::after {
+		content: "";
+		position: absolute;
+		top: 5px;
+		bottom: 10px;
+		left: 0px;
+		right: 0px;
+		z-index: 0;
+		-webkit-filter: blur(10px);
+		filter: blur(10px);
+		background: url(https://dl.cmdpe.com/HelloGPT/background.jpg) 0% 0% / cover no-repeat fixed;
+	}
+	
+	
     body > .ant-app > .css-1chk9wg, body > .ant-app > .css-tks1yl {
         height: calc(100% - 65px) !important;
 		overflow: inherit !important;
@@ -1034,15 +1050,14 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: rgba(241, 241, 241, 1) !important;
     }
 	body > .css-1f9addb > .css-1chk9wg::after {
-        content: "";
-        position: absolute;
-        top: -64px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        z-index: -1;
-        filter: blur(10px);
-        background: url(https://dl.cmdpe.com/HelloGPT/background.jpg) 0% 0% / cover no-repeat fixed;
+		opacity: 0;
+	}
+	.LazyLoad.is-visible>a>div:first-child, .css-1f9addb a:has(+ .ant-collapse-icon-position-end)>div {
+		border-radius: 20px !important;
+		margin: 10px 0 !important;
+	}
+	.LazyLoad.is-visible>a>div:first-child::before, a:has(+ .ant-collapse-icon-position-end)>div::before {
+		opacity: 0;
 	}
 	
 	
@@ -1069,7 +1084,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.HelloGPT li:nth-last-child(-n+2) {
 		display: none !important;
 	}
-	.css-1f9addb .HelloGPT > div {
+	.HelloGPT > div {
 		border-bottom: 0 !important;
 	}
 	
