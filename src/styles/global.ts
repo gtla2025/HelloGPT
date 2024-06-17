@@ -96,7 +96,10 @@ body > .css-1jgus78:first-child::before {
     left: 0;
     right: 0;
     z-index: 0;
-    background: #fff;
+	background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 body > div > .css-5m4etf {
     height: calc(100% - 120px);
@@ -118,10 +121,10 @@ body > div > .css-5m4etf::after {
     background-size: cover;
     filter: blur(6px);
 }
-.css-1jgus78 > .css-5m4etf, .css-1jgus78 > .css-5m4etf::after {
+/* .css-1jgus78 > .css-5m4etf, .css-1jgus78 > .css-5m4etf::after {
     background: #222;
 }
-/* .css-1f9addb > .css-5m4etf, .css-1f9addb > .css-5m4etf::after {
+.css-1f9addb > .css-5m4etf, .css-1f9addb > .css-5m4etf::after {
     background: #fff;
 } */
 
@@ -131,11 +134,10 @@ body > div > .css-5m4etf > div:first-child {
 .css-5m4etf > .css-5m4etf {
 	overflow: initial !important;
 }
-body > .css-1jgus78 > .css-5m4etf > div:first-child, body > .css-1jgus78 > .css-5m4etf > .css-5m4etf aside, body > .css-1jgus78 > .css-5m4etf > .css-5m4etf > div > div, body > .css-1jgus78 #lobe-market-container > div:nth-child(1), body > .css-1jgus78 #lobe-market-container > div:nth-child(2) > aside, body > .css-1jgus78 > .HelloGPT, body > .css-1jgus78 > .HelloGPT::before, body > .css-1jgus78 > .HelloGPT::after {
+body > .css-1jgus78 > .css-5m4etf > div:first-child, body > .css-1jgus78 > .css-5m4etf > .css-5m4etf aside, body > .css-1jgus78 > .css-5m4etf > .css-5m4etf > div > div, body > .css-1jgus78 #lobe-market-container > div:nth-child(1), body > .css-1jgus78 #lobe-market-container > div:nth-child(2) > aside {
     background: #222 !important;
 }
 body > .css-1f9addb > .css-5m4etf > div:first-child, body > .css-1f9addb > .css-5m4etf > .css-5m4etf aside, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div, body > .css-1f9addb #lobe-market-container > div:nth-child(1), body > .css-1f9addb #lobe-market-container > div:nth-child(2) > aside {
-    /* background: #fff !important; */
 	background: none !important;
 }
 body > .css-1f9addb > .css-5m4etf > div:first-child {
@@ -169,8 +171,6 @@ body > .css-1f9addb #lobe-market-container > div > aside {
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside * {
     color: #fff !important;
 }
-
-
 
 .acss-rlur1a {
     box-shadow: none !important;
