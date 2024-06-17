@@ -680,9 +680,9 @@ li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="setting"] .css-5wokcq {
 .css-54fgub.acss-1g4myfy > .css-1109xs8 > div:nth-child(1), div[aria-label="助手与会话"] {
 	display: none !important;
 }
-.HelloGPT + .css-1chk9wg > div >div:first-child {
+/* .HelloGPT + .css-1chk9wg > div > div:first-child {
     display: none;
-}
+} */
 /* 删除安装浏览器应用（PWA） */
 #pwa-install {
     display: none !important;
@@ -1158,6 +1158,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	}
 	.css-1chk9wg > .css-1chk9wg > #lobe-mobile-scroll-container > div:first-child {
 		padding: 0 !important;
+		display: none;
 	}
 	#lobe-mobile-scroll-container .acss-cp5vt4 > .ant-input-affix-wrapper {
 		border: 0 !important;
@@ -1174,7 +1175,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: rgb(0 0 0 / 20%) !important;
 	}
 	a:has(+ .ant-collapse-icon-position-end) > div {
-		margin-top: 16px !important;
+		margin-top: 0px !important;
 	}
 	#lobe-mobile-scroll-container > .css-px56x0 {
 		background: none !important;
@@ -1258,7 +1259,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		border-radius: 20px;
 	}
 	.css-2y88ru	#lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io {
-		background: #fff;
+		background: rgba(241, 241, 241, 0.6) !important;
 		margin-bottom: 10px;
 		border-radius: 20px;
 	}
