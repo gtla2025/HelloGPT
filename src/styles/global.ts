@@ -83,7 +83,7 @@ body > div:nth-child(1)::before {
     left: 0;
     right: 0;
     z-index: 0;
-	background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg);
+	background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -96,7 +96,7 @@ body > .css-1jgus78:first-child::before {
     left: 0;
     right: 0;
     z-index: 0;
-	background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg);
+	background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -115,7 +115,7 @@ body > div > .css-5m4etf::after {
     left: 0px;
     right: 0px;
     z-index: -1;
-	background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg);
+	background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -984,7 +984,7 @@ body > div:first-child > .css-5m4etf > div:first-child::before, body > div:first
     z-index: 9999;
     width: 9px;
     height: 9px;
-    background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg);
+    background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -1081,7 +1081,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
         right: 0px;
         z-index: -1;
         filter: blur(6px);
-        background: url(https://raw.githubusercontent.com/gtla2025/SSR/master/background.jpg) 0% 0% / cover no-repeat fixed;
+        background: url(https://dl.cmdpe.com/HelloGPT/background.jpg) 0% 0% / cover no-repeat fixed;
 	}
 	
 	
@@ -1199,6 +1199,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	}	
 	body > .css-1f9addb .css-1chk9wg > .css-o3n4io {
 		border-bottom: 1px solid #0000001c !important;
+		background: none !important;
 	}	
 	body > .ant-app > .css-1chk9wg > .css-1chk9wg > .css-o3n4io .css-1lumxev svg {
 		display: none !important;
@@ -1409,8 +1410,12 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		width: 100% !important;
 	}
 	
-	
-	
+	.css-i80ya5 div[data-testid="virtuoso-scroller"] {
+		margin-top: 0 !important;
+	}	
+	.css-i80ya5 div[data-testid="virtuoso-scroller"] > div {
+		top: 0 !important;
+	}
 	
 	
 }
