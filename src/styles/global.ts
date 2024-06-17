@@ -75,7 +75,7 @@ body > .ant-app {
 	justify-content: center;
     padding-bottom: 5px;
 }
-body > .css-1f9addb:nth-child(1)::before {
+body > div:nth-child(1)::before {
     content: "";
     position: fixed;
     top: 0;
@@ -88,7 +88,7 @@ body > .css-1f9addb:nth-child(1)::before {
     background-attachment: fixed;
     background-size: cover;
 }
-body > .css-1jgus78:nth-child(1)::before {
+body > .css-1jgus78:first-child::before {
     content: "";
     position: fixed;
     top: 0;
@@ -972,7 +972,7 @@ body > .css-1f9addb > .HelloGPT {
 } */
 
 /* 造型切割 */
-body > .css-1f9addb > .css-5m4etf > div:first-child::before, body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after, body > .css-1f9addb > .css-5m4etf > div:nth-child(2)::before, body > .css-1f9addb > .css-5m4etf > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
+body > div:first-child > .css-5m4etf > div:first-child::before, body > div:first-child > .css-5m4etf>div:first-child::after, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::before, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::after, body > div:first-child > .css-5m4etf > div:nth-child(2)::before, body > div:first-child > .css-5m4etf > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -986,19 +986,19 @@ body > .css-1f9addb > .css-5m4etf > div:first-child::before, body > .css-1f9addb
 .HelloGPT > div::before, .HelloGPT > div::after {
 	height: 3px;
 }
-body > .css-1f9addb > .css-5m4etf > div:first-child::before, .HelloGPT::before, .HelloGPT > div::before {
+body > div:first-child > .css-5m4etf > div:first-child::before, .HelloGPT::before, .HelloGPT > div::before {
     top: 0;
     left: 0;
 }
-body > .css-1f9addb > .css-5m4etf>div:first-child::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::before {
+body > div:first-child > .css-5m4etf>div:first-child::after, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::before {
     bottom: 0;
     left: 0;
 }
-body > .css-1f9addb > .css-5m4etf > div:nth-child(2)::before, .HelloGPT::after, .HelloGPT > div::after {
+body > div:first-child > .css-5m4etf > div:nth-child(2)::before, .HelloGPT::after, .HelloGPT > div::after {
 	top: 0;
 	right: 0;
 }
-body > .css-1f9addb > .css-5m4etf > div:nth-child(2)::after, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside::after {
+body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::after {
 	bottom: 0;
 	right: 0;
 }
