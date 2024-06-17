@@ -1070,6 +1070,8 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	
 	.HelloGPT {
 		width: calc(100% - 0px);
+		height: 50px;
+		line-height: 50px;
 	}
 	.css-1vnjfxo .HelloGPT {
 		background: #000 !important;
@@ -1081,6 +1083,8 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
     .HelloGPT h1 {
         left: 28px !important;
 		width: 100px !important;
+        height: 50px;
+        line-height: 46px;
     }
     .css-1vnjfxo .HelloGPT h1 {
         left: 10px !important;
@@ -1090,6 +1094,9 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	}
 	.HelloGPT li:nth-last-child(-n+2) {
 		display: none !important;
+	}
+	.HelloGPT li a {
+		font-size: 14px;
 	}
 	.HelloGPT > div {
 		border-bottom: 0 !important;
@@ -1154,7 +1161,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	}
 	body > .css-2y88ru #lobe-mobile-scroll-container > .css-1qrrzv3, body > .css-2y88ru #lobe-mobile-scroll-container > .css-1fhzdir {
 		border-radius: 20px !important;
-		background: #eee !important;
+		background: #fff !important;
 		margin-bottom: 10px !important;
 	}
 	#lobe-mobile-scroll-container > .acss-la8zcw, #lobe-mobile-scroll-container > .acss-u1xl7d {
