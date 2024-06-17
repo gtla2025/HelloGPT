@@ -73,7 +73,6 @@ body {
 }
 body > .ant-app {
 	justify-content: center;
-    padding-bottom: 5px;
 }
 body > div:nth-child(1)::before {
     content: "";
@@ -1037,7 +1036,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	
 	
     body > .ant-app > .css-1chk9wg, body > .ant-app > .css-tks1yl {
-        height: calc(100% - 115px) !important;
+        height: calc(100% - 110px) !important;
 		overflow: inherit !important;
 		z-index: 9;
     }
