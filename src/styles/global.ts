@@ -88,7 +88,7 @@ body > div:nth-child(1)::before {
     background-attachment: fixed;
     background-size: cover;
 }
-body > .css-1jgus78:first-child::before {
+body > .css-1vnjfxo:first-child::before {
     content: "";
     position: fixed;
     top: 0;
@@ -121,10 +121,10 @@ body > div > .css-5m4etf::after {
     background-size: cover;
     filter: blur(10px);
 }
-/* .css-1jgus78 > .css-5m4etf, .css-1jgus78 > .css-5m4etf::after {
+/* .css-1vnjfxo > .css-5m4etf, .css-1vnjfxo > .css-5m4etf::after {
     background: #222;
 }
-.css-1f9addb > .css-5m4etf, .css-1f9addb > .css-5m4etf::after {
+.css-2y88ru > .css-5m4etf, .css-2y88ru > .css-5m4etf::after {
     background: #fff;
 } */
 
@@ -134,51 +134,51 @@ body > div > .css-5m4etf > div:first-child {
 .css-5m4etf > .css-5m4etf {
 	overflow: initial !important;
 }
-body > .css-1jgus78 > .css-5m4etf > div:first-child, body > .css-1jgus78 > .css-5m4etf > .css-5m4etf aside, body > .css-1jgus78 > .css-5m4etf > .css-5m4etf > div > div, body > .css-1jgus78 #lobe-market-container > div:nth-child(1), body > .css-1jgus78 #lobe-market-container > div:nth-child(2) > aside {
+body > .css-1vnjfxo > .css-5m4etf > div:first-child, body > .css-1vnjfxo > .css-5m4etf > .css-5m4etf aside, body > .css-1vnjfxo > .css-5m4etf > .css-5m4etf > div > div, body > .css-1vnjfxo #lobe-market-container > div:nth-child(1), body > .css-1vnjfxo #lobe-market-container > div:nth-child(2) > aside {
     background: #222 !important;
 }
-body > .css-1f9addb > .css-5m4etf > div:first-child, body > .css-1f9addb > .css-5m4etf > .css-5m4etf aside, body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div, body > .css-1f9addb #lobe-market-container > div:nth-child(1), body > .css-1f9addb #lobe-market-container > div:nth-child(2) > aside {
+body > .css-2y88ru > .css-5m4etf > div:first-child, body > .css-2y88ru > .css-5m4etf > .css-5m4etf aside, body > .css-2y88ru > .css-5m4etf > .css-5m4etf > div > div, body > .css-2y88ru #lobe-market-container > div:nth-child(1), body > .css-2y88ru #lobe-market-container > div:nth-child(2) > aside {
 	background: none !important;
 }
-body > .css-1f9addb > .css-5m4etf > div:first-child {
+body > .css-2y88ru > .css-5m4etf > div:first-child {
     background: rgba(6, 147, 227, 0.8) !important;
     border-inline-end: 1px solid #333;
 }
-body > .css-1f9addb > .css-5m4etf > div:first-child * {
+body > .css-2y88ru > .css-5m4etf > div:first-child * {
     color: #eee !important;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside {
+body > .css-2y88ru > .css-5m4etf > .css-5m4etf > aside {
 	background: rgba(6, 147, 227, 0.6) !important;
     border-inline-end: 1px solid #333;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
+body > .css-2y88ru > .css-5m4etf > .css-5m4etf > div > div:first-child {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     border-block-end: 1px solid #333;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1f9addb #lobe-market-container, body > .css-1f9addb .css-5m4etf > .css-5m4etf {
+body > .css-2y88ru > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-2y88ru #lobe-market-container, body > .css-2y88ru .css-5m4etf > .css-5m4etf {
     background: rgba(241, 241, 241, 0.7) !important;
 }
-body > .css-1jgus78 > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1jgus78 #lobe-market-container, body > .css-1jgus78 .css-5m4etf > .css-5m4etf {
+body > .css-1vnjfxo > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1vnjfxo #lobe-market-container, body > .css-1vnjfxo .css-5m4etf > .css-5m4etf {
     background: #222 !important;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
+body > .css-2y88ru > .css-5m4etf > .css-5m4etf > div > div >aside {
 	border-color: #333 !important;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div > div >aside {
+body > .css-2y88ru > .css-5m4etf > .css-5m4etf > div > div > div >aside {
 	border-color: #333 !important;
 }
-body > .css-1f9addb #lobe-market-container > div > aside {
+body > .css-2y88ru #lobe-market-container > div > aside {
 	background: #fff !important;
 }
-body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside * {
+body > .css-2y88ru > .css-5m4etf > .css-5m4etf > aside * {
     color: #fff !important;
 }
 
 .acss-rlur1a {
     box-shadow: none !important;
 }
-.css-1jgus78 a:hover, .css-1jgus78 button:hover {
+.css-1vnjfxo a:hover, .css-1vnjfxo button:hover {
     color: #fff !important;
 }
 
@@ -201,52 +201,52 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     right: 6px;
     transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
-.css-1jgus78 .LazyLoad.is-visible > a > div:first-child, .css-1jgus78 .LazyLoad.is-visible > a > div:first-child::before, .css-1jgus78 a:has(+ .ant-collapse-icon-position-end) > div, .css-1jgus78 a:has(+ .ant-collapse-icon-position-end) > div::before {
+.css-1vnjfxo .LazyLoad.is-visible > a > div:first-child, .css-1vnjfxo .LazyLoad.is-visible > a > div:first-child::before, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end) > div, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end) > div::before {
     background: #161616;
 }
-.css-1f9addb .LazyLoad.is-visible > a > div:first-child, .css-1f9addb .LazyLoad.is-visible > a > div:first-child::before, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div::before {
+.css-2y88ru .LazyLoad.is-visible > a > div:first-child, .css-2y88ru .LazyLoad.is-visible > a > div:first-child::before, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div::before {
 	background: rgba(6, 147, 227, 1);
 }
-.css-1jgus78 .LazyLoad.is-visible > a > div:first-child:hover, .css-1jgus78 .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1jgus78 .LazyLoad.is-visible > a > .acss-14juscs, .css-1jgus78 .LazyLoad.is-visible > a > .acss-14juscs::before {
+.css-1vnjfxo .LazyLoad.is-visible > a > div:first-child:hover, .css-1vnjfxo .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1vnjfxo .LazyLoad.is-visible > a > .acss-14juscs, .css-1vnjfxo .LazyLoad.is-visible > a > .acss-14juscs::before {
     background: #79008d !important;
 }
-.css-1f9addb .LazyLoad.is-visible > a > div:first-child:hover, .css-1f9addb .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1f9addb .LazyLoad.is-visible > a > .acss-1ua72wq, .css-1f9addb .LazyLoad.is-visible > a > .acss-1ua72wq::before {
+.css-2y88ru .LazyLoad.is-visible > a > div:first-child:hover, .css-2y88ru .LazyLoad.is-visible > a > div:first-child:hover::before, .css-2y88ru .LazyLoad.is-visible > a > .acss-1ua72wq, .css-2y88ru .LazyLoad.is-visible > a > .acss-1ua72wq::before {
 	background: rgb(162 0 189) !important;
 }
-.css-1jgus78 a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-1jgus78 a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-1jgus78 a:has(+ .ant-collapse-icon-position-end) > .acss-14juscs, .css-1jgus78 a:has(+ .ant-collapse-icon-position-end) > .acss-14juscs::before {
+.css-1vnjfxo a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end) > .acss-14juscs, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end) > .acss-14juscs::before {
     background: #79008d !important;
 }
-.css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-1f9addb a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
+.css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
     background: rgb(162 0 189) !important;
 }
-.css-1jgus78 .LazyLoad.is-visible > a > div:first-child .acss-1hsh9br:hover {
+.css-1vnjfxo .LazyLoad.is-visible > a > div:first-child .acss-1hsh9br:hover {
     color: #fff !important;
     background: #333 !important;
 }
-.css-1f9addb .LazyLoad.is-visible > a > div:first-child .acss-1rzhzi1:hover {
+.css-2y88ru .LazyLoad.is-visible > a > div:first-child .acss-1rzhzi1:hover {
     color: #000 !important;
     background: rgb(44 44 44) !important
 }
-.css-1jgus78 .LazyLoad.is-visible > a > div:first-child > div:last-child {
+.css-1vnjfxo .LazyLoad.is-visible > a > div:first-child > div:last-child {
     z-index: 1 !important;
 	color: #666 !important;
 }
-.css-1f9addb  .LazyLoad.is-visible > a > div:first-child > div:last-child {
+.css-2y88ru  .LazyLoad.is-visible > a > div:first-child > div:last-child {
     z-index: 1 !important;
 	color: #bbb !important;
 }
-.css-1jgus78 .LazyLoad.is-visible > a > div:first-child > div > div {
+.css-1vnjfxo .LazyLoad.is-visible > a > div:first-child > div > div {
     color: #bbb !important;
 }
-.css-1f9addb .LazyLoad.is-visible > a > div:first-child > div > div {
+.css-2y88ru .LazyLoad.is-visible > a > div:first-child > div > div {
     color: #999 !important;
 }
-.css-1jgus78 .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
+.css-1vnjfxo .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
     background: rgba(255, 255, 255, 0.06) !important;
 	margin: -6px 0 !important;
 }
-.css-1f9addb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
+.css-2y88ru .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
 	background: rgba(6, 147, 227, 1) !important;
 }
@@ -277,11 +277,11 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     font-weight: 700;
 	opacity: 0;
 }
-.css-1jgus78 .css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox::before {
+.css-1vnjfxo .css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox::before {
     background: #222;
 	color: #fff;
 }
-.css-1f9addb .css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox::before {
+.css-2y88ru .css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox::before {
     background: #fff;
 	color: #000;
 }
@@ -293,10 +293,10 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     padding: 3px 10px;
     border-radius: 10px;
 }
-.css-1jgus78 .css-1109xs8 > div > .ant-tag {
+.css-1vnjfxo .css-1109xs8 > div > .ant-tag {
     background: #111;
 }
-.css-1f9addb .css-1109xs8 > div > .ant-tag {
+.css-2y88ru .css-1109xs8 > div > .ant-tag {
 	background: rgba(6, 147, 227, 1) !important;
 }
 /* 按钮样式 */
@@ -304,14 +304,14 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     border-radius: 10px !important;
 	border: 0!important;
 }
-.css-1f9addb .css-5wokcq {
+.css-2y88ru .css-5wokcq {
 	color: #666 !important;
 }
-.css-1jgus78 .css-5wokcq:hover {
+.css-1vnjfxo .css-5wokcq:hover {
     color: #fff !important;
     background: #444 !important;
 }
-.css-1f9addb .css-5wokcq:hover {
+.css-2y88ru .css-5wokcq:hover {
     color: #fff !important;
     background: rgb(162 0 189) !important;
 }
@@ -335,10 +335,10 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 }
 
 /* 新建助手按钮+左侧栏按钮激活颜色 */
-.css-1jgus78 .css-9tjxg1 .css-5wokcq:hover, .css-1jgus78 .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-i3padr {
+.css-1vnjfxo .css-9tjxg1 .css-5wokcq:hover, .css-1vnjfxo .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-i3padr {
     background: #79008d !important;
 }
-.css-1f9addb .css-9tjxg1 .css-5wokcq:hover, .css-1f9addb .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-wpp9jw {
+.css-2y88ru .css-9tjxg1 .css-5wokcq:hover, .css-2y88ru .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-wpp9jw {
 	background: rgb(162 0 189) !important;
 }
 /* 右侧栏话题列表 */
@@ -347,10 +347,10 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     border-radius: 10px !important;
     height: 40px !important;
 }
-.css-1jgus78 [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-12lti30 {
+.css-1vnjfxo [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-12lti30 {
     background: #161616 !important;
 }
-.css-1f9addb [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-41ifly {
+.css-2y88ru [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-41ifly {
 	background: rgba(0, 0, 0, 0.1) !important;
 }
 /* 右侧角色设定阴影 */
@@ -361,7 +361,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     display: none;
 }
 /* 右侧角色设定下边线 */
-.css-1f9addb .css-1p9yj2p > .css-p4qequ {
+.css-2y88ru .css-1p9yj2p > .css-p4qequ {
     border-bottom: 1px solid #333 !important;
 }
 /* 右侧话题列表 */
@@ -377,10 +377,10 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 	top: -64px !important;
 }
 /* 对话框背景色 */
-.css-1jgus78 .acss-1fr3od3 > .css-o3n4io {
+.css-1vnjfxo .acss-1fr3od3 > .css-o3n4io {
     background-color: #161616 !important;
 }
-.css-1f9addb .acss-1fr3od3 > .css-o3n4io {
+.css-2y88ru .acss-1fr3od3 > .css-o3n4io {
 	background-color: rgb(255 255 255 / 80%) !important;
 }
 
@@ -398,40 +398,40 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     border-radius: 20px 10px 20px 20px !important;
 }
 /* 对话框代码高亮 */
-.css-1jgus78 div [data-code-type='highlighter'], .css-1jgus78 .ant-steps-item-description .css-1lumxev {
+.css-1vnjfxo div [data-code-type='highlighter'], .css-1vnjfxo .ant-steps-item-description .css-1lumxev {
     background: none !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #333 !important;
 	border: 1px solid transparent !important;
 }
-.css-1f9addb div [data-code-type='highlighter'], .css-1f9addb .ant-steps-item-description .css-1lumxev {
+.css-2y88ru div [data-code-type='highlighter'], .css-2y88ru .ant-steps-item-description .css-1lumxev {
     background: #fff !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #00000000;
 	border: 1px solid transparent !important;
 }
-.css-1jgus78 div [data-code-type='highlighter']:hover {
+.css-1vnjfxo div [data-code-type='highlighter']:hover {
     background: none !important;
 }
-.css-1f9addb div [data-code-type='highlighter']:hover {
+.css-2y88ru div [data-code-type='highlighter']:hover {
     background: #fff !important;
 }
-.css-1jgus78 div [data-code-type='highlighter'] > div:nth-child(1) {
+.css-1vnjfxo div [data-code-type='highlighter'] > div:nth-child(1) {
 	background: #222 !important;
 }
-.css-1f9addb div [data-code-type='highlighter'] > div:nth-child(1) {
+.css-2y88ru div [data-code-type='highlighter'] > div:nth-child(1) {
     background: #333 !important;
 }
-.css-1jgus78 div [data-code-type='highlighter'] > div:nth-child(1):hover {
+.css-1vnjfxo div [data-code-type='highlighter'] > div:nth-child(1):hover {
 	background: #333 !important;
 }
-.css-1f9addb div [data-code-type='highlighter'] > div:nth-child(1):hover {
+.css-2y88ru div [data-code-type='highlighter'] > div:nth-child(1):hover {
     background: #79008d !important;
 }
-.css-1jgus78 div [data-code-type='highlighter'] > div:nth-child(1) > div:nth-child(3):hover {
+.css-1vnjfxo div [data-code-type='highlighter'] > div:nth-child(1) > div:nth-child(3):hover {
 	background: #79008d !important;
 }
-.css-1f9addb div [data-code-type='highlighter'] > div:nth-child(1) > div:nth-child(3):hover {
+.css-2y88ru div [data-code-type='highlighter'] > div:nth-child(1) > div:nth-child(3):hover {
     background: #99e640 !important;
 }
 
@@ -448,18 +448,18 @@ div[role='menubar'] > div {
     border-radius: 20px !important;
     border: 0 !important;
 }
-.css-1f9addb .ant-alert-warning {
+.css-2y88ru .ant-alert-warning {
 	background: rgb(255 87 34 / 20%) !important;
 }
     
 /* 对话框重新编辑对话 */
-.css-1jgus78 .acss-v66yhe {
+.css-1vnjfxo .acss-v66yhe {
     border: 0 !important;
     border-radius: 20px !important;
     background: #333 !important;
     padding: 12px !important;
 }
-.css-1f9addb .acss-xfb8ma {
+.css-2y88ru .acss-xfb8ma {
     border: 0 !important;
     border-radius: 20px !important;
     background: #f1f1f1 !important;
@@ -482,7 +482,7 @@ div[role='menubar'] > div {
     background: none !important;
     border-radius: 20px !important;
 }
-.css-1f9addb .ant-input-outlined {
+.css-2y88ru .ant-input-outlined {
     border: 3px solid #efefef !important;
 }
 
@@ -491,10 +491,10 @@ div[role='menubar'] > div {
     padding-inline: 8px 10.6px !important;
     border-radius: 10px !important;	
 }
-.css-1jgus78 .css-1a5hs83.acss-18qdyno > div:last-child {
+.css-1vnjfxo .css-1a5hs83.acss-18qdyno > div:last-child {
     background: #161616 !important;
 }
-.css-1f9addb .css-1a5hs83.acss-18qdyno > div:last-child {
+.css-2y88ru .css-1a5hs83.acss-18qdyno > div:last-child {
     background: #fff !important;
 }
 /* 输入框上方插件按钮 */
@@ -506,11 +506,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 .css-1dbbase {
     padding: 0 16px !important;
 }
-.css-1jgus78 button.ant-btn {
+.css-1vnjfxo button.ant-btn {
     background: #79008d !important;
     color: #fff !important;
 }
-.css-1f9addb button.ant-btn {
+.css-2y88ru button.ant-btn {
     color: rgb(255 255 255) !important;
     background: #a200bd !important;
 }
@@ -530,10 +530,10 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     border-radius: 6px !important;
     padding: 2px 5px !important;
 }
-.css-1jgus78 .ant-dropdown-trigger > span.ant-tag-borderless {
+.css-1vnjfxo .ant-dropdown-trigger > span.ant-tag-borderless {
     background: #79008d !important;
 }
-.css-1f9addb .ant-dropdown-trigger > span.ant-tag-borderless {
+.css-2y88ru .ant-dropdown-trigger > span.ant-tag-borderless {
     color: rgb(255, 255, 255) !important;
     background: rgb(162 0 189) !important;
 }
@@ -542,16 +542,16 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     color: #fff !important;
 }
 /* 搜索框 */
-.css-1jgus78 .acss-cp5vt4 .ant-input-affix-wrapper {
+.css-1vnjfxo .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	box-shadow: #333 0px 0px 0px 1px !important;
 }
-.css-1f9addb .acss-cp5vt4 .ant-input-affix-wrapper {
+.css-2y88ru .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	/* box-shadow: #eee 0px 0px 0px 1px !important; */
     background: rgb(255 255 255 / 30%);
 }
-.css-1f9addb .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
+.css-2y88ru .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
     color: #eee !important;
 }
 .acss-cp5vt4 .ant-tag-borderless {
@@ -559,12 +559,12 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 	backdrop-filter: none !important;
 }
 /* 发现页搜索框 */
-.css-1f9addb #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper {
+.css-2y88ru #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	/* box-shadow: #eee 0px 0px 0px 1px !important; */
     background: rgb(255 255 255 / 60%);
 }
-.css-1f9addb #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
+.css-2y88ru #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
     color: #333 !important;
 }
 
@@ -581,10 +581,10 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     font-size: 1.6em;
     font-weight: 700;
 }
-.css-1jgus78 #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)::before {
+.css-1vnjfxo #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)::before {
     color: #fff;
 }
-.css-1f9addb #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)::before {
+.css-2y88ru #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)::before {
     color: #111;
 }
 #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:first-child {
@@ -601,11 +601,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     align-items: flex-end;
 }
 /* 助手页助手卡片 */
-.css-1jgus78 #lobe-market-container .css-15l7r2q .css-fj3h1o {
+.css-1vnjfxo #lobe-market-container .css-15l7r2q .css-fj3h1o {
     background: #161616 !important;
 	box-shadow: none !important;
 }
-.css-1f9addb #lobe-market-container .css-15l7r2q .css-fj3h1o {
+.css-2y88ru #lobe-market-container .css-15l7r2q .css-fj3h1o {
     background: #fff !important;
 	box-shadow: none !important;
 }
@@ -636,10 +636,10 @@ li, .ant-menu-submenu-title {
     border-radius: 10px !important;
     margin-block: 4px !important;
 }
-.css-1jgus78 li.ant-dropdown-menu-item-only-child:hover, .css-1jgus78 li.ant-dropdown-menu-item-active {
+.css-1vnjfxo li.ant-dropdown-menu-item-only-child:hover, .css-1vnjfxo li.ant-dropdown-menu-item-active {
     background: #161616 !important;
 }
-.css-1f9addb li.ant-dropdown-menu-item-only-child:hover, .css-1f9addb li.ant-dropdown-menu-item-active {
+.css-2y88ru li.ant-dropdown-menu-item-only-child:hover, .css-2y88ru li.ant-dropdown-menu-item-active {
     background: #FFEB3B !important;
 }
 li.ant-dropdown-menu-item-group:hover {
@@ -650,12 +650,12 @@ li.ant-dropdown-menu-item-group:hover {
 div > .draggable-panel-top-handle:hover::before, div > .draggable-panel-top-handle:active::before, div > .draggable-panel-right-handle:hover::before, div > .draggable-panel-right-handle:active::before, div > .draggable-panel-left-handle:hover::before, div > .draggable-panel-left-handle:active::before {
     background: #99e640 !important;
 }
-.css-1f9addb .draggable-panel-toggle > div {
+.css-2y88ru .draggable-panel-toggle > div {
     background: rgba(6, 147, 227, 0.6) !important;
 	border: 0 !important;
 	color: #fff !important;
 }
-.css-1f9addb .draggable-panel-toggle > div:hover {
+.css-2y88ru .draggable-panel-toggle > div:hover {
     background: rgba(6, 147, 227, 1) !important;
 }
 
@@ -729,10 +729,10 @@ body > div > .acss-1afprqa {
 }
 
 /* 欢迎页面背景色 */
-body > .css-1jgus78:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
+body > .css-1vnjfxo:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
 	background: #222 !important;
 }
-body > .css-1f9addb:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
+body > .css-2y88ru:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
 	background: rgba(241, 241, 241, 0.8) !important;
 }
 /* 欢迎页面logo */
@@ -770,16 +770,16 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 	background: none !important;
 }
 /* 设置里的选项卡背景色 */
-.css-1jgus78 > .ant-collapse-icon-position-start, .css-r0azvr > .ant-collapse-icon-position-start {
+.css-1vnjfxo > .ant-collapse-icon-position-start, .css-1epce8b > .ant-collapse-icon-position-start {
 	background: rgba(255, 255, 255, 0.02) !important;
 }
-.css-1f9addb > .ant-collapse-icon-position-start, .css-6likvs > .ant-collapse-icon-position-start {
+.css-2y88ru > .ant-collapse-icon-position-start, .css-10tqi1e > .ant-collapse-icon-position-start {
 	background: rgb(0 0 0 / 3%) !important;
 }
-.css-1jgus78 > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-r0azvr > .ant-collapse-icon-position-start > div > .ant-collapse-header {
+.css-1vnjfxo > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-1epce8b > .ant-collapse-icon-position-start > div > .ant-collapse-header {
     background: rgba(255, 255, 255, 0.06) !important;
 }
-.css-1f9addb > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-6likvs > .ant-collapse-icon-position-start > div > .ant-collapse-header {
+.css-2y88ru > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-10tqi1e > .ant-collapse-icon-position-start > div > .ant-collapse-header {
     background: rgb(0 0 0 / 4%) !important;
 }
 
@@ -890,40 +890,40 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 }
 
 /* HelloGPT黑 */
-.css-1jgus78 .HelloGPT {
+.css-1vnjfxo .HelloGPT {
 	background: #222;
 }
-.css-1jgus78 .HelloGPT > div {
+.css-1vnjfxo .HelloGPT > div {
 	border-bottom: 1px solid #333;
 }
-.css-1jgus78 .HelloGPT li a {
+.css-1vnjfxo .HelloGPT li a {
     color: #fff;
 }
-.css-1jgus78 .HelloGPT li:hover::after, .css-1jgus78 .HelloGPT li:hover::before {
+.css-1vnjfxo .HelloGPT li:hover::after, .css-1vnjfxo .HelloGPT li:hover::before {
     background: #000;
 }
-.css-1jgus78 .HelloGPT li:hover a {
+.css-1vnjfxo .HelloGPT li:hover a {
     color: #fff;
 }
 
 /* HelloGPT白 */
-.css-1f9addb .HelloGPT {
+.css-2y88ru .HelloGPT {
     background: rgba(6, 147, 227, 0.8) !important;
 }
-.css-1f9addb .HelloGPT > div {
+.css-2y88ru .HelloGPT > div {
 	border-bottom: 1px solid #333;
 }
-.css-1f9addb .HelloGPT li a {
+.css-2y88ru .HelloGPT li a {
     color: #fff;
 }
-.css-1f9addb .HelloGPT li:hover::after, .css-1f9addb .HelloGPT li:hover::before {
+.css-2y88ru .HelloGPT li:hover::after, .css-2y88ru .HelloGPT li:hover::before {
     background: #000;
 }
-.css-1f9addb .HelloGPT li:hover a {
+.css-2y88ru .HelloGPT li:hover a {
     color: #fff;
 }
 
-/* body > .css-1f9addb > .HelloGPT, body > .css-1f9addb > .HelloGPT::before, body > .css-1f9addb > .HelloGPT::after {
+/* body > .css-2y88ru > .HelloGPT, body > .css-2y88ru > .HelloGPT::before, body > .css-2y88ru > .HelloGPT::after {
     background: rgba(6, 147, 227, 0.8) !important;
 } */
 
@@ -996,12 +996,12 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		right: 0 !important;
 		background: #79008d !important;
 	}	
-	.css-1f9addb .draggable-panel-toggle-right > div {
+	.css-2y88ru .draggable-panel-toggle-right > div {
 		width: 26px !important;
 		left: 0 !important;
 		background: #99e640 !important;
 	}
-	.css-1f9addb .draggable-panel-toggle-left > div {
+	.css-2y88ru .draggable-panel-toggle-left > div {
 		width: 26px !important;
 		right: 0 !important;
 		background: #99e640 !important;
@@ -1032,7 +1032,6 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		left: 0px;
 		right: 0px;
 		z-index: 0;
-		-webkit-filter: blur(10px);
 		filter: blur(10px);
 		background: url(https://dl.cmdpe.com/HelloGPT/background.jpg) 0% 0% / cover no-repeat fixed;
 	}
@@ -1043,16 +1042,16 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		overflow: inherit !important;
 		z-index: 9;
     }
-    body > .css-1jgus78 > .css-1chk9wg, body > .ant-app > .css-tks1yl {
+    body > .css-1vnjfxo > .css-1chk9wg, body > .ant-app > .css-tks1yl {
 		background: #000 !important;
     }
-    body > .css-1f9addb > .css-1chk9wg, body > .ant-app > .css-tks1yl {
+    body > .css-2y88ru > .css-1chk9wg, body > .ant-app > .css-tks1yl {
 		background: rgba(241, 241, 241, 1) !important;
     }
-	body > .css-1f9addb > .css-1chk9wg::after {
+	body > .css-2y88ru > .css-1chk9wg::after {
 		opacity: 0;
 	}
-	.LazyLoad.is-visible>a>div:first-child, .css-1f9addb a:has(+ .ant-collapse-icon-position-end)>div {
+	.LazyLoad.is-visible>a>div:first-child, .css-2y88ru a:has(+ .ant-collapse-icon-position-end)>div {
 		border-radius: 20px !important;
 		margin: 10px 0 !important;
 	}
@@ -1064,18 +1063,18 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.HelloGPT {
 		width: calc(100% - 0px);
 	}
-	.css-1jgus78 .HelloGPT {
+	.css-1vnjfxo .HelloGPT {
 		background: #000 !important;
 	}
-	.css-1f9addb .HelloGPT {
-		background: rgba(6, 147, 227, 0.8) !important;
+	.css-2y88ru .HelloGPT {
+		background: rgba(252, 185, 0, 0.8) !important;
 	}	
 
     .HelloGPT h1 {
         left: 28px !important;
 		width: 100px !important;
     }
-    .css-1jgus78 .HelloGPT h1 {
+    .css-1vnjfxo .HelloGPT h1 {
         left: 10px !important;
     }
 	.HelloGPT h1 img {
@@ -1088,7 +1087,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		border-bottom: 0 !important;
 	}
 	
-	.css-1jgus78 .HelloGPT h1::before, .css-1jgus78 .HelloGPT h1::after {
+	.css-1vnjfxo .HelloGPT h1::before, .css-1vnjfxo .HelloGPT h1::after {
 		opacity: 0;
 	}
 	body > .ant-app > .css-o3n4io {
@@ -1098,10 +1097,10 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
         bottom: 5px !important;
         overflow: inherit !important;
 	}
-	body > .css-1jgus78 > .css-o3n4io {
+	body > .css-1vnjfxo > .css-o3n4io {
 		border-top: 1px solid #fafafa1f !important;
 	}
-/* 	body > .css-1f9addb > .css-o3n4io {
+/* 	body > .css-2y88ru > .css-o3n4io {
 		border-top: 1px solid #0000001c !important;
 	} */
 	body > .ant-app > .css-o3n4io > div > div > .acss-10a45gp {
@@ -1123,10 +1122,10 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		padding: 3px 0 !important;
 		margin: 0 !important;
 	}	
-	body > .css-1jgus78 .css-1chk9wg > .css-o3n4io {
+	body > .css-1vnjfxo .css-1chk9wg > .css-o3n4io {
 		border-bottom: 1px solid #fafafa1f !important;
 	}	
-	body > .css-1f9addb .css-1chk9wg > .css-o3n4io {
+	body > .css-2y88ru .css-1chk9wg > .css-o3n4io {
 		border-bottom: 1px solid #0000001c !important;
 		background: none !important;
 	}	
@@ -1142,12 +1141,12 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		color: #fff !important;
 	}
 	
-	body > .css-1jgus78 #lobe-mobile-scroll-container > .css-1qrrzv3, body > .css-1jgus78 #lobe-mobile-scroll-container > .css-1fhzdir {
+	body > .css-1vnjfxo #lobe-mobile-scroll-container > .css-1qrrzv3, body > .css-1vnjfxo #lobe-mobile-scroll-container > .css-1fhzdir {
 		border-radius: 20px !important;
 		background: #161616 !important;
 		margin-bottom: 10px !important;
 	}
-	body > .css-1f9addb #lobe-mobile-scroll-container > .css-1qrrzv3, body > .css-1f9addb #lobe-mobile-scroll-container > .css-1fhzdir {
+	body > .css-2y88ru #lobe-mobile-scroll-container > .css-1qrrzv3, body > .css-2y88ru #lobe-mobile-scroll-container > .css-1fhzdir {
 		border-radius: 20px !important;
 		background: #eee !important;
 		margin-bottom: 10px !important;
@@ -1166,10 +1165,10 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
         align-items: center !important;
 		line-height: 36px !important;
 	}	
-	.css-1jgus78 #lobe-mobile-scroll-container .acss-cp5vt4 > .ant-input-affix-wrapper {
+	.css-1vnjfxo #lobe-mobile-scroll-container .acss-cp5vt4 > .ant-input-affix-wrapper {
 		background: #161616 !important;
 	}
-	.css-1f9addb #lobe-mobile-scroll-container .acss-cp5vt4 > .ant-input-affix-wrapper {
+	.css-2y88ru #lobe-mobile-scroll-container .acss-cp5vt4 > .ant-input-affix-wrapper {
 		background: rgb(0 0 0 / 20%) !important;
 	}
 	a:has(+ .ant-collapse-icon-position-end) > div {
@@ -1179,10 +1178,10 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: none !important;
 		position: relative !important;
 	}
-    .css-1jgus78 #lobe-mobile-scroll-container > .css-px56x0 {
+    .css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0 {
         border-top: 1px solid #fafafa1f !important;
     }	
-    .css-1f9addb #lobe-mobile-scroll-container > .css-px56x0 {
+    .css-2y88ru #lobe-mobile-scroll-container > .css-px56x0 {
         border-top: 1px solid #0000001c !important;
     }	
 	#lobe-mobile-scroll-container > .css-px56x0::before {
@@ -1203,10 +1202,10 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		width: 6px;
 		height: 6px;
 	}
-	.css-1jgus78 #lobe-mobile-scroll-container > .css-px56x0::before, .css-1jgus78 #lobe-mobile-scroll-container > .css-px56x0::after {
+	.css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::before, .css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0::after {
 		background: #fff;
 	}
-	.css-1f9addb #lobe-mobile-scroll-container > .css-px56x0::before, .css-1f9addb #lobe-mobile-scroll-container > .css-px56x0::after {
+	.css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::before, .css-2y88ru #lobe-mobile-scroll-container > .css-px56x0::after {
 		background: #000;
 	}
 	#lobe-mobile-scroll-container > .css-px56x0 > div {
@@ -1216,51 +1215,51 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		padding-inline: inherit !important;
 	}
 	
-	.css-1jgus78 #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:first-child {
+	.css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:first-child {
 		background: #222 !important;
 	}
-	.css-1f9addb	#lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:first-child {
+	.css-2y88ru	#lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:first-child {
 		background: #eee !important;
 	}	
-	.css-1jgus78 #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > .ant-input-outlined {
+	.css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > .ant-input-outlined {
 		height: 36px !important;
 		background: #222 !important;
 	}
-	.css-1f9addb #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > .ant-input-outlined {
+	.css-2y88ru #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > .ant-input-outlined {
 		height: 36px !important;
 		background: #eee !important;
 	}
-	.css-1jgus78 #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:last-child {
+	.css-1vnjfxo #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:last-child {
 		background: #79008d !important;
 		color: #fff !important;
 	}
-	.css-1f9addb	#lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:last-child {
+	.css-2y88ru	#lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:last-child {
 		background: #99e640 !important;
 		color: #000 !important;
 	}
-	.css-1jgus78 #lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io {
+	.css-1vnjfxo #lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io {
 		background: #222222;
 		margin-bottom: 10px;
 		border-radius: 20px;
 	}	
-	.css-1f9addb	#lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io {
+	.css-2y88ru	#lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io {
 		background: #eee;
 		margin-bottom: 10px;
 		border-radius: 20px;
 	}
-	.css-1jgus78 #lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io > div:first-child {
+	.css-1vnjfxo #lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io > div:first-child {
 		border-bottom: 1px solid #fafafa1f !important;
 	}
-	.css-1f9addb #lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io > div:first-child {
+	.css-2y88ru #lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io > div:first-child {
 		border-bottom: 1px solid #0000001c !important;
 	}
 	#lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io > div {
 		background: none !important;
 	}
-	.css-1jgus78 .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
+	.css-1vnjfxo .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
 		background: #161616 !important;
 	}
-	.css-1jgus78 .ant-drawer-content-wrapper > .ant-drawer-content {
+	.css-1vnjfxo .ant-drawer-content-wrapper > .ant-drawer-content {
 		background: #161616 !important;
 		width: calc(100% - 10px) !important;
 		margin: 0px 5px !important;
@@ -1269,24 +1268,24 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.ant-drawer-content-wrapper {
 		box-shadow: none !important;
 	}
-	.css-1f9addb .ant-drawer-content-wrapper > .ant-drawer-content {
+	.css-2y88ru .ant-drawer-content-wrapper > .ant-drawer-content {
 		background: #fff !important;
 		width: calc(100% - 10px) !important;
 		margin: 0px 5px !important;
 		border-radius: 20px 20px 0 0 !important;
 	}
-	.css-1jgus78 #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
+	.css-1vnjfxo #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
 		background: #161616 !important;
 		box-shadow: none !important;
 	}	
-	.css-1f9addb #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
+	.css-2y88ru #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
 		background: #f1f1f1 !important;
 		box-shadow: none !important;
 	}	
-	.css-1jgus78 [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-1osp3tn {
+	.css-1vnjfxo [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-1osp3tn {
 		background: #222 !important;
 	}
-	.css-1f9addb [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-1wyfodc {
+	.css-2y88ru [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-1wyfodc {
 		background: rgba(0, 0, 0, 0.06) !important;
 	}
     div.acss-xqi55h {
@@ -1305,10 +1304,10 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		width: 36px !important;
 		height: 36px !important;
 	}
-	.css-1jgus78 .ant-drawer-content-wrapper .ant-drawer-footer {
+	.css-1vnjfxo .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #fafafa1f;
 	}
-	.css-1f9addb .ant-drawer-content-wrapper .ant-drawer-footer {
+	.css-2y88ru .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #0000001c;
 	}
 	body > div > .HelloGPT+div > h1 > strong {
@@ -1319,7 +1318,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		font-size: 30px;
 		font-weight: 700;
 	}	
-	body > .css-1f9addb > .HelloGPT+div > h1::before {
+	body > .css-2y88ru > .HelloGPT+div > h1::before {
 		color: #000;
 	}	
 	.ant-drawer .ant-drawer-mask {
