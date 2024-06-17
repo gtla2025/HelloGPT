@@ -1123,7 +1123,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	#lobe-mobile-scroll-container {
 		padding: 10px 10px 0px 10px !important;
 	}
-	#lobe-mobile-scroll-container * {
+	#lobe-mobile-scroll-container > .ant-collapse-icon-position-end * {
 		color: #fff !important;
 	}
 	
