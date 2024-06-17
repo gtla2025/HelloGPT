@@ -1069,6 +1069,10 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.HelloGPT li:nth-last-child(-n+2) {
 		display: none !important;
 	}
+	.css-1f9addb .HelloGPT > div {
+		border-bottom: 0 !important;
+	}
+	
 	.css-1jgus78 .HelloGPT h1::before, .css-1jgus78 .HelloGPT h1::after {
 		opacity: 0;
 	}
