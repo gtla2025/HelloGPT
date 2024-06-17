@@ -159,6 +159,9 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:first-child {
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1f9addb #lobe-market-container {
     background: rgba(241, 241, 241, 0.7) !important;
 }
+body > .css-1jgus78 > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1jgus78 #lobe-market-container {
+    background: #222 !important;
+}
 body > .css-1f9addb > .css-5m4etf > .css-5m4etf > div > div >aside {
 	border-color: #333 !important;
 }
@@ -178,33 +181,6 @@ body > .css-1f9addb > .css-5m4etf > .css-5m4etf > aside * {
 .css-1jgus78 a:hover, .css-1jgus78 button:hover {
     color: #fff !important;
 }
-
-
-
-
-
-
-
-/* 对话页与设置页切割造型 */
-/* .css-5m4etf > aside::before, .css-5m4etf > aside::after, .css-5m4etf > div:nth-child(2)::before, .css-5m4etf > div:nth-child(2)::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    width: 9px;
-    height: 9px;
-}
-.css-5m4etf > aside::before, .css-5m4etf > div:nth-child(2)::before {
-    top: -9px;
-}
-.css-5m4etf > aside::after, .css-5m4etf > div:nth-child(2)::after {
-    bottom: -9px;
-}
-.css-1jgus78 .css-5m4etf > aside::before, .css-1jgus78 .css-5m4etf > aside::after, .css-1jgus78 .css-5m4etf > div:nth-child(2)::before, .css-1jgus78 .css-5m4etf > div:nth-child(2)::after {
-    background: #fff !important;
-}
-.css-1f9addb .css-5m4etf > aside::before, .css-1f9addb .css-5m4etf > aside::after, .css-1f9addb .css-5m4etf > div:nth-child(2)::before, .css-1f9addb .css-5m4etf > div:nth-child(2)::after {
-    background: #000 !important;
-} */
 
 /* 对话页对话选项卡 */
 .LazyLoad.is-visible > a > div:first-child, a:has(+ .ant-collapse-icon-position-end) > div {
@@ -774,19 +750,6 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) h1 * {
 	opacity: 0;
 }
-
-
-/* body > .css-1jgus78 > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) strong::before {
-    background: #222;
-	color: #fff !important;
-}
-body > .css-1f9addb > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) strong::before {
-    background: #fff;
-	color: #000 !important;
-}
-body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-child(2) ol li strong::before {
-    display: none !important;
-} */
 /* 设置页面背景色 */
 .css-1f4goe4, .css-qx52nb {
     background: none !important;
@@ -860,21 +823,6 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     inset: 0px 9px;
     z-index: -1;
 }
-/* .HelloGPT::before {
-    content: "";
-    position: absolute;
-    top: 9px;
-    bottom: 3px;
-    left: -9px;
-    right: -9px;
-    z-index: -1;
-}
-.HelloGPT::after {
-    content: "";
-    position: absolute;
-    inset: -4px 9px 3px;
-    z-index: -2;
-} */
 .HelloGPT h1 {
 	margin: 0;
     width: 138px;
@@ -1134,9 +1082,9 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	body > .css-1jgus78 > .css-o3n4io {
 		border-top: 1px solid #fafafa1f !important;
 	}
-	body > .css-1f9addb > .css-o3n4io {
+/* 	body > .css-1f9addb > .css-o3n4io {
 		border-top: 1px solid #0000001c !important;
-	}
+	} */
 	body > .ant-app > .css-o3n4io > div > div > .acss-10a45gp {
 		display: none !important;
 	}	
@@ -1171,7 +1119,9 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	#lobe-mobile-scroll-container {
 		padding: 10px 10px 0px 10px !important;
 	}
-	
+	#lobe-mobile-scroll-container * {
+		color: #fff !important;
+	}
 	
 	body > .css-1jgus78 #lobe-mobile-scroll-container > .css-1qrrzv3, body > .css-1jgus78 #lobe-mobile-scroll-container > .css-1fhzdir {
 		border-radius: 20px !important;
@@ -1201,7 +1151,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: #161616 !important;
 	}
 	.css-1f9addb #lobe-mobile-scroll-container .acss-cp5vt4 > .ant-input-affix-wrapper {
-		background: #f1f1f1 !important;
+		background: rgb(0 0 0 / 20%) !important;
 	}
 	a:has(+ .ant-collapse-icon-position-end) > div {
 		margin-top: 16px !important;
