@@ -1060,9 +1060,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.css-1vnjfxo .LazyLoad.is-visible>a>div:first-child, .css-1vnjfxo .LazyLoad.is-visible>a>div:first-child::before, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end)>div, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end)>div::before {
 		background: #161616 !important;
 	}
-	.LazyLoad.is-visible > a > div:first-child, .LazyLoad.is-visible > a > div:first-child::before, a:has(+ .ant-collapse-icon-position-end) > div, a:has(+ .ant-collapse-icon-position-end) > div::before {
-		opacity: 0;
-	}
+
 	
 	.HelloGPT {
 		width: calc(100% - 0px);
@@ -1101,14 +1099,16 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
         bottom: 0px !important;
         overflow: inherit !important;
         position: relative !important;
-        background: rgba(241, 241, 241, 0.6) !important;
+
 	}
 	body > .css-1vnjfxo > .css-o3n4io {
 		border-top: 1px solid #fafafa1f !important;
+		background: #000 !important;
 	}
-/* 	body > .css-2y88ru > .css-o3n4io {
+	body > .css-2y88ru > .css-o3n4io {
 		border-top: 1px solid #0000001c !important;
-	} */
+		background: rgba(241, 241, 241, 0.6) !important;
+	}
 	body > .ant-app > .css-o3n4io > div > div > .acss-10a45gp {
 		display: none !important;
 	}	
