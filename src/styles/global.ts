@@ -978,7 +978,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 } */
 
 /* 造型切割 */
-body > div:first-child > .css-5m4etf > div:first-child::before, body > div:first-child > .css-5m4etf>div:first-child::after, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::after, body > div:first-child > .css-5m4etf > div:nth-child(2)::before, body > div:first-child > .css-5m4etf > div:nth-child(2)::after, .HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after {
+.HelloGPT::before, .HelloGPT::after, .HelloGPT > div::before, .HelloGPT > div::after, .HelloGPT > div > div::before, .HelloGPT > div > div::after, body > div:first-child > .css-5m4etf > div:first-child::after, body > div:first-child > .css-5m4etf > .css-5m4etf > aside::after,body > div:first-child > .css-5m4etf > div:nth-child(2)::after {
     content: "";
     position: absolute;
     z-index: 9999;
@@ -989,18 +989,19 @@ body > div:first-child > .css-5m4etf > div:first-child::before, body > div:first
     background-attachment: fixed;
     background-size: cover;
 }
+
 .HelloGPT > div::before, .HelloGPT > div::after {
 	height: 3px;
 }
-body > div:first-child > .css-5m4etf > div:first-child::before, .HelloGPT::before, .HelloGPT > div::before {
+.HelloGPT::before, .HelloGPT > div::before {
     top: 0;
     left: 0;
 }
-body > div:first-child > .css-5m4etf>div:first-child::after {
+body > div:first-child > .css-5m4etf > div:first-child::after {
     bottom: 0;
     left: 0;
 }
-body > div:first-child > .css-5m4etf > div:nth-child(2)::before, .HelloGPT::after, .HelloGPT > div::after {
+.HelloGPT::after, .HelloGPT > div::after {
 	top: 0;
 	right: 0;
 }
@@ -1008,7 +1009,14 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	bottom: 0;
 	right: 0;
 }
-
+.HelloGPT > div > div::before {
+	left: -9px;
+	bottom: -9px;
+}
+.HelloGPT > div > div::after {
+	right: -9px;
+	bottom: -9px;
+}
 
 
 
@@ -1080,7 +1088,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
         left: 0px;
         right: 0px;
         z-index: -1;
-        filter: blur(6px);
+        filter: blur(10px);
         background: url(https://dl.cmdpe.com/HelloGPT/background.jpg) 0% 0% / cover no-repeat fixed;
 	}
 	
