@@ -247,7 +247,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 }
 .css-2y88ru .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
-	background: #fff !important;
+	background: rgba(6, 147, 227, 1) !important;
 }
 .css-fr78qt {
     gap: 5px !important;
@@ -1049,6 +1049,12 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
     }
 	body > .css-2y88ru > .css-1chk9wg::after {
 		opacity: 0;
+	}
+	.css-1vnjfxo .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
+		background: rgba(255, 255, 255, 0.06) !important;
+	}
+	.css-2y88ru .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
+		background: #fff !important;
 	}
 	.LazyLoad.is-visible > a > div:first-child, .LazyLoad.is-visible > a > div:first-child::before, a:has(+ .ant-collapse-icon-position-end) > div, a:has(+ .ant-collapse-icon-position-end) > div::before {
 		border-radius: 20px !important;
