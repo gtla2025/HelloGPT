@@ -1044,7 +1044,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: #000 !important;
     }
     body > .css-2y88ru > .css-1chk9wg, body > .ant-app > .css-tks1yl {
-		background: rgba(241, 241, 241, 0.6) !important;
+		background: rgba(241, 241, 241, 0.8) !important;
     }
 	body > .css-2y88ru > .css-1chk9wg::after {
 		opacity: 0;
@@ -1065,8 +1065,15 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.css-1vnjfxo .LazyLoad.is-visible>a>div:first-child, .css-1vnjfxo .LazyLoad.is-visible>a>div:first-child::before, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end)>div, .css-1vnjfxo a:has(+ .ant-collapse-icon-position-end)>div::before {
 		background: #161616 !important;
 	}
+	.css-2y88ru .LazyLoad.is-visible > a > div:first-child:hover, .css-2y88ru .LazyLoad.is-visible > a > div:first-child:hover::before, .css-2y88ru .LazyLoad.is-visible > a > .acss-1ua72wq, .css-2y88ru .LazyLoad.is-visible > a > .acss-1ua72wq::before {
+		background: rgba(252, 185, 0, 1) !important;
+	}
+	.css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
+		background: rgba(252, 185, 0, 1) !important;
+		color: #fff !important;
+	}
 
-	
+
 	.HelloGPT {
 		width: calc(100% - 0px);
 		height: 50px;
@@ -1098,7 +1105,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		font-size: 14px;
 	}
 	.HelloGPT > div {
-		border-bottom: 0 !important;
+		border-bottom: 1px solid #fff !important;
 	}
 	
 	.css-1vnjfxo .HelloGPT h1::before, .css-1vnjfxo .HelloGPT h1::after {
@@ -1134,7 +1141,6 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		border-bottom: 1px solid #fafafa1f !important;
 	}	
 	body > .css-2y88ru .css-1chk9wg > .css-o3n4io {
-		border-bottom: 1px solid #fff !important;
 		background: rgba(252, 185, 0, 0.8) !important;
 	}
 	body>.css-2y88ru .css-1chk9wg>.css-o3n4io * {
