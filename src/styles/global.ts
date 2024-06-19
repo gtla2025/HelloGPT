@@ -155,7 +155,7 @@ body > .css-2y88ru > .css-5m4etf > .css-5m4etf > div > div:first-child {
     -webkit-backdrop-filter: none !important;
     border-block-end: 1px solid #333;
 }
-body > .css-2y88ru > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-2y88ru #lobe-market-container, body > .css-2y88ru .css-5m4etf > .css-5m4etf {
+body > .css-2y88ru > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-2y88ru #lobe-market-container {
     background: rgba(241, 241, 241, 0.7) !important;
 }
 body > .css-1vnjfxo > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1vnjfxo #lobe-market-container, body > .css-1vnjfxo .css-5m4etf > .css-5m4etf {
@@ -1025,7 +1025,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	body>div:nth-child(1)::after {
 		content: "";
 		position: absolute;
-		top: 5px;
+		top: 106px;
 		bottom: 10px;
 		left: 0px;
 		right: 0px;
@@ -1134,10 +1134,12 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		border-bottom: 1px solid #fafafa1f !important;
 	}	
 	body > .css-2y88ru .css-1chk9wg > .css-o3n4io {
-/* 		border-bottom: 1px solid #0000001c !important;
-		background: none !important; */
+		border-bottom: 1px solid #fff !important;
 		background: rgba(252, 185, 0, 0.8) !important;
-	}	
+	}
+	body>.css-2y88ru .css-1chk9wg>.css-o3n4io * {
+		color: #fff !important;
+	}
 	body > .ant-app > .css-1chk9wg > .css-1chk9wg > .css-o3n4io .css-1lumxev svg {
 		display: none !important;
 	}	
