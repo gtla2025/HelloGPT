@@ -975,11 +975,11 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 }
 @media (max-width: 1365px) {
 	body {
-		margin-left: 20px !important;
-		padding-right: 20px !important;
+		margin-left: 10px !important;
+		padding-right: 10px !important;
 	}
 	body > div > .css-5m4etf {
-		height: calc(100% - 100px) !important;
+		height: calc(100% - 80px) !important;
 	}
 	.draggable-panel-toggle-right, .draggable-panel-toggle-left {
 		opacity: 1 !important;
@@ -1070,7 +1070,6 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	}
 	.css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-2y88ru a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
 		background: rgba(252, 185, 0, 1) !important;
-		color: #fff !important;
 	}
 
 
