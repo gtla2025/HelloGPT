@@ -679,6 +679,9 @@ li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="setting"] .css-5wokcq {
 .css-54fgub.acss-1g4myfy > .css-1109xs8 > div:nth-child(1), div[aria-label="助手与会话"] {
 	display: none !important;
 }
+.css-17ac8s .css-1a5hs83.acss-18qdyno > div:nth-last-child(2) {
+    display: none;
+}
 /* .HelloGPT + .css-1chk9wg > div > div:first-child {
     display: none;
 } */
@@ -1025,7 +1028,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	body>div:nth-child(1)::after {
 		content: "";
 		position: absolute;
-		top: 106px;
+		top: 15px;
 		bottom: 10px;
 		left: 0px;
 		right: 0px;
@@ -1104,7 +1107,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		font-size: 14px;
 	}
 	.HelloGPT > div {
-		border-bottom: 1px solid #fff !important;
+		border-bottom: 0 !important;
 	}
 	
 	.css-zslvaa .HelloGPT h1::before, .css-zslvaa .HelloGPT h1::after {
