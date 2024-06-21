@@ -679,7 +679,7 @@ li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="setting"] .css-5wokcq {
 .css-54fgub.acss-1g4myfy > .css-1109xs8 > div:nth-child(1), div[aria-label="助手与会话"] {
 	display: none !important;
 }
-.css-17ac8s .css-1a5hs83.acss-18qdyno > div:nth-last-child(2) {
+.css-1a5hs83.acss-18qdyno > div:nth-last-child(2) {
     display: none;
 }
 /* .HelloGPT + .css-1chk9wg > div > div:first-child {
