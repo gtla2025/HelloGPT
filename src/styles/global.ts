@@ -48,11 +48,11 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 }
 @font-face {
     font-family: 'hellogpt';
-    src: url('https://pan.yyej.com/f/v5WsP/WenYue-ShengHuoJiaTi-J.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/gtla2025/SSR/master/WenYue-ShengHuoJiaTi-J.woff') format('woff');
 }
 @font-face {
     font-family: 'JosefinSans';
-    src: url('https://pan.yyej.com/f/YL9fv/JosefinSans-Light.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/gtla2025/SSR/master/JosefinSans-Light.woff') format('woff');
 }
 .acss-396ofq, .acss-qmdfvd, .acss-1539fd4 {
     line-height: 1.2 !important;
@@ -374,26 +374,22 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-i80ya5 div[data-testid="virtuoso-scroller"] > div {
 	top: -64px !important;
 }
-/* 对话框背景色 */
-.css-zslvaa .acss-1fr3od3 > .css-o3n4io {
+/* 对话框背景色圆角 */
+.css-zslvaa .css-roa2v7 > .css-o3n4io {
     background-color: #161616 !important;
+	border-radius: 10px 20px 20px !important;
 }
-.css-17ac8s .acss-1fr3od3 > .css-o3n4io {
+.css-zslvaa .css-4preuj > .css-o3n4io {
+    background-color: #161616 !important;
+	border-radius: 20px 10px 20px 20px !important;
+}
+.css-17ac8s .css-roa2v7 > .css-o3n4io {
+    background-color: rgb(255 255 255 / 80%) !important;
+	border-radius: 10px 20px 20px !important;
+}
+.css-17ac8s .css-4preuj > .css-o3n4io {
 	background-color: rgb(255 255 255 / 80%) !important;
-}
-
-/* 对话框背圆角 */
-.acss-1fr3od3 > .acss-12mj41h {
-    border-radius: 10px 20px 20px !important;
-}
-.css-roa2v7 > .acss-9nl0uq {
-    border-radius: 10px 20px 20px !important;
-}
-.acss-1fr3od3 > .acss-1xfxwg6 {
-    border-radius: 20px 10px 20px 20px !important;
-}
-.css-4preuj > .acss-9nl0uq {
-    border-radius: 20px 10px 20px 20px !important;
+	border-radius: 20px 10px 20px 20px !important;
 }
 /* 对话框代码高亮 */
 .css-zslvaa div [data-code-type='highlighter'], .css-zslvaa .ant-steps-item-description .css-1lumxev {
