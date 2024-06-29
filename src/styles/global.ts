@@ -48,11 +48,11 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 }
 @font-face {
     font-family: 'hellogpt';
-    src: url('https://dl.cmdpe.com/HelloGPT/WenYue-ShengHuoJiaTi-J.woff') format('woff');
+    src: url('https://pan.yyej.com/f/v5WsP/WenYue-ShengHuoJiaTi-J.woff') format('woff');
 }
 @font-face {
     font-family: 'JosefinSans';
-    src: url('https://dl.cmdpe.com/HelloGPT/JosefinSans-Light.woff') format('woff');
+    src: url('https://pan.yyej.com/f/YL9fv/JosefinSans-Light.woff') format('woff');
 }
 .acss-396ofq, .acss-qmdfvd, .acss-1539fd4 {
     line-height: 1.2 !important;
