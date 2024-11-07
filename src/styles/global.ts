@@ -64,6 +64,12 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
+
+
+
+
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -173,7 +179,7 @@ body > div > .css-5m4etf > div:first-child {
 body > .css-1mqleeb > .css-5m4etf > div:first-child, body > .css-1mqleeb > .css-5m4etf > .css-5m4etf aside, body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > div > div, body > .css-1mqleeb #lobe-market-container > div:nth-child(1), body > .css-1mqleeb #lobe-market-container > div:nth-child(2) > aside {
     background: #222 !important;
 }
-body > .css-gcermr > .css-5m4etf > div:first-child, body > .css-gcermr > .css-5m4etf > .css-5m4etf aside, body > .css-gcermr > .css-5m4etf > .css-5m4etf > div > div, body > .css-gcermr #lobe-market-container > div:nth-child(1), body > .css-gcermr #lobe-market-container > div:nth-child(2) > aside {
+body > .css-gcermr > .css-5m4etf > div:first-child, body > .css-gcermr > .css-5m4etf > .css-5m4etf aside, body > .css-gcermr #lobe-market-container > div:nth-child(1), body > .css-gcermr #lobe-market-container > div:nth-child(2) > aside {
 	background: none !important;
 }
 body > .css-gcermr > .css-5m4etf > div:first-child {
@@ -380,6 +386,11 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 [data-testid="virtuoso-item-list"] > div > .css-1b6ro1o {
     background: none !important;
     box-shadow: none !important;
+}
+.css-1mqleeb [data-testid="virtuoso-item-list"] > div > .css-1b6ro1o {
+	color: #000 !important;
+}
+.css-gcermr [data-testid="virtuoso-item-list"] > div > .css-1b6ro1o {
 }
 /* 右侧栏话题列表 */
 [data-testid="virtuoso-item-list"] > div > .css-1u84j5a {
@@ -607,6 +618,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 /* 助手页标题栏 */
 .css-gcermr .css-1chk9wg > div:nth-child(1), .css-gcermr .css-1chk9wg > div:nth-child(2) {
 	background: none !important;
+	border-bottom: 0 !important;
 }
 .css-1mqleeb .css-1chk9wg > div:nth-child(1), .css-1mqleeb .css-1chk9wg > div:nth-child(2) {
 	background: #222 !important;
@@ -754,7 +766,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > svg {
     display: none !important;
 }
 /* 删除侧栏按钮 */
-body > div > .css-5m4etf > div:nth-child(1) > div:nth-child(1) {
+body > div > .css-5m4etf > div:nth-child(1) > div:nth-child(2) {
     display: none !important;
 }
 body > div > .css-5m4etf > div:nth-child(1) a[href="/files"] {
@@ -1454,14 +1466,6 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 
 
 `;
-
-
-
-
-
-
-
-
 
 
 
