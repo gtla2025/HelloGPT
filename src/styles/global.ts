@@ -349,9 +349,9 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .ant-btn-block {
     width: auto !important;
 }
-.css-px56x0, .css-e7rmh7 {
+/* .css-px56x0, .css-e7rmh7 {
     align-items: center !important;
-}
+} */
 .css-5wokcq {
 	transition: none !important;
 }
@@ -597,11 +597,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 } */
 
 /* 助手页背景色 */
-.css-1mqleeb .css-1chk9wg {
-	background: #fff !important;
-}
-.css-gcermr .css-1chk9wg {
+.css-1mqleeb > .css-5m4etf > .css-1chk9wg {
 	background: #222 !important;
+}
+.css-gcermr > .css-5m4etf > .css-1chk9wg {
+	background: #fff !important;
 }
 
 
