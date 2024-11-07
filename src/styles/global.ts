@@ -52,6 +52,11 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
+
+
+
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -148,7 +153,7 @@ body > div > .css-5m4etf::after {
 /* .css-1mqleeb > .css-5m4etf, .css-1mqleeb > .css-5m4etf::after {
     background: #222;
 }
-.css-1mqleeb > .css-5m4etf, .css-1mqleeb > .css-5m4etf::after {
+.css-gcermr > .css-5m4etf, .css-gcermr > .css-5m4etf::after {
     background: #fff;
 } */
 
@@ -161,41 +166,41 @@ body > div > .css-5m4etf > div:first-child {
 body > .css-1mqleeb > .css-5m4etf > div:first-child, body > .css-1mqleeb > .css-5m4etf > .css-5m4etf aside, body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > div > div, body > .css-1mqleeb #lobe-market-container > div:nth-child(1), body > .css-1mqleeb #lobe-market-container > div:nth-child(2) > aside {
     background: #222 !important;
 }
-body > .css-1mqleeb > .css-5m4etf > div:first-child, body > .css-1mqleeb > .css-5m4etf > .css-5m4etf aside, body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > div > div, body > .css-1mqleeb #lobe-market-container > div:nth-child(1), body > .css-1mqleeb #lobe-market-container > div:nth-child(2) > aside {
+body > .css-gcermr > .css-5m4etf > div:first-child, body > .css-gcermr > .css-5m4etf > .css-5m4etf aside, body > .css-gcermr > .css-5m4etf > .css-5m4etf > div > div, body > .css-gcermr #lobe-market-container > div:nth-child(1), body > .css-gcermr #lobe-market-container > div:nth-child(2) > aside {
 	background: none !important;
 }
-body > .css-1mqleeb > .css-5m4etf > div:first-child {
+body > .css-gcermr > .css-5m4etf > div:first-child {
     background: rgba(6, 147, 227, 0.8) !important;
     border-inline-end: 1px solid #333;
 }
-body > .css-1mqleeb > .css-5m4etf > div:first-child * {
+body > .css-gcermr > .css-5m4etf > div:first-child * {
     color: #eee !important;
 }
-body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > aside {
+body > .css-gcermr > .css-5m4etf > .css-5m4etf > aside {
 	background: rgba(6, 147, 227, 0.6) !important;
     border-inline-end: 1px solid #333;
 }
-body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > div > div:first-child {
+body > .css-gcermr > .css-5m4etf > .css-5m4etf > div > div:first-child {
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
     border-block-end: 1px solid #333;
 }
-body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1mqleeb #lobe-market-container {
+body > .css-gcermr > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-gcermr #lobe-market-container {
     background: rgba(241, 241, 241, 0.7) !important;
 }
 body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > div > div:nth-child(2), body > .css-1mqleeb #lobe-market-container, body > .css-1mqleeb .css-5m4etf > .css-5m4etf {
     background: #222 !important;
 }
-body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > div > div >aside {
+body > .css-gcermr > .css-5m4etf > .css-5m4etf > div > div >aside {
 	border-color: #333 !important;
 }
-body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > div > div > div >aside {
+body > .css-gcermr > .css-5m4etf > .css-5m4etf > div > div > div >aside {
 	border-color: #333 !important;
 }
-body > .css-1mqleeb #lobe-market-container > div > aside {
+body > .css-gcermr #lobe-market-container > div > aside {
 	background: #fff !important;
 }
-body > .css-1mqleeb > .css-5m4etf > .css-5m4etf > aside * {
+body > .css-gcermr > .css-5m4etf > .css-5m4etf > aside * {
     color: #fff !important;
 }
 
@@ -228,26 +233,26 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-1mqleeb .LazyLoad.is-visible > a > div:first-child, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div::before {
     background: #161616;
 }
-.css-1mqleeb .LazyLoad.is-visible > a > div:first-child, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div::before {
+.css-gcermr .LazyLoad.is-visible > a > div:first-child, .css-gcermr .LazyLoad.is-visible > a > div:first-child::before, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div::before {
 	background: rgba(6, 147, 227, 1);
 }
 .css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1mqleeb .LazyLoad.is-visible > a > .acss-14juscs, .css-1mqleeb .LazyLoad.is-visible > a > .acss-14juscs::before {
     background: #79008d !important;
 }
-.css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1mqleeb .LazyLoad.is-visible > a > .acss-1ua72wq, .css-1mqleeb .LazyLoad.is-visible > a > .acss-1ua72wq::before {
+.css-gcermr .LazyLoad.is-visible > a > div:first-child:hover, .css-gcermr .LazyLoad.is-visible > a > div:first-child:hover::before, .css-gcermr .LazyLoad.is-visible > a > .acss-1ua72wq, .css-gcermr .LazyLoad.is-visible > a > .acss-1ua72wq::before {
 	background: rgb(162 0 189) !important;
 }
 .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-14juscs, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-14juscs::before {
     background: #79008d !important;
 }
-.css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
+.css-gcermr a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
     background: rgb(162 0 189) !important;
 }
 .css-1mqleeb .LazyLoad.is-visible > a > div:first-child .acss-1hsh9br:hover {
     color: #fff !important;
     background: #333 !important;
 }
-.css-1mqleeb .LazyLoad.is-visible > a > div:first-child .acss-1rzhzi1:hover {
+.css-gcermr .LazyLoad.is-visible > a > div:first-child .acss-1rzhzi1:hover {
     color: #000 !important;
     background: rgb(44 44 44) !important
 }
@@ -255,21 +260,21 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     z-index: 1 !important;
 	color: #666 !important;
 }
-.css-1mqleeb  .LazyLoad.is-visible > a > div:first-child > div:last-child {
+.css-gcermr  .LazyLoad.is-visible > a > div:first-child > div:last-child {
     z-index: 1 !important;
 	color: #bbb !important;
 }
 .css-1mqleeb .LazyLoad.is-visible > a > div:first-child > div > div {
     color: #bbb !important;
 }
-.css-1mqleeb .LazyLoad.is-visible > a > div:first-child > div > div {
+.css-gcermr .LazyLoad.is-visible > a > div:first-child > div > div {
     color: #999 !important;
 }
 .css-1mqleeb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
     background: rgba(255, 255, 255, 0.06) !important;
 }
-.css-1mqleeb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
+.css-gcermr .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
 	background: rgba(6, 147, 227, 1) !important;
 }
@@ -304,7 +309,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #222;
 	color: #fff;
 }
-.css-1mqleeb .css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox::before {
+.css-gcermr .css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox::before {
     background: #fff;
 	color: #000;
 }
@@ -319,7 +324,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-1mqleeb .css-1109xs8 > div > .ant-tag {
     background: #111;
 }
-.css-1mqleeb .css-1109xs8 > div > .ant-tag {
+.css-gcermr .css-1109xs8 > div > .ant-tag {
 	background: rgba(6, 147, 227, 1) !important;
 }
 /* 按钮样式 */
@@ -327,14 +332,14 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     border-radius: 10px !important;
 	border: 0!important;
 }
-.css-1mqleeb .css-5wokcq {
+.css-gcermr .css-5wokcq {
 	color: #666 !important;
 }
 .css-1mqleeb .css-5wokcq:hover {
     color: #fff !important;
     background: #444 !important;
 }
-.css-1mqleeb .css-5wokcq:hover {
+.css-gcermr .css-5wokcq:hover {
     color: #fff !important;
     background: rgb(162 0 189) !important;
 }
@@ -361,7 +366,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-1mqleeb .css-9tjxg1 .css-5wokcq:hover, .css-1mqleeb .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-i3padr {
     background: #79008d !important;
 }
-.css-1mqleeb .css-9tjxg1 .css-5wokcq:hover, .css-1mqleeb .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-wpp9jw {
+.css-gcermr .css-9tjxg1 .css-5wokcq:hover, .css-gcermr .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-wpp9jw {
 	background: rgb(162 0 189) !important;
 }
 /* 右侧栏话题列表 */
@@ -373,7 +378,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-1mqleeb [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-12lti30 {
     background: #161616 !important;
 }
-.css-1mqleeb [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-41ifly {
+.css-gcermr [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-41ifly {
 	background: rgba(0, 0, 0, 0.1) !important;
 }
 /* 右侧角色设定阴影 */
@@ -384,7 +389,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     display: none;
 }
 /* 右侧角色设定下边线 */
-.css-1mqleeb .css-1p9yj2p > .css-p4qequ {
+.css-gcermr .css-1p9yj2p > .css-p4qequ {
     border-bottom: 1px solid #333 !important;
 }
 /* 右侧话题列表 */
@@ -408,11 +413,11 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background-color: #161616 !important;
 	border-radius: 20px 10px 20px 20px !important;
 }
-.css-1mqleeb .css-roa2v7 > .css-o3n4io {
+.css-gcermr .css-roa2v7 > .css-o3n4io {
     background-color: rgb(255 255 255 / 80%) !important;
 	border-radius: 10px 20px 20px !important;
 }
-.css-1mqleeb .css-4preuj > .css-o3n4io {
+.css-gcermr .css-4preuj > .css-o3n4io {
 	background-color: rgb(255 255 255 / 80%) !important;
 	border-radius: 20px 10px 20px 20px !important;
 }
@@ -423,7 +428,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 	box-shadow: 0 0 0 1px #333 !important;
 	border: 1px solid transparent !important;
 }
-.css-1mqleeb div [data-code-type='highlighter'], .css-1mqleeb .ant-steps-item-description .css-1lumxev {
+.css-gcermr div [data-code-type='highlighter'], .css-gcermr .ant-steps-item-description .css-1lumxev {
     background: #fff !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #00000000;
@@ -432,25 +437,25 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-1mqleeb div [data-code-type='highlighter']:hover {
     background: none !important;
 }
-.css-1mqleeb div [data-code-type='highlighter']:hover {
+.css-gcermr div [data-code-type='highlighter']:hover {
     background: #fff !important;
 }
 .css-1mqleeb div [data-code-type='highlighter'] > div:nth-child(1) {
 	background: #222 !important;
 }
-.css-1mqleeb div [data-code-type='highlighter'] > div:nth-child(1) {
+.css-gcermr div [data-code-type='highlighter'] > div:nth-child(1) {
     background: #333 !important;
 }
 .css-1mqleeb div [data-code-type='highlighter'] > div:nth-child(1):hover {
 	background: #333 !important;
 }
-.css-1mqleeb div [data-code-type='highlighter'] > div:nth-child(1):hover {
+.css-gcermr div [data-code-type='highlighter'] > div:nth-child(1):hover {
     background: #79008d !important;
 }
 .css-1mqleeb div [data-code-type='highlighter'] > div:nth-child(1) > div:nth-child(3):hover {
 	background: #79008d !important;
 }
-.css-1mqleeb div [data-code-type='highlighter'] > div:nth-child(1) > div:nth-child(3):hover {
+.css-gcermr div [data-code-type='highlighter'] > div:nth-child(1) > div:nth-child(3):hover {
     background: #99e640 !important;
 }
 
@@ -467,7 +472,7 @@ div[role='menubar'] > div {
     border-radius: 20px !important;
     border: 0 !important;
 }
-.css-1mqleeb .ant-alert-warning {
+.css-gcermr .ant-alert-warning {
 	background: rgb(255 87 34 / 20%) !important;
 }
     
@@ -478,7 +483,7 @@ div[role='menubar'] > div {
     background: #333 !important;
     padding: 12px !important;
 }
-.css-1mqleeb .acss-xfb8ma {
+.css-gcermr .acss-xfb8ma {
     border: 0 !important;
     border-radius: 20px !important;
     background: #f1f1f1 !important;
@@ -501,7 +506,7 @@ div[role='menubar'] > div {
     background: none !important;
     border-radius: 20px !important;
 }
-.css-1mqleeb .ant-input-outlined {
+.css-gcermr .ant-input-outlined {
     border: 3px solid #efefef !important;
 }
 
@@ -513,7 +518,7 @@ div[role='menubar'] > div {
 .css-1mqleeb .css-1a5hs83.acss-18qdyno > div:last-child {
     background: #161616 !important;
 }
-.css-1mqleeb .css-1a5hs83.acss-18qdyno > div:last-child {
+.css-gcermr .css-1a5hs83.acss-18qdyno > div:last-child {
     background: #fff !important;
 }
 /* 输入框上方插件按钮 */
@@ -529,7 +534,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     background: #79008d !important;
     color: #fff !important;
 }
-.css-1mqleeb button.ant-btn {
+.css-gcermr button.ant-btn {
     color: rgb(255 255 255) !important;
     background: #a200bd !important;
 }
@@ -552,7 +557,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 .css-1mqleeb .ant-dropdown-trigger > span.ant-tag-borderless {
     background: #79008d !important;
 }
-.css-1mqleeb .ant-dropdown-trigger > span.ant-tag-borderless {
+.css-gcermr .ant-dropdown-trigger > span.ant-tag-borderless {
     color: rgb(255, 255, 255) !important;
     background: rgb(162 0 189) !important;
 }
@@ -565,12 +570,12 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     border: 0 !important;
 	box-shadow: #333 0px 0px 0px 1px !important;
 }
-.css-1mqleeb .acss-cp5vt4 .ant-input-affix-wrapper {
+.css-gcermr .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	/* box-shadow: #eee 0px 0px 0px 1px !important; */
     background: rgb(255 255 255 / 30%);
 }
-.css-1mqleeb .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
+.css-gcermr .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
     color: #eee !important;
 }
 .acss-cp5vt4 .ant-tag-borderless {
@@ -578,12 +583,12 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 	backdrop-filter: none !important;
 }
 /* 发现页搜索框 */
-.css-1mqleeb #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper {
+.css-gcermr #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
 	/* box-shadow: #eee 0px 0px 0px 1px !important; */
     background: rgb(255 255 255 / 60%);
 }
-.css-1mqleeb #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
+.css-gcermr #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
     color: #333 !important;
 }
 
@@ -603,7 +608,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 .css-1mqleeb #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)::before {
     color: #fff;
 }
-.css-1mqleeb #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)::before {
+.css-gcermr #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)::before {
     color: #111;
 }
 #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:first-child {
@@ -624,7 +629,7 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     background: #161616 !important;
 	box-shadow: none !important;
 }
-.css-1mqleeb #lobe-market-container .css-15l7r2q .css-fj3h1o {
+.css-gcermr #lobe-market-container .css-15l7r2q .css-fj3h1o {
     background: #fff !important;
 	box-shadow: none !important;
 }
@@ -658,7 +663,7 @@ li, .ant-menu-submenu-title {
 .css-1mqleeb li.ant-dropdown-menu-item-only-child:hover, .css-1mqleeb li.ant-dropdown-menu-item-active {
     background: #161616 !important;
 }
-.css-1mqleeb li.ant-dropdown-menu-item-only-child:hover, .css-1mqleeb li.ant-dropdown-menu-item-active {
+.css-gcermr li.ant-dropdown-menu-item-only-child:hover, .css-gcermr li.ant-dropdown-menu-item-active {
     background: #FFEB3B !important;
 }
 li.ant-dropdown-menu-item-group:hover {
@@ -669,12 +674,12 @@ li.ant-dropdown-menu-item-group:hover {
 div > .draggable-panel-top-handle:hover::before, div > .draggable-panel-top-handle:active::before, div > .draggable-panel-right-handle:hover::before, div > .draggable-panel-right-handle:active::before, div > .draggable-panel-left-handle:hover::before, div > .draggable-panel-left-handle:active::before {
     background: #99e640 !important;
 }
-.css-1mqleeb .draggable-panel-toggle > div {
+.css-gcermr .draggable-panel-toggle > div {
     background: rgba(6, 147, 227, 0.6) !important;
 	border: 0 !important;
 	color: #fff !important;
 }
-.css-1mqleeb .draggable-panel-toggle > div:hover {
+.css-gcermr .draggable-panel-toggle > div:hover {
     background: rgba(6, 147, 227, 1) !important;
 }
 
@@ -754,7 +759,7 @@ body > div > .acss-1afprqa {
 body > .css-1mqleeb:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
 	background: #222 !important;
 }
-body > .css-1mqleeb:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
+body > .css-gcermr:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) {
 	background: rgba(241, 241, 241, 0.8) !important;
 }
 /* 欢迎页面logo */
@@ -795,13 +800,13 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 .css-1mqleeb > .ant-collapse-icon-position-start, .css-1riig1l > .ant-collapse-icon-position-start {
 	background: rgba(255, 255, 255, 0.02) !important;
 }
-.css-1mqleeb > .ant-collapse-icon-position-start, .css-izr6we > .ant-collapse-icon-position-start {
+.css-gcermr > .ant-collapse-icon-position-start, .css-izr6we > .ant-collapse-icon-position-start {
 	background: rgb(0 0 0 / 3%) !important;
 }
 .css-1mqleeb > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-1riig1l > .ant-collapse-icon-position-start > div > .ant-collapse-header {
     background: rgba(255, 255, 255, 0.06) !important;
 }
-.css-1mqleeb > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-izr6we > .ant-collapse-icon-position-start > div > .ant-collapse-header {
+.css-gcermr > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-izr6we > .ant-collapse-icon-position-start > div > .ant-collapse-header {
     background: rgb(0 0 0 / 4%) !important;
 }
 
@@ -929,23 +934,23 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 }
 
 /* HelloGPT白 */
-.css-1mqleeb .HelloGPT {
+.css-gcermr .HelloGPT {
     background: rgba(6, 147, 227, 0.8) !important;
 }
-.css-1mqleeb .HelloGPT > div {
+.css-gcermr .HelloGPT > div {
 	border-bottom: 1px solid #333;
 }
-.css-1mqleeb .HelloGPT li a {
+.css-gcermr .HelloGPT li a {
     color: #fff;
 }
-.css-1mqleeb .HelloGPT li:hover::after, .css-1mqleeb .HelloGPT li:hover::before {
+.css-gcermr .HelloGPT li:hover::after, .css-gcermr .HelloGPT li:hover::before {
     background: #000;
 }
-.css-1mqleeb .HelloGPT li:hover a {
+.css-gcermr .HelloGPT li:hover a {
     color: #fff;
 }
 
-/* body > .css-1mqleeb > .HelloGPT, body > .css-1mqleeb > .HelloGPT::before, body > .css-1mqleeb > .HelloGPT::after {
+/* body > .css-gcermr > .HelloGPT, body > .css-gcermr > .HelloGPT::before, body > .css-gcermr > .HelloGPT::after {
     background: rgba(6, 147, 227, 0.8) !important;
 } */
 
@@ -1018,12 +1023,12 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		right: 0 !important;
 		background: #79008d !important;
 	}	
-	.css-1mqleeb .draggable-panel-toggle-right > div {
+	.css-gcermr .draggable-panel-toggle-right > div {
 		width: 26px !important;
 		left: 0 !important;
 		background: #99e640 !important;
 	}
-	.css-1mqleeb .draggable-panel-toggle-left > div {
+	.css-gcermr .draggable-panel-toggle-left > div {
 		width: 26px !important;
 		right: 0 !important;
 		background: #99e640 !important;
@@ -1067,32 +1072,32 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
     body > .css-1mqleeb > .css-1chk9wg, body > .ant-app > .css-tks1yl {
 		background: #000 !important;
     }
-    body > .css-1mqleeb > .css-1chk9wg, body > .ant-app > .css-tks1yl {
+    body > .css-gcermr > .css-1chk9wg, body > .ant-app > .css-tks1yl {
 		background: rgba(241, 241, 241, 0.8) !important;
     }
-	body > .css-1mqleeb > .css-1chk9wg::after {
+	body > .css-gcermr > .css-1chk9wg::after {
 		opacity: 0;
 	}
 	.css-1mqleeb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
 		background: rgba(255, 255, 255, 0.06) !important;
 	}
-	.css-1mqleeb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
+	.css-gcermr .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
 		background: #fff !important;
 	}
 	.LazyLoad.is-visible > a > div:first-child, .LazyLoad.is-visible > a > div:first-child::before, a:has(+ .ant-collapse-icon-position-end) > div, a:has(+ .ant-collapse-icon-position-end) > div::before {
 		border-radius: 20px !important;
 		margin: 10px 0 !important;
 	}
-	.css-1mqleeb .LazyLoad.is-visible > a > div:first-child, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div::before {
+	.css-gcermr .LazyLoad.is-visible > a > div:first-child, .css-gcermr .LazyLoad.is-visible > a > div:first-child::before, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div::before {
 		background: #ffffff !important;
 	}
 	.css-1mqleeb .LazyLoad.is-visible>a>div:first-child, .css-1mqleeb .LazyLoad.is-visible>a>div:first-child::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end)>div, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end)>div::before {
 		background: #161616 !important;
 	}
-	.css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1mqleeb .LazyLoad.is-visible > a > .acss-1ua72wq, .css-1mqleeb .LazyLoad.is-visible > a > .acss-1ua72wq::before {
+	.css-gcermr .LazyLoad.is-visible > a > div:first-child:hover, .css-gcermr .LazyLoad.is-visible > a > div:first-child:hover::before, .css-gcermr .LazyLoad.is-visible > a > .acss-1ua72wq, .css-gcermr .LazyLoad.is-visible > a > .acss-1ua72wq::before {
 		background: rgba(252, 185, 0, 1) !important;
 	}
-	.css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
+	.css-gcermr a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
 		background: rgba(252, 185, 0, 1) !important;
 	}
 
@@ -1105,7 +1110,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.css-1mqleeb .HelloGPT {
 		background: #000 !important;
 	}
-	.css-1mqleeb .HelloGPT {
+	.css-gcermr .HelloGPT {
 		background: rgba(252, 185, 0, 0.8) !important;
 	}	
 
@@ -1147,7 +1152,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		border-top: 1px solid #fafafa1f !important;
 		background: #000 !important;
 	}
-	body > .css-1mqleeb > .css-o3n4io {
+	body > .css-gcermr > .css-o3n4io {
 		border-top: 1px solid #0000001c !important;
 		background: rgba(241, 241, 241, 0.6) !important;
 	}
@@ -1163,10 +1168,10 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	body > .css-1mqleeb .css-1chk9wg > .css-o3n4io {
 		border-bottom: 1px solid #fafafa1f !important;
 	}	
-	body > .css-1mqleeb .css-1chk9wg > .css-o3n4io {
+	body > .css-gcermr .css-1chk9wg > .css-o3n4io {
 		background: rgba(252, 185, 0, 0.8) !important;
 	}
-	body>.css-1mqleeb .css-1chk9wg>.css-o3n4io * {
+	body>.css-gcermr .css-1chk9wg>.css-o3n4io * {
 		color: #fff !important;
 	}
 	body > .ant-app > .css-1chk9wg > .css-1chk9wg > .css-o3n4io .css-1lumxev svg {
@@ -1191,7 +1196,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: #161616 !important;
 		margin-bottom: 10px !important;
 	}
-	body > .css-1mqleeb #lobe-mobile-scroll-container > .css-1qrrzv3, body > .css-1mqleeb #lobe-mobile-scroll-container > .css-1fhzdir {
+	body > .css-gcermr #lobe-mobile-scroll-container > .css-1qrrzv3, body > .css-gcermr #lobe-mobile-scroll-container > .css-1fhzdir {
 		border-radius: 20px !important;
 		background: #fff !important;
 		margin-bottom: 10px !important;
@@ -1218,7 +1223,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.css-1mqleeb #lobe-mobile-scroll-container .acss-cp5vt4 > .ant-input-affix-wrapper {
 		background: #161616 !important;
 	}
-	.css-1mqleeb #lobe-mobile-scroll-container .acss-cp5vt4 > .ant-input-affix-wrapper {
+	.css-gcermr #lobe-mobile-scroll-container .acss-cp5vt4 > .ant-input-affix-wrapper {
 		background: rgb(0 0 0 / 20%) !important;
 	}
 	a:has(+ .ant-collapse-icon-position-end) > div {
@@ -1231,7 +1236,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
     .css-1mqleeb #lobe-mobile-scroll-container > .css-px56x0 {
         border-top: 1px solid #fafafa1f !important;
     }	
-    .css-1mqleeb #lobe-mobile-scroll-container > .css-px56x0 {
+    .css-gcermr #lobe-mobile-scroll-container > .css-px56x0 {
         border-top: 1px solid #0000001c !important;
     }	
 	.css-1mqleeb #lobe-mobile-scroll-container > .css-px56x0::before, .css-1mqleeb #lobe-mobile-scroll-container > .css-px56x0::after, body > .css-1mqleeb > .css-o3n4io::before, body > .css-1mqleeb > .css-o3n4io::after {
@@ -1242,7 +1247,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		height: 9px;
 		background: #fff;
 	}
-	.css-1mqleeb #lobe-mobile-scroll-container > .css-px56x0::before, .css-1mqleeb #lobe-mobile-scroll-container > .css-px56x0::after, body > .css-1mqleeb > .css-o3n4io::before, body > .css-1mqleeb > .css-o3n4io::after {
+	.css-gcermr #lobe-mobile-scroll-container > .css-px56x0::before, .css-gcermr #lobe-mobile-scroll-container > .css-px56x0::after, body > .css-gcermr > .css-o3n4io::before, body > .css-gcermr > .css-o3n4io::after {
 		content: "";
 		position: absolute;
 		z-index: 9999;
@@ -1281,14 +1286,14 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.css-1mqleeb #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:first-child {
 		background: #222 !important;
 	}
-	.css-1mqleeb	#lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:first-child {
+	.css-gcermr	#lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:first-child {
 		background: #eee !important;
 	}	
 	.css-1mqleeb #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > .ant-input-outlined {
 		height: 36px !important;
 		background: #222 !important;
 	}
-	.css-1mqleeb #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > .ant-input-outlined {
+	.css-gcermr #lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > .ant-input-outlined {
 		height: 36px !important;
 		background: #eee !important;
 	}
@@ -1296,7 +1301,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: #79008d !important;
 		color: #fff !important;
 	}
-	.css-1mqleeb	#lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:last-child {
+	.css-gcermr	#lobe-mobile-scroll-container > .css-px56x0 > div:last-child > div > div:last-child {
 		background: #99e640 !important;
 		color: #000 !important;
 	}
@@ -1305,7 +1310,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		margin-bottom: 10px;
 		border-radius: 20px;
 	}
-	.css-1mqleeb	#lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io {
+	.css-gcermr	#lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io {
 		background: rgba(241, 241, 241, 0.6) !important;
 		margin-bottom: 10px;
 		border-radius: 20px;
@@ -1313,7 +1318,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.css-1mqleeb #lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io > div:first-child {
 		border-bottom: 1px solid #fafafa1f !important;
 	}
-	.css-1mqleeb #lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io > div:first-child {
+	.css-gcermr #lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io > div:first-child {
 		border-bottom: 1px solid #0000001c !important;
 	}
 	#lobe-mobile-scroll-container .ant-form-horizontal > .css-o3n4io > div {
@@ -1331,7 +1336,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.ant-drawer-content-wrapper {
 		box-shadow: none !important;
 	}
-	.css-1mqleeb .ant-drawer-content-wrapper > .ant-drawer-content {
+	.css-gcermr .ant-drawer-content-wrapper > .ant-drawer-content {
 		background: #fff !important;
 		width: calc(100% - 10px) !important;
 		margin: 0px 5px !important;
@@ -1341,14 +1346,14 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		background: #161616 !important;
 		box-shadow: none !important;
 	}	
-	.css-1mqleeb #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
+	.css-gcermr #lobe-mobile-scroll-container .css-15l7r2q .css-fj3h1o {
 		background: #fff !important;
 		box-shadow: none !important;
 	}	
 	.css-1mqleeb [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-1osp3tn {
 		background: #222 !important;
 	}
-	.css-1mqleeb [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-1wyfodc {
+	.css-gcermr [data-testid="virtuoso-item-list"] > div > .css-1u84j5a:hover, .acss-1wyfodc {
 		background: rgba(0, 0, 0, 0.06) !important;
 	}
     div.acss-xqi55h {
@@ -1370,7 +1375,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	.css-1mqleeb .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #fafafa1f;
 	}
-	.css-1mqleeb .ant-drawer-content-wrapper .ant-drawer-footer {
+	.css-gcermr .ant-drawer-content-wrapper .ant-drawer-footer {
 		border-top: 1px solid #0000001c;
 	}
 	body > div > .HelloGPT+div > h1 > strong {
@@ -1381,7 +1386,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		font-size: 30px;
 		font-weight: 700;
 	}	
-	body > .css-1mqleeb > .HelloGPT+div > h1::before {
+	body > .css-gcermr > .HelloGPT+div > h1::before {
 		color: #000;
 	}	
 	.ant-drawer .ant-drawer-mask {
@@ -1412,6 +1417,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	
 	
 }
+
 
 
 
