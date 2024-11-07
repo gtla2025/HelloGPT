@@ -57,6 +57,13 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
+
+
+
+
+
+
+
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -295,7 +302,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     background: #FF5722 !important;
 }
 /* 主页hellogpt logo */
-.css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox::before {
+.css-9tjxg1.acss-x8u4sp > .layoutkit-flexbox::before {
     content: "HelloGPT";
     position: absolute;
     top: 18px;
@@ -305,15 +312,15 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     font-weight: 700;
 	opacity: 0;
 }
-.css-1mqleeb .css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox::before {
+.css-1mqleeb .css-9tjxg1.acss-x8u4sp > .layoutkit-flexbox::before {
     background: #222;
 	color: #fff;
 }
-.css-gcermr .css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox::before {
+.css-gcermr .css-9tjxg1.acss-x8u4sp > .layoutkit-flexbox::before {
     background: #fff;
 	color: #000;
 }
-.css-9tjxg1.acss-lo0bkt > .layoutkit-flexbox > div:first-child > svg:first-child {
+.css-9tjxg1.acss-x8u4sp > .layoutkit-flexbox > div:first-child > svg:first-child {
     display: none !important;
 }
 /* 主页同步按钮 */
@@ -369,6 +376,11 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-gcermr .css-9tjxg1 .css-5wokcq:hover, .css-gcermr .css-zcfm67 .css-5wokcq:hover, .css-zcfm67 .acss-wpp9jw {
 	background: rgb(162 0 189) !important;
 }
+/* 右侧栏话题列表今天 */
+[data-testid="virtuoso-item-list"] > div > .css-1b6ro1o {
+    background: none !important;
+    box-shadow: none !important;
+}
 /* 右侧栏话题列表 */
 [data-testid="virtuoso-item-list"] > div > .css-1u84j5a {
     margin: 5px 8px !important;
@@ -398,12 +410,12 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     border: 0 !important;
 }
 /* 对话主题下移 */
-.css-i80ya5 div[data-testid="virtuoso-scroller"] {
+/* .css-i80ya5 div[data-testid="virtuoso-scroller"] {
     margin-top: 64px !important;
 }
 .css-i80ya5 div[data-testid="virtuoso-scroller"] > div {
 	top: -64px !important;
-}
+} */
 /* 对话框背景色圆角 */
 .css-1mqleeb .css-roa2v7 > .css-o3n4io {
     background-color: #161616 !important;
@@ -592,9 +604,23 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     color: #333 !important;
 }
 
+/* 助手页标题栏 */
+.css-gcermr .css-1chk9wg > div:nth-child(1), .css-gcermr .css-1chk9wg > div:nth-child(2) {
+	background: none !important;
+}
+.css-1mqleeb .css-1chk9wg > div:nth-child(1), .css-1mqleeb .css-1chk9wg > div:nth-child(2) {
+	background: #222 !important;
+}
+.css-1chk9wg > div:nth-child(2) {
+	padding-block: 12px !important;
+	justify-content: center !important;
+}
+a[href*="/discover"] > button {
+	background: #FF5722 !important;
+}
 
 /* 助手页hellogpt logo */
-#lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+/* #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
 	position: relative;
 }
 #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)::before {
@@ -614,7 +640,12 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:first-child {
     opacity: 0;
 	width: 86px;
+} */
+a[href="/discover"] > div > svg {
+	display: none;
 }
+
+
 /* 助手页分类按钮 */
 .css-vwb4od {
     justify-content: center;
@@ -702,7 +733,7 @@ li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="about"], .css-rq7h3k {
 li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="setting"] .css-5wokcq {
     display: none !important;
 }
-.css-54fgub.acss-1g4myfy > .css-1109xs8 > div:nth-child(1), div[aria-label="助手与会话"] {
+.css-54fgub.acss-1g4myfy > .css-1109xs8 > div:nth-child(1), div[aria-label="助手"] {
 	display: none !important;
 }
 .css-1a5hs83.acss-18qdyno > div:nth-last-child(2) {
@@ -722,8 +753,11 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:last
 body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > svg {
     display: none !important;
 }
-/* 删除侧栏底部按钮 */
-body > div > .css-5m4etf > div:nth-child(1) > div:last-child {
+/* 删除侧栏按钮 */
+body > div > .css-5m4etf > div:nth-child(1) > div:nth-child(1) {
+    display: none !important;
+}
+body > div > .css-5m4etf > div:nth-child(1) a[href="/files"] {
     display: none !important;
 }
 /* 设置按钮位置 */
@@ -736,22 +770,22 @@ body > div > .css-5m4etf > .css-2tx0mv > div:nth-child(1) > span:nth-child(1) {
     bottom: 20px;
 }
 /* 设置按钮下的东西 */
-body > div > .acss-1afprqa {
+body > div > .ant-popover-placement-topLeft {
     bottom: 115px !important;
     left: 15px !important;
     top: auto !important;
 }
-.acss-jfwog7, .acss-a6jv4b {
+.css-1c3ae09, .css-1l27i49 {
     border-radius: 10px !important;
 }
 /* 删除设置按钮下的东西 */
-.css-1mcrjnz div:last-child {
+/* .css-1mcrjnz div:last-child {
+	display: none !important;
+} */
+.ant-popover-placement-topLeft ul > li:nth-last-child(-n+3), .ant-popover-placement-topLeft ul > li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"], .ant-popover-placement-topLeft ul > li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"] + li {
 	display: none !important;
 }
-.acss-1afprqa ul > li:nth-last-child(-n+3), .acss-1afprqa ul > li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"], .acss-1afprqa ul > li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="pwa"] + li {
-	display: none !important;
-}
-.acss-1afprqa .css-b2xo4 {
+.css-1u84j5a > .css-b2xo4 {
 	display: none !important;
 }
 
@@ -1408,15 +1442,18 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 		width: 100% !important;
 	}
 	
-	.css-i80ya5 div[data-testid="virtuoso-scroller"] {
+/* 	.css-i80ya5 div[data-testid="virtuoso-scroller"] {
 		margin-top: 0 !important;
 	}	
 	.css-i80ya5 div[data-testid="virtuoso-scroller"] > div {
 		top: 0 !important;
-	}
+	} */
 	
 	
 }
+
+
+`;
 
 
 
@@ -1430,4 +1467,3 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 
 
   
-`;
