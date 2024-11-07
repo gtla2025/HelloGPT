@@ -51,25 +51,6 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {
     scrollbar-color: auto !important;
     scrollbar-width: auto !important;
@@ -281,7 +262,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     color: #bbb !important;
 }
 .css-gcermr .LazyLoad.is-visible > a > div:first-child > div > div {
-    color: #999 !important;
+    color: rgb(215 215 215) !important;
 }
 .css-1mqleeb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
@@ -388,9 +369,10 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     box-shadow: none !important;
 }
 .css-1mqleeb [data-testid="virtuoso-item-list"] > div > .css-1b6ro1o {
-	color: #000 !important;
+	color: #fff !important;
 }
 .css-gcermr [data-testid="virtuoso-item-list"] > div > .css-1b6ro1o {
+	color: #000 !important;
 }
 /* 右侧栏话题列表 */
 [data-testid="virtuoso-item-list"] > div > .css-1u84j5a {
@@ -606,31 +588,40 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 	backdrop-filter: none !important;
 }
 /* 发现页搜索框 */
-.css-gcermr #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper {
+/* .css-gcermr #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper {
     border: 0 !important;
-	/* box-shadow: #eee 0px 0px 0px 1px !important; */
     background: rgb(255 255 255 / 60%);
 }
 .css-gcermr #lobe-market-container .acss-cp5vt4 .ant-input-affix-wrapper input::placeholder {
     color: #333 !important;
+} */
+
+/* 助手页背景色 */
+.css-1mqleeb .css-1chk9wg {
+	background: #fff !important;
+}
+.css-gcermr .css-1chk9wg {
+	background: #222 !important;
 }
 
+
 /* 助手页标题栏 */
+.css-1mqleeb .css-1chk9wg > div:nth-child(1), .css-1mqleeb .css-1chk9wg > div:nth-child(2) {
+	background: #222 !important;
+}
 .css-gcermr .css-1chk9wg > div:nth-child(1), .css-gcermr .css-1chk9wg > div:nth-child(2) {
 	background: none !important;
 	border-bottom: 0 !important;
 }
-.css-1mqleeb .css-1chk9wg > div:nth-child(1), .css-1mqleeb .css-1chk9wg > div:nth-child(2) {
-	background: #222 !important;
-}
 .css-1chk9wg > div:nth-child(2) {
 	padding-block: 12px !important;
-	justify-content: center !important;
 }
-a[href*="/discover"] > button {
+a[href*="/discover"] > button.ant-btn {
 	background: #FF5722 !important;
 }
-
+a[href*="/discover"] > button.ant-btn:hover {
+    background: #000 !important;
+}
 /* 助手页hellogpt logo */
 /* #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
 	position: relative;
@@ -748,9 +739,10 @@ li[data-menu-id*="rc-menu-uuid-"][data-menu-id*="setting"] .css-5wokcq {
 .css-54fgub.acss-1g4myfy > .css-1109xs8 > div:nth-child(1), div[aria-label="助手"] {
 	display: none !important;
 }
-.css-1a5hs83.acss-18qdyno > div:nth-last-child(2) {
+/* 插件商店 */
+/* .css-1a5hs83.acss-18qdyno > div:nth-last-child(2) {
     display: none;
-}
+} */
 /* .HelloGPT + .css-1chk9wg > div > div:first-child {
     display: none;
 } */
@@ -1466,8 +1458,3 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 
 
 `;
-
-
-
-
-  
