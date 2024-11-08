@@ -1,8 +1,5 @@
 import { Theme, css } from 'antd-style';
 
-
-
-
 // fix ios input keyboard
 // overflow: hidden;
 // ref: https://zhuanlan.zhihu.com/p/113855026
@@ -233,16 +230,16 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 .css-gcermr .LazyLoad.is-visible > a > div:first-child, .css-gcermr .LazyLoad.is-visible > a > div:first-child::before, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div::before {
 	background: rgba(6, 147, 227, 1);
 }
-.css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1mqleeb .LazyLoad.is-visible > a > .acss-14juscs, .css-1mqleeb .LazyLoad.is-visible > a > .acss-14juscs::before {
+.css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1mqleeb .LazyLoad.is-visible > a > .acss-11xzd3q, .css-1mqleeb .LazyLoad.is-visible > a > .acss-11xzd3q::before {
     background: #79008d !important;
 }
-.css-gcermr .LazyLoad.is-visible > a > div:first-child:hover, .css-gcermr .LazyLoad.is-visible > a > div:first-child:hover::before, .css-gcermr .LazyLoad.is-visible > a > .acss-1ua72wq, .css-gcermr .LazyLoad.is-visible > a > .acss-1ua72wq::before {
+.css-gcermr .LazyLoad.is-visible > a > div:first-child:hover, .css-gcermr .LazyLoad.is-visible > a > div:first-child:hover::before, .css-gcermr .LazyLoad.is-visible > a > .acss-14xgm4a, .css-gcermr .LazyLoad.is-visible > a > .acss-14xgm4a::before {
 	background: rgb(162 0 189) !important;
 }
-.css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-14juscs, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-14juscs::before {
+.css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-11xzd3q, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > .acss-11xzd3q::before {
     background: #79008d !important;
 }
-.css-gcermr a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > .acss-1ua72wq::before {
+.css-gcermr a:has(+ .ant-collapse-icon-position-end) > div:hover, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div:hover::before, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > .acss-14xgm4a, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > .acss-14xgm4a::before {
     background: rgb(162 0 189) !important;
 }
 .css-1mqleeb .LazyLoad.is-visible > a > div:first-child .acss-1hsh9br:hover {
@@ -390,10 +387,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 	background: rgba(0, 0, 0, 0.1) !important;
 }
 /* 右侧角色设定阴影 */
-.acss-1s2s9nk {
-    display: none;
-}
-.acss-gwdivr {
+[data-code-type="markdown"] + div {
     display: none;
 }
 /* 右侧角色设定下边线 */
