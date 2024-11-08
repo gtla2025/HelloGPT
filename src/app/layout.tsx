@@ -25,15 +25,7 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
   const direction = isRtlLang(lang?.value || DEFAULT_LANG) ? 'rtl' : 'ltr';
   const mobile = isMobileDevice();
 
-<script>
-  $(document).ready(function() {
-      if ($('body > .ant-app > .css-5m4etf > .acss-ssf7r').length > 0) {
-          $('body > .ant-app').addClass('css-gcermr').removeClass('css-1mqleeb');
-      } else {
-          $('body > .ant-app').addClass('css-1mqleeb').removeClass('css-gcermr');
-      }
-  });
-</script>
+
   
   return (
     <html dir={direction} lang={lang?.value || DEFAULT_LANG} suppressHydrationWarning>
