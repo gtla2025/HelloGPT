@@ -40,6 +40,15 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
               </ul>	
               <div><div></div></div>
             </div>
+            <script>
+                $(document).ready(function() {
+                    if ($('body > .ant-app > .css-5m4etf > .acss-ssf7r').length > 0) {
+                        $('body > .ant-app').addClass('css-gcermr').removeClass('css-1mqleeb');
+                    } else {
+                        $('body > .ant-app').addClass('css-1mqleeb').removeClass('css-gcermr');
+        			}
+                });
+            </script>
             {children}
             {!mobile && modal}
           </AuthProvider>
