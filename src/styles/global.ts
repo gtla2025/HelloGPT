@@ -266,7 +266,7 @@ body > .css-gcermr .LazyLoad.is-visible > a > div:first-child, body > .css-gcerm
 }
 .css-1mqleeb .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
-    background: rgba(255, 255, 255, 0.06) !important;
+    background: rgb(22 22 22) !important;
 }
 .css-gcermr .ant-collapse-ghost.ant-collapse-small > div > .ant-collapse-header {
     border-radius: 10px !important;
@@ -593,16 +593,16 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
     color: #333 !important;
 } */
 
-/* 助手页背景色 */
+/* 发现页背景色 */
 .css-1mqleeb > .css-5m4etf > .css-1chk9wg {
 	background: #222 !important;
 }
 .css-gcermr > .css-5m4etf > .css-1chk9wg {
-	background: #fff !important;
+	background: rgba(241, 241, 241, 0.7) !important;
 }
 
 
-/* 助手页标题栏 */
+/* 发现页标题栏 */
 .css-1mqleeb .css-1chk9wg > div:nth-child(1), .css-1mqleeb .css-1chk9wg > div:nth-child(2) {
 	background: #222 !important;
 }
@@ -614,12 +614,12 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 	padding-block: 12px !important;
 }
 a[href*="/discover"] > button.ant-btn {
-	background: #FF5722 !important;
+	background: #30a4e7 !important;
 }
 a[href*="/discover"] > button.ant-btn:hover {
     background: #000 !important;
 }
-/* 助手页hellogpt logo */
+/* 发现页hellogpt logo */
 /* #lobe-market-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
 	position: relative;
 }
@@ -645,16 +645,23 @@ a[href="/discover"] > div > svg {
 	display: none;
 }
 
+/* 发现页返回按钮 */
+a[href="/discover/"] > div {
+	background: #ffffff !important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+    color: #000 !important;
+}
 
 /* 助手页分类按钮 */
-.css-vwb4od {
+/* .css-vwb4od {
     justify-content: center;
     margin-top: 10px;
 }
 .css-vwb4od > button {
     display: flex;
     align-items: flex-end;
-}
+} */
 /* 助手页助手卡片 */
 .css-1mqleeb #lobe-market-container .css-15l7r2q .css-fj3h1o {
     background: #161616 !important;
@@ -664,6 +671,9 @@ a[href="/discover"] > div > svg {
     background: #fff !important;
 	box-shadow: none !important;
 }
+
+
+
 
 /* 提示按钮 */
 .ant-tooltip-content .ant-tooltip-inner {
@@ -845,7 +855,12 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 .css-gcermr > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-13t98m0 > .ant-collapse-icon-position-start > div > .ant-collapse-header {
     background: rgb(0 0 0 / 20%) !important;
 }
-
+/* 20度圆角 */
+.acss-ruwufa, .acss-u67vty .ant-collapse-item, .acss-5wbwlx, .acss-fkrcv4 >img, .acss-fkrcv4 >p>img, .acss-1yrlgve, .acss-1x0ghxe {
+    border-radius: 20px !important;
+    border: 0 !important;
+	box-shadow: none !important;
+}
 /* 其他 */
 .css-1f4goe4 {
     padding-block: 40px !important;
@@ -917,7 +932,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     list-style: none;
     padding: 0;
     margin: 0;
-	margin-right: 5px;
+	margin-right: 10px;
 }
 .HelloGPT li {
     float: left;
@@ -1264,6 +1279,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	}
 	a:has(+ .ant-collapse-icon-position-end) > div {
 		margin-top: 0px !important;
+		margin-bottom: 20px !important;
 	}
 	#lobe-mobile-scroll-container > .css-px56x0 {
 		background: none !important;
