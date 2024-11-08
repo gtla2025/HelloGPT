@@ -1,14 +1,28 @@
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
+import React, { useEffect } from 'react';
+
+const MyComponent: React.FC = () => {
+    useEffect(() => {
+        // JavaScript logic goes here
+        const antApp = document.querySelector('body > .ant-app');
+
         if (document.querySelector('body > .ant-app > .css-5m4etf > .acss-ssf7r')) {
-            document.querySelector('body > .ant-app').classList.add('css-gcermr');
-            document.querySelector('body > .ant-app').classList.remove('css-1mqleeb');
+            antApp?.classList.add('css-gcermr');
+            antApp?.classList.remove('css-1mqleeb');
         } else {
-            document.querySelector('body > .ant-app').classList.add('css-1mqleeb');
-            document.querySelector('body > .ant-app').classList.remove('css-gcermr');
+            antApp?.classList.add('css-1mqleeb');
+            antApp?.classList.remove('css-gcermr');
         }
-    });
-</script>
+    }, []);
+    return (
+        <div>
+            <h1>Hello, World!</h1>
+        </div>
+    );
+};
+export default MyComponent;
+
+
+
 
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ResolvingViewport } from 'next';
