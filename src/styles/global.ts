@@ -613,8 +613,11 @@ ul.ant-dropdown-menu-item-group-list li span.ant-dropdown-menu-item-icon {
 .css-1chk9wg > div:nth-child(2) {
 	padding-block: 12px !important;
 }
+.css-1109xs8 {
+    gap: 10px !important;
+}
 a[href*="/discover"] > button.ant-btn {
-	background: #30a4e7 !important;
+	background: rgb(150 0 51) !important;
 }
 a[href*="/discover"] > button.ant-btn:hover {
     background: #000 !important;
@@ -646,13 +649,38 @@ a[href="/discover"] > div > svg {
 }
 
 /* 发现页返回按钮 */
-a[href="/discover/"] > div {
-	background: #ffffff !important;
+.css-1mqleeb .acss-1epafm > div {
+	background: #111 !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+}
+.css-gcermr .acss-1epafm > div {
+	background: #fff !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+    color: #000 !important;
+}
+/* 发现页模型参数 */
+.css-1mqleeb .ant-collapse-icon-position-end > .ant-collapse-item {
+    background: #111 !important;
+}
+.css-gcermr .ant-collapse-icon-position-end > .ant-collapse-item {
+    background: #fff !important;
+}
+/* 发现页相关模型 */
+.css-1mqleeb .acss-1mdq5sb {
+    background: #111 !important;
+    padding: 10px !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+}
+.css-gcermr .acss-1mdq5sb {
+    background: #fff !important;
     padding: 10px !important;
     border-radius: 20px !important;
     color: #000 !important;
 }
-
 /* 助手页分类按钮 */
 /* .css-vwb4od {
     justify-content: center;
@@ -856,7 +884,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     background: rgb(0 0 0 / 20%) !important;
 }
 /* 20度圆角 */
-.acss-ruwufa, .acss-u67vty .ant-collapse-item, .acss-5wbwlx, .acss-fkrcv4 >img, .acss-fkrcv4 >p>img, .acss-1yrlgve, .acss-1x0ghxe {
+.acss-ruwufa, .acss-u67vty .ant-collapse-item, .acss-5wbwlx, .acss-fkrcv4 >img, .acss-fkrcv4 >p>img, .acss-1yrlgve, .acss-1x0ghxe, .acss-joqh6d, .acss-1dealxx, .acss-1cviiyk {
     border-radius: 20px !important;
     border: 0 !important;
 	box-shadow: none !important;
