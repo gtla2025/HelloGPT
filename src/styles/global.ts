@@ -1,5 +1,16 @@
 import { Theme, css } from 'antd-style';
 
+<script>
+  $(document).ready(function() {
+      if ($('body > .ant-app > .css-5m4etf > .acss-ssf7r').length > 0) {
+          $('body > .ant-app').addClass('css-gcermr').removeClass('css-1mqleeb');
+      } else {
+          $('body > .ant-app').addClass('css-1mqleeb').removeClass('css-gcermr');
+      }
+  });
+</script>
+
+
 // fix ios input keyboard
 // overflow: hidden;
 // ref: https://zhuanlan.zhihu.com/p/113855026
