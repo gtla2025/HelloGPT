@@ -224,10 +224,10 @@ a:has(+ .ant-collapse-icon-position-end) > div {
     right: 6px;
     transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
-.css-1mqleeb .LazyLoad.is-visible > a > div:first-child, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child::before, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div, .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div::before {
+body > .css-1mqleeb .LazyLoad.is-visible > a > div:first-child, body > .css-1mqleeb .LazyLoad.is-visible > a > div:first-child::before, body > .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div, body > .css-1mqleeb a:has(+ .ant-collapse-icon-position-end) > div::before {
     background: #161616;
 }
-.css-gcermr .LazyLoad.is-visible > a > div:first-child, .css-gcermr .LazyLoad.is-visible > a > div:first-child::before, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div, .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div::before {
+body > .css-gcermr .LazyLoad.is-visible > a > div:first-child, body > .css-gcermr .LazyLoad.is-visible > a > div:first-child::before, body > .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div, body > .css-gcermr a:has(+ .ant-collapse-icon-position-end) > div::before {
 	background: rgba(6, 147, 227, 1);
 }
 .css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover, .css-1mqleeb .LazyLoad.is-visible > a > div:first-child:hover::before, .css-1mqleeb .LazyLoad.is-visible > a > .acss-11xzd3q, .css-1mqleeb .LazyLoad.is-visible > a > .acss-11xzd3q::before {
@@ -335,7 +335,7 @@ a:has(+ .ant-collapse-icon-position-end) > div {
 }
 .css-gcermr .css-5wokcq:hover {
     color: #fff !important;
-    background: rgb(162 0 189) !important;
+    background: #FFC107 !important;
 }
 .ant-btn-primary:not(:disabled), .ant-btn-default:not(:disabled) {
     background: #cc0046 !important;
@@ -695,7 +695,8 @@ li, .ant-menu-submenu-title {
     background: #161616 !important;
 }
 .css-gcermr li.ant-dropdown-menu-item-only-child:hover, .css-gcermr li.ant-dropdown-menu-item-active {
-    background: #FFEB3B !important;
+    /* background: #FFEB3B !important; */
+	background: rgba(0, 0, 0, 0.2) !important;
 }
 li.ant-dropdown-menu-item-group:hover {
     background: none !important;
@@ -835,14 +836,14 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 .css-1mqleeb > .ant-collapse-icon-position-start, .css-1riig1l > .ant-collapse-icon-position-start {
 	background: rgba(255, 255, 255, 0.02) !important;
 }
-.css-gcermr > .ant-collapse-icon-position-start, .css-izr6we > .ant-collapse-icon-position-start {
+.css-gcermr > .ant-collapse-icon-position-start, .css-13t98m0 > .ant-collapse-icon-position-start {
 	background: rgb(0 0 0 / 3%) !important;
 }
 .css-1mqleeb > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-1riig1l > .ant-collapse-icon-position-start > div > .ant-collapse-header {
     background: rgba(255, 255, 255, 0.06) !important;
 }
-.css-gcermr > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-izr6we > .ant-collapse-icon-position-start > div > .ant-collapse-header {
-    background: rgb(0 0 0 / 4%) !important;
+.css-gcermr > .ant-collapse-icon-position-start > div > .ant-collapse-header, .css-13t98m0 > .ant-collapse-icon-position-start > div > .ant-collapse-header {
+    background: rgb(0 0 0 / 20%) !important;
 }
 
 /* 其他 */
@@ -1206,7 +1207,7 @@ body > div:first-child > .css-5m4etf > div:nth-child(2)::after, body > div:first
 	body > .css-gcermr .css-1chk9wg > .css-o3n4io {
 		background: rgba(252, 185, 0, 0.8) !important;
 	}
-	body>.css-gcermr .css-1chk9wg>.css-o3n4io * {
+	body > .css-gcermr .css-1chk9wg>.css-o3n4io * {
 		color: #fff !important;
 	}
 	body > .ant-app > .css-1chk9wg > .css-1chk9wg > .css-o3n4io .css-1lumxev svg {
