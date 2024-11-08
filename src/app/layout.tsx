@@ -53,13 +53,11 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
 
         <script>
           {`
-            document.addEventListener("DOMContentLoaded", function() {
-                if (document.querySelector('body > .ant-app > .css-5m4etf > .acss-ssf7r')) {
-                    document.querySelector('body > .ant-app').classList.add('css-gcermr');
-                    document.querySelector('body > .ant-app').classList.remove('css-1mqleeb');
+            $(document).ready(function() {
+                if ($('body > .ant-app > .css-5m4etf > .acss-ssf7r').length > 0) {
+                    $('body > .ant-app').addClass('css-gcermr').removeClass('css-1mqleeb');
                 } else {
-                    document.querySelector('body > .ant-app').classList.add('css-1mqleeb');
-                    document.querySelector('body > .ant-app').classList.remove('css-gcermr');
+                    $('body > .ant-app').addClass('css-1mqleeb').removeClass('css-gcermr');
                 }
             });
           `}
