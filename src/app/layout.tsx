@@ -29,7 +29,6 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
   
   return (
     <html dir={direction} lang={lang?.value || DEFAULT_LANG} suppressHydrationWarning>
-      <script src="https://dl.cmdpe.com/HelloGPT/HelloGPT.js"></script> 
       <body>
         <GlobalProvider>
           <AuthProvider>
@@ -50,6 +49,7 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
         </GlobalProvider>
         <Analytics />
         {inVercel && <SpeedInsights />}
+      <script src="https://dl.cmdpe.com/HelloGPT/HelloGPT.js"></script> 
       </body>
     </html>
   );
