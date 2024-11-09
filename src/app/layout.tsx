@@ -41,6 +41,7 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
                 <li><a href="https://www.cmdpe.com/category-10.html">软件下载</a></li>
               </ul>	
               <div><div></div></div>
+              <script src="https://dl.cmdpe.com/HelloGPT/HelloGPT.js"></script> 
             </div>
             {children}
             {!mobile && modal}
@@ -49,7 +50,6 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
         </GlobalProvider>
         <Analytics />
         {inVercel && <SpeedInsights />}
-      <script src="https://dl.cmdpe.com/HelloGPT/HelloGPT.js"></script> 
       </body>
     </html>
   );
