@@ -651,25 +651,29 @@ a[href*="/discover"] > button.ant-btn:hover {
 a[href="/discover"] > div > svg {
 	display: none;
 }
-
+a[href="/discover"] > div > .acss-1lkdv9 {
+	font-weight: 300 !important;
+}
 /* 发现页返回按钮 */
 .css-1mqleeb .acss-1epafm > div {
-	background: #111 !important;
-    padding: 15px !important;
-    border-radius: 10px !important;
-    color: #fff !important;
+    background: #79008c !important;
+    padding: 10px !important;
+    border-radius: 15px !important;
+    color: rgb(255, 255, 255) !important;
+    width: 103px !important;
 }
 .css-gcermr .acss-1uzkl3c > div {
-	background: #fff !important;
-    padding: 15px !important;
-    border-radius: 10px !important;
-    color: #000 !important;
+    background: #79008c !important;
+    padding: 10px !important;
+    border-radius: 15px !important;
+    color: rgb(255, 255, 255) !important;
+    width: 103px !important;
 }
 /* 发现页模型参数 */
-.css-1mqleeb .css-var-R2lcq > .ant-collapse-item {
+.css-1mqleeb .acss-1i9ld58 > .ant-collapse-item {
     background: #111 !important;
 }
-.css-gcermr .css-var-R2lcq > .ant-collapse-item {
+.css-gcermr .acss-1i9ld58 > .ant-collapse-item {
     background: #fff !important;
 }
 /* 发现页相关模型 */
@@ -866,10 +870,10 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     background-color: rgb(0 0 0 / 60%) !important;
 }
 /* 分享 */
-.css-1ktd0ak .acss-jum9ke, .css-1ktd0ak .acss-1o7bqrh, .css-1ktd0ak #preview > .css-1ktd0ak {
+/* .css-1ktd0ak .acss-jum9ke, .css-1ktd0ak .acss-1o7bqrh, .css-1ktd0ak #preview > .css-1ktd0ak {
     border: 0 !important;
     border-radius: 20px !important;
-}
+} */
 .css-1ktd0ak .ant-form-horizontal > .css-o3n4io {
     border-radius: 20px !important;
 	background: none !important;
@@ -894,7 +898,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
 	box-shadow: none !important;
 }
 
-.acss-ruwufa, .acss-u67vty .ant-collapse-item, .acss-5wbwlx, .acss-fkrcv4 >img, .acss-fkrcv4 >p>img, .acss-1yrlgve, .acss-1x0ghxe, .acss-joqh6d, .acss-1dealxx, .acss-1cviiyk, .css-var-R2lcq > .ant-collapse-item {
+.acss-ruwufa, .acss-u67vty .ant-collapse-item, .acss-5wbwlx, .acss-fkrcv4 >img, .acss-fkrcv4 >p>img, .acss-1yrlgve, .acss-1x0ghxe, .acss-joqh6d, .acss-1dealxx, .acss-1cviiyk, div>.acss-1i9ld58 > .ant-collapse-item {
     border-radius: 20px !important;
     border: 0 !important;
 	box-shadow: none !important;
