@@ -428,7 +428,7 @@ body > .css-gcermr .LazyLoad.is-visible > a > div:first-child, body > .css-gcerm
 }
 /* 对话框代码高亮 */
 .css-1mqleeb div [data-code-type='highlighter'], .css-1mqleeb .ant-steps-item-description .css-1lumxev {
-    background: #none !important;
+    background: none !important;
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #333 !important;
 	border: 1px solid transparent !important;
