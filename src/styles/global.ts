@@ -432,12 +432,12 @@ body > .css-gcermr .LazyLoad.is-visible > a > div:first-child, body > .css-gcerm
 	border-radius: 20px !important;
 	box-shadow: 0 0 0 1px #333 !important;
 	border: 1px solid transparent !important;
-	margin: 0 1px !important;
+	margin-inline: 1px !important;
 }
 .css-gcermr div [data-code-type='highlighter'], .css-gcermr .ant-steps-item-description .css-1lumxev {
     background: #fff !important;
 	border-radius: 20px !important;
-	box-shadow: 0 0 0 1px #00000000;
+	/* box-shadow: 0 0 0 1px #00000000; */
 	border: 1px solid transparent !important;
 }
 .css-1mqleeb div [data-code-type='highlighter']:hover {
@@ -446,16 +446,16 @@ body > .css-gcermr .LazyLoad.is-visible > a > div:first-child, body > .css-gcerm
 .css-gcermr div [data-code-type='highlighter']:hover {
     background: #fff !important;
 }
-.css-1mqleeb div [data-code-type='highlighter'] > div:nth-child(1) {
+.css-1mqleeb div [data-code-type='highlighter'] > .css-1u84j5a {
 	background: #222 !important;
 }
-.css-gcermr div [data-code-type='highlighter'] > div:nth-child(1) {
+.css-gcermr div [data-code-type='highlighter'] > .css-1u84j5a {
     background: #333 !important;
 }
-.css-1mqleeb div [data-code-type='highlighter'] > div:nth-child(1):hover {
+.css-1mqleeb div [data-code-type='highlighter'] > .css-1u84j5a:hover {
 	background: #333 !important;
 }
-.css-gcermr div [data-code-type='highlighter'] > div:nth-child(1):hover {
+.css-gcermr div [data-code-type='highlighter'] > .css-1u84j5a:hover {
     background: #79008d !important;
 }
 .css-1mqleeb div [data-code-type='highlighter'] > div:nth-child(1) > div:nth-child(3):hover {
