@@ -29,6 +29,7 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
   
   return (
     <html dir={direction} lang={lang?.value || DEFAULT_LANG} suppressHydrationWarning>
+      <link href="https://dl.cmdpe.com/HelloGPT/HelloGPT.css">
       <body>
         <GlobalProvider>
           <AuthProvider>
