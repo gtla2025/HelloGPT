@@ -79,7 +79,21 @@ export const generateViewport = async (): ResolvingViewport => {
 };
 
  // 引入外部CSS文件
-import React from 'react';
-import 'https://dl.cmdpe.com/HelloGPT/HelloGPT.css';
+import React, { useEffect } from 'react';
+const MyComponent: React.FC = () => {
+    useEffect(() => {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'https://dl.cmdpe.com/HelloGPT/HelloGPT.css';
+        document.head.appendChild(link);
+        
+        return () => {
+            document.head.removeChild(link); // 清理
+        };
+    }, []);
+}
 export default MyComponent;
+
+
+
 
