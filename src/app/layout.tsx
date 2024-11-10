@@ -42,8 +42,7 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
                 <li><a href="https://www.cmdpe.com/category-10.html">软件下载</a></li>
               </ul>	
               <div><div></div></div>
-            <script src="https://dl.cmdpe.com/HelloGPT/HelloGPT.js"></script> 
-            <link rel="stylesheet" href="https://dl.cmdpe.com/HelloGPT/HelloGPT.css" />
+              <script src="https://dl.cmdpe.com/HelloGPT/HelloGPT.js"></script> 
             </div>
             {children}
             {!mobile && modal}
@@ -78,3 +77,9 @@ export const generateViewport = async (): ResolvingViewport => {
     width: 'device-width',
   };
 };
+
+ // 引入外部CSS文件
+import React from 'react';
+import 'https://dl.cmdpe.com/HelloGPT/HelloGPT.css';
+export default MyComponent;
+
