@@ -43,7 +43,7 @@ const RootLayout = async ({ children, modal }: RootLayoutProps) => {
               </ul>	
               <div><div></div></div>
             <script src="https://dl.cmdpe.com/HelloGPT/HelloGPT.js"></script> 
-            <link rel="stylesheet" href="https://dl.cmdpe.com/HelloGPT/HelloGPT.css"/>
+            <link rel="stylesheet" href="https://dl.cmdpe.com/HelloGPT/HelloGPT.css" />
             </div>
             {children}
             {!mobile && modal}
