@@ -1,3 +1,4 @@
+import styles from 'https://dl.cmdpe.com/HelloGPT/HelloGPT.css';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ResolvingViewport } from 'next';
 import { cookies } from 'next/headers';
@@ -78,7 +79,6 @@ export const generateViewport = async (): ResolvingViewport => {
   };
 };
 
-import 'https://dl.cmdpe.com/HelloGPT/HelloGPT.css';
 
 
 
