@@ -109,7 +109,7 @@ body > div:nth-child(1)::before {
     left: 0;
     right: 0;
     z-index: 0;
-	background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
+	/*background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -136,10 +136,10 @@ body > div > .css-5m4etf {
 body > div > .css-5m4etf::after {
     content: "";
     position: absolute;
-    top: -64px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    top: 9px;
+    bottom: 9px;
+    left: 9px;
+    right: 9px;
     z-index: -1;
 	background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
     background-repeat: no-repeat;
@@ -652,7 +652,7 @@ a[href="/discover"] > div > svg {
 	display: none;
 }
 a[href="/discover"] > div > .acss-1lkdv9 {
-	font-weight: 300 !important;
+	font-weight: 700 !important;
 }
 /* 发现页返回按钮 */
 .css-1mqleeb .acss-1epafm > div {
@@ -673,7 +673,7 @@ a[href="/discover"] > div > .acss-1lkdv9 {
 .css-1mqleeb .acss-1i9ld58 > .ant-collapse-item {
     background: #111 !important;
 }
-.css-gcermr .acss-1i9ld58 > .ant-collapse-item {
+.css-gcermr .acss-u67vty > .ant-collapse-item {
     background: #fff !important;
 }
 /* 发现页相关模型 */
@@ -892,13 +892,13 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     background: rgb(0 0 0 / 20%) !important;
 }
 /* 20度圆角 */
-.acss-1ekhile, .acss-1ekhile, .acss-6232qe, .acss-1eawumc >img, .acss-1eawumc >p>img, .acss-1pl2bw2, .acss-1dbp3k8 {
+.acss-1ekhile, .acss-1ekhile, .acss-6232qe, .acss-1eawumc >img, .acss-1eawumc >p>img, .acss-1pl2bw2, .acss-1dbp3k8, .acss-1i9ld58 > .ant-collapse-item {
     border-radius: 20px !important;
     border: 0 !important;
 	box-shadow: none !important;
 }
 
-.acss-ruwufa, .acss-u67vty .ant-collapse-item, .acss-5wbwlx, .acss-fkrcv4 >img, .acss-fkrcv4 >p>img, .acss-1yrlgve, .acss-1x0ghxe, .acss-joqh6d, .acss-1dealxx, .acss-1cviiyk, div>.acss-1i9ld58 > .ant-collapse-item {
+.acss-ruwufa, .acss-u67vty .ant-collapse-item, .acss-5wbwlx, .acss-fkrcv4 >img, .acss-fkrcv4 >p>img, .acss-1yrlgve, .acss-1x0ghxe, .acss-joqh6d, .acss-1dealxx, .acss-1cviiyk, .acss-u67vty > .ant-collapse-item {
     border-radius: 20px !important;
     border: 0 !important;
 	box-shadow: none !important;
@@ -1055,6 +1055,7 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     width: 9px;
     height: 9px;
     background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
+	background: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
