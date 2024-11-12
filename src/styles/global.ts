@@ -122,7 +122,7 @@ body > .css-1mqleeb:first-child::before {
     left: 0;
     right: 0;
     z-index: 0;
-	background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
+	/*background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -892,13 +892,13 @@ body > div:nth-child(1) > div:nth-child(2) > .css-zlqreh:nth-child(2) > div:nth-
     background: rgb(0 0 0 / 20%) !important;
 }
 /* 20度圆角 */
-.acss-1ekhile, .acss-1ekhile, .acss-6232qe, .acss-1eawumc >img, .acss-1eawumc >p>img, .acss-1pl2bw2, .acss-1dbp3k8, .acss-1i9ld58 > .ant-collapse-item {
+.acss-1ekhile, .acss-1ekhile, .acss-6232qe, .acss-1eawumc >img, .acss-1eawumc >p>img, .acss-1pl2bw2, .acss-1dbp3k8, div>.acss-1i9ld58 > .ant-collapse-item {
     border-radius: 20px !important;
     border: 0 !important;
 	box-shadow: none !important;
 }
 
-.acss-ruwufa, .acss-u67vty .ant-collapse-item, .acss-5wbwlx, .acss-fkrcv4 >img, .acss-fkrcv4 >p>img, .acss-1yrlgve, .acss-1x0ghxe, .acss-joqh6d, .acss-1dealxx, .acss-1cviiyk, .acss-u67vty > .ant-collapse-item {
+.acss-ruwufa, .acss-5wbwlx, .acss-fkrcv4 >img, .acss-fkrcv4 >p>img, .acss-1yrlgve, .acss-1x0ghxe, .acss-joqh6d, .acss-1dealxx, .acss-1cviiyk, div>.acss-u67vty > .ant-collapse-item {
     border-radius: 20px !important;
     border: 0 !important;
 	box-shadow: none !important;
