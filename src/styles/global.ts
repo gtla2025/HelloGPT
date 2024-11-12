@@ -75,11 +75,11 @@ a {
 }
 @font-face {
     font-family: 'hellogpt';
-    src: url('https://raw.githubusercontent.com/gtla2025/SSR/master/WenYue-ShengHuoJiaTi-J.woff') format('woff');
+    src: url('https://dl.cmdpe.com/HelloGPT/WenYue-ShengHuoJiaTi-J.woff') format('woff');
 }
 @font-face {
     font-family: 'JosefinSans';
-    src: url('https://raw.githubusercontent.com/gtla2025/SSR/master/JosefinSans-Light.woff') format('woff');
+    src: url('https://dl.cmdpe.com/HelloGPT/JosefinSans-Light.woff') format('woff');
 }
 .acss-396ofq, .acss-qmdfvd, .acss-1539fd4 {
     line-height: 1.2 !important;
@@ -94,8 +94,8 @@ body * {
 	/* text-shadow: 0.01em 0.01em 0.05em #666; */
 }
 body {
-    margin-left: 10%;
-    padding-right: 10%;
+    margin-left: 10px;
+    padding-right: 10px;
 	/* background: url(https://dl.cmdpe.com/HelloGPT/img0.jpg) center center / cover no-repeat fixed !important; */
 }
 body > .ant-app {
@@ -128,7 +128,7 @@ body > .css-1mqleeb:first-child::before {
     background-size: cover;
 }
 body > div > .css-5m4etf {
-    height: calc(100% - 120px);
+    height: calc(100% - 80px);
     position: relative !important;
     z-index: 9 !important;
 	justify-content: center;
@@ -819,7 +819,7 @@ body > div > .css-5m4etf > .css-2tx0mv > div:nth-child(1) > span:nth-child(1) {
 }
 /* 设置按钮下的东西 */
 body > div > .ant-popover-placement-topLeft {
-    bottom: 115px !important;
+    bottom: 85px !important;
     left: 15px !important;
     top: auto !important;
 }
