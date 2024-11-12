@@ -109,7 +109,8 @@ body > div:nth-child(1)::before {
     left: 0;
     right: 0;
     z-index: 0;
-	/*background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);*/
+	background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
+	background: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -122,7 +123,8 @@ body > .css-1mqleeb:first-child::before {
     left: 0;
     right: 0;
     z-index: 0;
-	/*background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);*/
+	background: url(https://dl.cmdpe.com/HelloGPT/background.jpg);
+	background: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
